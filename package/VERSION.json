@@ -1,0 +1,462 @@
+{
+ "build_date": "2026-10-08",
+ "check_rule": "every file in the package directory with extension in TABLE_EXT must be listed in tables (unlisted files fail --check)",
+ "generator_git_sha": "c9f4d91",
+ "generator_repo": "OlmLab/microbiome_repo-pipeline",
+ "package_version": "1.15.0",
+ "previous_release_id": "R2026.15",
+ "release_id": "R2026.16",
+ "release_tag": "data-v1.15.0",
+ "tables": {
+  "APPLY_GAPFILL_PRJNA1140720.json": {
+   "rows": null,
+   "sha256": "e737eb490f3aadfab9026904d242bec0f877cfb7b62ff6f3a9d437ad6e135b35",
+   "size_bytes": 4246
+  },
+  "AUTHORS_REPORT.md": {
+   "rows": null,
+   "sha256": "7c377d8e86c4bdcf64af4375e45dbedb8e6470f264bb1b2f2208191b2d3d6b6f",
+   "size_bytes": 8768
+  },
+  "CHANGELOG.md": {
+   "rows": null,
+   "sha256": "6d868c854828879ca26d4f370748ae3b108cde2839748390362f5787744b31c3",
+   "size_bytes": 39950
+  },
+  "DATAFIX_REPORT.md": {
+   "rows": null,
+   "sha256": "2d672bf1a0d23b2eec96684b2afeae38da5e0989c4b163c2a6342818b09ec74b",
+   "size_bytes": 13454
+  },
+  "DATA_DICTIONARY.md": {
+   "rows": null,
+   "sha256": "37ae602b9d89d0527758bb4ab6c0a8cd0387c887aa5474c8c479f905d22d53ab",
+   "size_bytes": 97169
+  },
+  "DATA_MODEL_FIX_REPORT.md": {
+   "rows": null,
+   "sha256": "49c3f393a8aa31d9fc73b9e27e92fb5e78a94c3f656db1c4acfde18a1c0959dd",
+   "size_bytes": 14671
+  },
+  "EXTRACTION_REPORT.md": {
+   "rows": null,
+   "sha256": "0cae3f1fa85d9cd78b33555d1a130c71dcc256116aab2614db405326a50ebdd1",
+   "size_bytes": 15154
+  },
+  "GUT_SANDPIPER_REPORT.md": {
+   "rows": null,
+   "sha256": "8ae1bc67e8c3193a8972cfcae44f3f85d5af4b56bf815040a2e7efa7cdea45ae",
+   "size_bytes": 15405
+  },
+  "README.md": {
+   "rows": null,
+   "sha256": "f7c0cbe45103985c5b35b92b53a4536e14433705c7b6348c8394fd7306e4b425",
+   "size_bytes": 21641
+  },
+  "REGISTRY_REPORT.md": {
+   "rows": null,
+   "sha256": "fbe86c47692a8611b0c9b3fb0ec562d1296fc10f5b9893d81ffa4875686fb48a",
+   "size_bytes": 44096
+  },
+  "RELEASE_NOTES_R2026.1.md": {
+   "rows": null,
+   "sha256": "9a321483fb670c8a4f674ba4724107edde08f6c0a8eaf0f8ca97a51f3dcea0be",
+   "size_bytes": 5018
+  },
+  "RELEASE_NOTES_R2026.10.md": {
+   "rows": null,
+   "sha256": "a0dc7675942b6b91a44add9f912d53b301c1241dede5961efd14be9db415b3b5",
+   "size_bytes": 5237
+  },
+  "RELEASE_NOTES_R2026.11.md": {
+   "rows": null,
+   "sha256": "17045a7dcdf59a6cc18ebb220199e4ab69f0cf4588e2c7350795007ce82263c4",
+   "size_bytes": 5274
+  },
+  "RELEASE_NOTES_R2026.12.md": {
+   "rows": null,
+   "sha256": "1c04d407a26d9b6b565c5370fa0da3b0fc61d32add19af29e2872372a22de876",
+   "size_bytes": 6729
+  },
+  "RELEASE_NOTES_R2026.13.md": {
+   "rows": null,
+   "sha256": "d28a3a2e6d6d6ec09f73c95a9152da9db45a6e48fca280b05c910e7ea391b30a",
+   "size_bytes": 7053
+  },
+  "RELEASE_NOTES_R2026.14.md": {
+   "rows": null,
+   "sha256": "5ba19edb81320ed52c80cd8d3faabe2fe139c4142fff3a8ba57589c63839e60b",
+   "size_bytes": 5711
+  },
+  "RELEASE_NOTES_R2026.15.md": {
+   "rows": null,
+   "sha256": "859bf7a9585b34ab18229358938007427036cd4f38491644dc26b482dfdc4a10",
+   "size_bytes": 6382
+  },
+  "RELEASE_NOTES_R2026.16.md": {
+   "rows": null,
+   "sha256": "71245ccab33db1883664752057dd36ddf7485d1dce262e006484b9b37235a6c7",
+   "size_bytes": 6053
+  },
+  "RELEASE_NOTES_R2026.2.md": {
+   "rows": null,
+   "sha256": "fe8c86030583573f50a4f83b0172f5debe468b59ee039d58d8686aea61ca7eb0",
+   "size_bytes": 4276
+  },
+  "RELEASE_NOTES_R2026.3.md": {
+   "rows": null,
+   "sha256": "b197492f660ddb28820380fb1b1f3816a8f1a06a6d4c206266d2d91a61735c6f",
+   "size_bytes": 4375
+  },
+  "RELEASE_NOTES_R2026.4.md": {
+   "rows": null,
+   "sha256": "4e1677024edc848aa3d8c89075a6d8bbfd131528607825d52224157b6073a5cf",
+   "size_bytes": 4199
+  },
+  "RELEASE_NOTES_R2026.5.md": {
+   "rows": null,
+   "sha256": "b86fe897655de71325f0f87ed3dc47f192741a47fadbd2727004afd46d72a8f9",
+   "size_bytes": 4502
+  },
+  "RELEASE_NOTES_R2026.6.md": {
+   "rows": null,
+   "sha256": "3436be8ea657606fa3096cd0523506dff3b0f12168d6092732e252b9ee4a92c1",
+   "size_bytes": 4171
+  },
+  "RELEASE_NOTES_R2026.7.md": {
+   "rows": null,
+   "sha256": "b4a990534eadcdafa436c000de332c6c12b0c6e54b077cdbce189a7a68d2d49f",
+   "size_bytes": 4214
+  },
+  "RELEASE_NOTES_R2026.8.md": {
+   "rows": null,
+   "sha256": "75569686f1f3917a280020d8ef57256ec61ce35bb068d53ca3b41d1c4124d80b",
+   "size_bytes": 4124
+  },
+  "RELEASE_NOTES_R2026.9.md": {
+   "rows": null,
+   "sha256": "56118d128ccdef2a1ceee539ac9f8f4ee6f06351b50940a4d15a5584fde59790",
+   "size_bytes": 5229
+  },
+  "SANDPIPER_REPORT.md": {
+   "rows": null,
+   "sha256": "c55153a677b557c81feef32ce1efe9601a1e0f69b8f1ca91c98d7b51fbf350b8",
+   "size_bytes": 20985
+  },
+  "authors.parquet": {
+   "rows": 28367,
+   "sha256": "f67b98b1ab3e913f8fece267ddb3fecbc31f5ab78eb0fcee013c238455ade231",
+   "size_bytes": 755443
+  },
+  "authors_index.json": {
+   "rows": null,
+   "sha256": "dd56bbd8d6cde8557c6dc62da46ce7510ba81cefbc6544510c7b445b9c5e64d9",
+   "size_bytes": 6789607
+  },
+  "bitemporal_log.json": {
+   "rows": null,
+   "sha256": "45a170b1e104e153e95e6393c3beab743e738b3812fddc422bcd0d6f019d2f09",
+   "size_bytes": 1992
+  },
+  "build_counts.json": {
+   "rows": null,
+   "sha256": "93c14ceb6bf4b494ccc5acaf89495ede691eeeea853e18062addbcfe55f4d0aa",
+   "size_bytes": 878
+  },
+  "cohorts.csv": {
+   "rows": 373,
+   "sha256": "3d33b23da94b66d7e14fc71195e00721e5cdb67e0fc6156c9ab42be817f566c9",
+   "size_bytes": 171435
+  },
+  "confidence_tiers.csv": {
+   "rows": 29,
+   "sha256": "7ba8d0415b266ab591897f8e08d20757266ba4aae64e821e6f52dd720f4c4025",
+   "size_bytes": 4277
+  },
+  "contribute_worklist.csv": {
+   "rows": 439,
+   "sha256": "884943fcb4972e028bb80d65d95837fdb9134b312b796c2517c2fda808086033",
+   "size_bytes": 407197
+  },
+  "contribute_worklist_fields.csv": {
+   "rows": 2634,
+   "sha256": "51a596b47d2d8b13f22036c3e0ae59233b95aeb0d70a816ad8a5eff9857cb7e2",
+   "size_bytes": 396070
+  },
+  "extraction_gold_eval_hires.csv": {
+   "rows": 6,
+   "sha256": "d1b17b3070635511f9c9ec9cc3652c920ae488b7e857aa1e85f84f1d4c153740",
+   "size_bytes": 326
+  },
+  "field_coverage_summary.csv": {
+   "rows": 19,
+   "sha256": "ce801bcea775bd007c9baa7361107666a6a7e44fde28f377ceb8e0654635f14a",
+   "size_bytes": 1504
+  },
+  "getting_started.ipynb": {
+   "rows": null,
+   "sha256": "3d19897cdfd9c4467e9be917f4a307fc4bf395076bf550f45b175cc534d96b08",
+   "size_bytes": 50466
+  },
+  "gut_runs.parquet": {
+   "rows": 726407,
+   "sha256": "0d5464bce715738315a6a9a4705a437e6d3bfe7b9a7a4dda90cf402966835be8",
+   "size_bytes": 32052646
+  },
+  "gut_sample_determinations.parquet": {
+   "rows": 3212545,
+   "sha256": "d81928c79386178b09cdeea6014b9880ac07618594b0e200106cfbb8b64156a9",
+   "size_bytes": 30152344
+  },
+  "gut_sample_determinations_conflicts.parquet": {
+   "rows": 103035,
+   "sha256": "bd3e195df4110d2d61cc42cc4b3ce8ae4298e2915d2fc61438e5034cf1640515",
+   "size_bytes": 2194434
+  },
+  "gut_sample_metadata_wide.parquet": {
+   "rows": 582841,
+   "sha256": "666cc244cf8434ca2dfaabe84c2c1db223a9ab67c6c8301e14f14cdda12a3dcd",
+   "size_bytes": 17778571
+  },
+  "gut_sandpiper_pca_loadings.parquet": {
+   "rows": 383,
+   "sha256": "1e0d2539f6a61e24f09faa13fce0b60f15a3da791026e759fb46bf1df710201c",
+   "size_bytes": 37707
+  },
+  "gut_sandpiper_pca_scores.parquet": {
+   "rows": 335956,
+   "sha256": "930fb1a34688636488add3e4166725a0f14c764b749ef762917531667e520ddc",
+   "size_bytes": 13024317
+  },
+  "gut_sandpiper_pca_variance.csv": {
+   "rows": 5,
+   "sha256": "982c601729a5b2518dc62994a5e46a9bafe7a064eaff9ce8dd2e64c3af1b9538",
+   "size_bytes": 531
+  },
+  "gut_sandpiper_sample_summary.parquet": {
+   "rows": 339626,
+   "sha256": "fe62ddeee09390e03082e5126de1ddeb9fe13caf6abaf0a7bb8a68e4b70edb59",
+   "size_bytes": 24478106
+  },
+  "gut_sandpiper_study_coverage.csv": {
+   "rows": 2837,
+   "sha256": "262215190128b59f1aa7517a97788b05bae5442badd4c8c9750df0c4299a89cc",
+   "size_bytes": 568468
+  },
+  "gut_studies.parquet": {
+   "rows": 2887,
+   "sha256": "7d5b4c585b763159435163736db4ae02b152881a87d34098a28cd40d3d22d8d6",
+   "size_bytes": 2374949
+  },
+  "human_review_queue.csv": {
+   "rows": 52,
+   "sha256": "bb2677f58c35ce438eba09a716e953d4be7dba25e018d64fc62d66e45800d88c",
+   "size_bytes": 49502
+  },
+  "organisations.parquet": {
+   "rows": 18888,
+   "sha256": "e1469af4a90a13327d6cce4c390c1a13cde9b1a9ca252c2991b85cc01634be6c",
+   "size_bytes": 449919
+  },
+  "organisations_index.json": {
+   "rows": null,
+   "sha256": "9f6ad0e220908fa13fe73816e816a47d8fdb59b695529da0c82d40328ae93e14",
+   "size_bytes": 894406
+  },
+  "parent_biosamples.parquet": {
+   "rows": 16,
+   "sha256": "305cac7718d87e9d29768755db8a3b986a6fde05b4ce8f8c8811dafe1fad2b5f",
+   "size_bytes": 63874
+  },
+  "registry_authors.parquet": {
+   "rows": 52110,
+   "sha256": "35803ece67a5fd84d5590dde523bc719a387ce9402db057d3226afd382297059",
+   "size_bytes": 3382188
+  },
+  "registry_bioproject_records.parquet": {
+   "rows": 4217,
+   "sha256": "9d099f60f48788aa58493b037aa9f92d398a6795199885dab3829f0122045e28",
+   "size_bytes": 933308
+  },
+  "registry_biosamples.parquet": {
+   "rows": 615335,
+   "sha256": "9e4d291b514d525f2ae3decf3f831f09593ff31101837e51733d01662a66f9b1",
+   "size_bytes": 4255798
+  },
+  "registry_studies.parquet": {
+   "rows": 64369,
+   "sha256": "cad5a7cf9274f15e9b8f12d064f45c37767197e10f3fd5740b82550f5f884760",
+   "size_bytes": 9402811
+  },
+  "registry_study_papers.parquet": {
+   "rows": 6447,
+   "sha256": "69d4869043c23c7d26831d178c06dd00fbb82e8dbff38f216e54cc1d680e9e79",
+   "size_bytes": 570478
+  },
+  "registry_universe_audit.csv": {
+   "rows": 35,
+   "sha256": "97ea4a8ad84c1a0c95c6522ebf7a87987e6145d7b74f7c1b3d69ea08de6abfa6",
+   "size_bytes": 9387
+  },
+  "releases.csv": {
+   "rows": 21,
+   "sha256": "dca4322529527d33e7878b97f12f05f265f46653411596a6349778207d81b2c3",
+   "size_bytes": 2149
+  },
+  "review_amplicon_runs.csv": {
+   "rows": 39,
+   "sha256": "63ad163889168f009d45e150ee367cd8c43b681070d28b5a36b8b7bfdf7c7d1b",
+   "size_bytes": 4791
+  },
+  "review_genomic_only_samples.csv": {
+   "rows": 3158,
+   "sha256": "4e61acf46b7b87ab0a28ae3bf9797e7c0187c2a693843193929c036ace624e34",
+   "size_bytes": 389492
+  },
+  "review_named_microbe_metagenomic_samples.csv": {
+   "rows": 70,
+   "sha256": "99d300ef799a6d0a631c0bdc687b2bedc83bdbcb5979f58a20e1510e23225fdd",
+   "size_bytes": 11269
+  },
+  "runs.parquet": {
+   "rows": 174172,
+   "sha256": "e0609d1de7e7efe1ce2ac7ec1d82590633fdcab7435de8173660b09dea8091c3",
+   "size_bytes": 8814277
+  },
+  "sample_determinations.parquet": {
+   "rows": 619647,
+   "sha256": "4d7060193f91116892b4acc1d9ec54ad79fca61859812b5ae1e1984fa8f98ba5",
+   "size_bytes": 7151908
+  },
+  "sample_determinations_all.parquet": {
+   "rows": 620963,
+   "sha256": "2e92cc89e4a077f6e790d3ecc14d26e6af03226d1c3c9fd24702bc5e19e2c2bb",
+   "size_bytes": 7175533
+  },
+  "sample_determinations_superseded.parquet": {
+   "rows": 223,
+   "sha256": "35e5f093c459667d14f793ed225ef7c69facf260301864a456b98214990d8c73",
+   "size_bytes": 17804
+  },
+  "sample_metadata_wide.csv.gz": {
+   "rows": 154356,
+   "sha256": "f401a00d76073000e44673c5e883c1836f2688d1eb4ec542ca4a013b9de61f5d",
+   "size_bytes": 11783851
+  },
+  "sample_metadata_wide.parquet": {
+   "rows": 154356,
+   "sha256": "b847ee032d6670b3dbdbba9038cfabc206f04822fecf1fd8f05e8e62a05924c0",
+   "size_bytes": 17079755
+  },
+  "sample_subjects.parquet": {
+   "rows": 154356,
+   "sha256": "fcc6d8fbf5d9588adad57a2284936226e827f5c2191676886d6fab333b01ed57",
+   "size_bytes": 2898866
+  },
+  "sample_unit_classification.csv": {
+   "rows": 11116,
+   "sha256": "da7e51879682f47863245e715d36d1e3a65521b1b1f1290a1eb9cf509b99e502",
+   "size_bytes": 2068790
+  },
+  "sample_unit_classification_by_study.csv": {
+   "rows": 67,
+   "sha256": "a3c1007cd305266d526a6be5b0279900d58045955dd7bf12181f09b88940456f",
+   "size_bytes": 7051
+  },
+  "sandpiper_auditor_candidate_runs.csv": {
+   "rows": 375,
+   "sha256": "72ece46b6e0306fc72c0fafeb6be5604388a260fea8a5175c9c686a388fdfcc9",
+   "size_bytes": 50826
+  },
+  "sandpiper_flag_definitions.json": {
+   "rows": null,
+   "sha256": "fc1036563afd682a70091a5139e1dd98feaed8e63d6aad8ee1a0a1f1727a89da",
+   "size_bytes": 5591
+  },
+  "sandpiper_flag_table.csv": {
+   "rows": 20,
+   "sha256": "d3a84f7a27e79bb802190416135722f7fad8441c5b96df69bcaaad18501537ba",
+   "size_bytes": 4066
+  },
+  "sandpiper_run_qc.parquet": {
+   "rows": 174172,
+   "sha256": "dca210259a574ae6ccdc0fe3a263535085790c154bf0a2cdf7d73a73dffdb283",
+   "size_bytes": 9036554
+  },
+  "sandpiper_sample_summary.parquet": {
+   "rows": 79473,
+   "sha256": "04a3ba232ffef3ae0b508a4646c5e1cf66dc8f532bdf1288221b9637c9bf69e7",
+   "size_bytes": 10475240
+  },
+  "sandpiper_study_coverage.csv": {
+   "rows": 389,
+   "sha256": "e7f6991c34fa15a8bebc1f913bdcdd012a99b7f1d9e25b2a721e218c2e981041",
+   "size_bytes": 81830
+  },
+  "sandpiper_study_panel_status.csv": {
+   "rows": 389,
+   "sha256": "2eed345b6268c27d25f9f6fe3fc378e3aa6ae4600fd46b426aa7c1e0e9378276",
+   "size_bytes": 27852
+  },
+  "sandpiper_study_panels.parquet": {
+   "rows": 4656,
+   "sha256": "0f9e0455a78276127a304136e74c27888c555a3119f1f270d9f15c5c4ce5d76f",
+   "size_bytes": 74813
+  },
+  "sandpiper_study_qc_flags.csv": {
+   "rows": 389,
+   "sha256": "afbf1ccf5e2fc27d03cf5d4a70177e5a74b24d52448620d0f5fcaf6bd90650fc",
+   "size_bytes": 74962
+  },
+  "sandpiper_top_genera.parquet": {
+   "rows": 1049958,
+   "sha256": "78057720f207eeb5d869434b17fac17382db3e1443b7d3971669103c1874126a",
+   "size_bytes": 4850498
+  },
+  "study_authors_summary.csv": {
+   "rows": 9579,
+   "sha256": "b5eeec618b6c9a685ae034de48b395bf6b62d3999adb77ee5f5acaa9831a1dc5",
+   "size_bytes": 987036
+  },
+  "study_field_coverage_matrix.csv": {
+   "rows": 371,
+   "sha256": "028221d65d8db250e89bc8b95ca15f58f7bd96952fe1a364ef3877aa938739d9",
+   "size_bytes": 33017
+  },
+  "study_metadata_wide.csv": {
+   "rows": 389,
+   "sha256": "48ef90a7a55be0dcec860610f5d09d87f57ed27c1b9ac28fffa7496e7527cc7d",
+   "size_bytes": 489938
+  },
+  "study_metadata_wide.parquet": {
+   "rows": 389,
+   "sha256": "d1da2b0ec6c4560d68dc3a17ebcaedfd1c08966fdba878129c7d034605f0c5b0",
+   "size_bytes": 229939
+  },
+  "study_paper_links.csv": {
+   "rows": 973,
+   "sha256": "3c0079d5bd03bb24e8215e775883d8dbab84909f62ec1572cdc9c86821a68e07",
+   "size_bytes": 176732
+  },
+  "study_verdict_history.parquet": {
+   "rows": 32233,
+   "sha256": "6d234dd67cd5d6266c1e65b5c9e673a34e1968624dfe6b36222abb111c36f949",
+   "size_bytes": 1077658
+  },
+  "tier_field_precision.csv": {
+   "rows": 49,
+   "sha256": "74a412eca0beefc873751cdeafba4b73567321e0b7c3116d3d1a442b552a354e",
+   "size_bytes": 2590
+  },
+  "universe_studies_all.parquet": {
+   "rows": 9581,
+   "sha256": "1defcc7e4af0b5f1d07dcfe6d249cc30a05ce63d5d50ea74f6cf26929260808c",
+   "size_bytes": 1107150
+  },
+  "value_history.parquet": {
+   "rows": 46587,
+   "sha256": "c7ca0cd2fc6913cedcdfca0e652ae43e3d7ca6986f012bb98a7fd2c7585bbb97",
+   "size_bytes": 582791
+  }
+ }
+}

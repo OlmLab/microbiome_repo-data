@@ -1,0 +1,95 @@
+{
+ "cohorts.csv": {
+  "n_rows": 373,
+  "release_added_counts": {
+   "1.0.0": 373
+  }
+ },
+ "counts": {
+  "n_catalog_scope": 72358,
+  "n_determinations_current": 619647,
+  "n_samples": 154356,
+  "n_studies_included": 389,
+  "sandpiper_version": "2.0.0"
+ },
+ "package_version": "1.15.0",
+ "previous_package_version": "1.14.0",
+ "registry_rows": 21,
+ "release_date": "2026-10-08",
+ "release_id": "R2026.16",
+ "sample_determinations": {
+  "carried": 619647,
+  "changed_in_release": 0,
+  "mode": "incremental",
+  "n_current": 619647,
+  "n_retired": 1316,
+  "n_retired_from_value_history": 1316,
+  "n_retired_gone_this_release": 0,
+  "new_in_release": 0,
+  "release_added_counts": {
+   "1.0.0": 605707,
+   "1.1.0": 3632,
+   "1.2.0": 9559,
+   "R2026.3": 749
+  },
+  "release_retired_counts": {
+   "1.1.0": 75,
+   "1.2.0": 245,
+   "1.2.1": 295,
+   "1.2.2": 701
+  },
+  "retired_change_stage_counts": {
+   "auditor_review:B2": 97,
+   "auditor_review:B9": 148,
+   "auditor_review:R3-3": 295,
+   "owner_decision": 701,
+   "sample_unit_fix": 75
+  },
+  "retired_rule": "value_history.status in ['superseded', 'moved_to_parent_biosamples', 'recommitted_out_of_scope_host', 'recommitted_out_of_scope_isolate']"
+ },
+ "sandpiper_run_qc.parquet": {
+  "n_rows": 174172,
+  "release_added_counts": {
+   "1.2.0": 174022,
+   "R2026.3": 150
+  }
+ },
+ "sandpiper_sample_summary.parquet": {
+  "n_rows": 79473,
+  "release_added_counts": {
+   "1.2.0": 79473
+  }
+ },
+ "sandpiper_study_panels.parquet": {
+  "n_rows": 4656,
+  "release_added_counts": {
+   "1.2.0": 4656
+  }
+ },
+ "sandpiper_top_genera.parquet": {
+  "n_rows": 1049958,
+  "release_added_counts": {
+   "1.2.0": 1049958
+  }
+ },
+ "study_metadata_wide.parquet": {
+  "n_rows": 389,
+  "release_added_counts": {
+   "1.0.0": 389
+  }
+ },
+ "study_paper_links.csv": {
+  "n_rows": 973,
+  "release_added_counts": {
+   "1.0.0": 972,
+   "1.1.0": 1
+  }
+ },
+ "universe_studies_all.parquet": {
+  "n_rows": 9581,
+  "release_added_counts": {
+   "1.0.0": 9579,
+   "R2026.2": 2
+  }
+ }
+}
