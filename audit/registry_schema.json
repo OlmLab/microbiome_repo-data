@@ -1,0 +1,2479 @@
+{
+ "schema_version": 1,
+ "title": "Registry tier tables of the human shotgun-metagenome catalog (SCALE_UP_PLAN §2.2; docs/EXPANSION.md)",
+ "frozen": "2026-09-27",
+ "vocabularies": {
+  "body_sites": "config/vocab/body_sites.yaml",
+  "life_stages": "config/vocab/life_stages.yaml",
+  "assay": "config/vocab/assay.yaml",
+  "population_flags": "config/vocab/population_flags.yaml",
+  "scopes": "config/scope.yaml#scopes[].id"
+ },
+ "evidence_row": {
+  "source": "labelled source (study.title | study.description | sample.title | sample.attr.<key> | run.<field> | external_curation.<source>)",
+  "quote": "≤ 12 words copied from that field"
+ },
+ "tables": {
+  "registry_studies.parquet": {
+   "key": [
+    "study_accession"
+   ],
+   "one_row_per": "ENA study in the registry universe",
+   "columns": [
+    {
+     "name": "study_accession",
+     "type": "string",
+     "description": "ENA/INSDC BioProject accession (PRJ…); primary key",
+     "key": true
+    },
+    {
+     "name": "secondary_study_accession",
+     "type": "string",
+     "description": "ENA secondary study accession (ERP/SRP/DRP)"
+    },
+    {
+     "name": "study_title",
+     "type": "string",
+     "description": "ENA study title"
+    },
+    {
+     "name": "description_short",
+     "type": "string",
+     "description": "ENA study description truncated to 300 characters",
+     "max_length": 300
+    },
+    {
+     "name": "center_name",
+     "type": "string",
+     "description": "Submitting centre"
+    },
+    {
+     "name": "first_public_min",
+     "type": "string",
+     "description": "Earliest run first_public date (ISO)"
+    },
+    {
+     "name": "first_public_max",
+     "type": "string",
+     "description": "Latest run first_public date (ISO)"
+    },
+    {
+     "name": "n_runs",
+     "type": "int64",
+     "description": "Runs in the registry universe for this study"
+    },
+    {
+     "name": "n_samples",
+     "type": "int64",
+     "description": "Distinct sample_accession values"
+    },
+    {
+     "name": "n_biosamples",
+     "type": "int64",
+     "description": "Distinct BioSample accessions"
+    },
+    {
+     "name": "n_runs_sandpiper",
+     "type": "int64",
+     "description": "Runs of the study with a Sandpiper (SingleM) community profile in the pinned Sandpiper snapshot (config Makefile SANDPIPER_VERSION / ZENODO_RECORD); 0 when the join table was not supplied"
+    },
+    {
+     "name": "library_strategies",
+     "type": "string",
+     "description": "JSON dict strategy → run count"
+    },
+    {
+     "name": "library_sources",
+     "type": "string",
+     "description": "';'-joined distinct library_source values"
+    },
+    {
+     "name": "instrument_platforms",
+     "type": "string",
+     "description": "';'-joined distinct instrument_platform values"
+    },
+    {
+     "name": "scientific_names_top",
+     "type": "string",
+     "description": "';'-joined top-5 scientific_name values with run counts, e.g. 'human gut metagenome (120)'"
+    },
+    {
+     "name": "host_tax_ids",
+     "type": "string",
+     "description": "';'-joined distinct host_tax_id values"
+    },
+    {
+     "name": "n_runs_host_9606",
+     "type": "int64",
+     "description": "Runs with host_tax_id 9606"
+    },
+    {
+     "name": "n_runs_nonhuman_host",
+     "type": "int64",
+     "description": "Runs with a non-9606 host_tax_id"
+    },
+    {
+     "name": "human_signal",
+     "type": "bool",
+     "description": "Frame-free sweep human-signal rule outcome (pre-filter)"
+    },
+    {
+     "name": "human_signal_rule",
+     "type": "string",
+     "description": "A|B|C|none — which human-signal rule fired",
+     "vocabulary": [
+      "A",
+      "B",
+      "C",
+      "none"
+     ]
+    },
+    {
+     "name": "ambiguous",
+     "type": "bool",
+     "description": "Human-signal rule tie flag"
+    },
+    {
+     "name": "host_human",
+     "type": "string",
+     "description": "Classified host",
+     "vocabulary": [
+      "yes",
+      "no",
+      "mixed",
+      "unknown"
+     ]
+    },
+    {
+     "name": "host_evidence",
+     "type": "string",
+     "description": "JSON list of {source, quote} (quote ≤ 12 words; source from the curation-skill label list)"
+    },
+    {
+     "name": "assay",
+     "type": "string",
+     "description": "Assay class (config/vocab/assay.yaml)",
+     "vocabulary_ref": "assay"
+    },
+    {
+     "name": "access",
+     "type": "string",
+     "description": "Access tier",
+     "vocabulary": [
+      "open",
+      "controlled",
+      "unknown"
+     ]
+    },
+    {
+     "name": "body_sites",
+     "type": "string",
+     "description": "';'-joined body-site codes (config/vocab/body_sites.yaml)",
+     "vocabulary_ref": "body_sites",
+     "multi": true
+    },
+    {
+     "name": "body_site_primary",
+     "type": "string",
+     "description": "Primary body-site code (multi_site when ≥ 3 strong sites)",
+     "vocabulary_ref": "body_sites",
+     "nullable": true
+    },
+    {
+     "name": "body_site_evidence",
+     "type": "string",
+     "description": "JSON evidence list"
+    },
+    {
+     "name": "life_stages",
+     "type": "string",
+     "description": "';'-joined life-stage codes (config/vocab/life_stages.yaml)",
+     "vocabulary_ref": "life_stages",
+     "multi": true
+    },
+    {
+     "name": "life_stage_primary",
+     "type": "string",
+     "description": "Primary life-stage code (mixed_ages when ≥ 3 strong stages)",
+     "vocabulary_ref": "life_stages",
+     "nullable": true
+    },
+    {
+     "name": "life_stage_evidence",
+     "type": "string",
+     "description": "JSON evidence list"
+    },
+    {
+     "name": "population_flags",
+     "type": "string",
+     "description": "';'-joined flags (config/vocab/population_flags.yaml)",
+     "vocabulary_ref": "population_flags",
+     "multi": true
+    },
+    {
+     "name": "health_context",
+     "type": "string",
+     "description": "≤ 120 chars free text or null",
+     "max_length": 120,
+     "nullable": true
+    },
+    {
+     "name": "classification_stage",
+     "type": "string",
+     "description": "Cascade stage that produced the classification",
+     "vocabulary": [
+      "deterministic_prior",
+      "deterministic_rule",
+      "sonnet_x2",
+      "opus_adjudicated",
+      "pending",
+      "owner_decision",
+     "curator_audit"
+     ]
+    },
+    {
+     "name": "classification_confidence",
+     "type": "float64",
+     "description": "0–1; minimum over components"
+    },
+    {
+     "name": "classification_model",
+     "type": "string",
+     "description": "'deterministic' or the resolved model id of the deciding stage"
+    },
+    {
+     "name": "in_infant_catalog",
+     "type": "string",
+     "description": "Infant-catalog verdict",
+     "vocabulary": [
+      "include",
+      "exclude",
+      "uncertain",
+      "not_screened"
+     ]
+    },
+    {
+     "name": "infant_reason_code",
+     "type": "string",
+     "description": "Infant triage reason_code (curation-skill vocabulary) or null",
+     "nullable": true
+    },
+    {
+     "name": "scope_memberships",
+     "type": "string",
+     "description": "';'-joined scope ids from config/scope.yaml",
+     "vocabulary_ref": "scopes",
+     "multi": true
+    },
+    {
+     "name": "universe_slice",
+     "type": "string",
+     "description": "Enumeration slice that found the study"
+    },
+    {
+     "name": "n_biosamples_harvested",
+     "type": "int64",
+     "description": "BioSamples of the study with a harvested attribute record (registry_biosamples); 0 = not harvested"
+    },
+    {
+     "name": "n_biosamples_with_site",
+     "type": "int64",
+     "description": "Harvested BioSamples with a body-site code other than unknown_site"
+    },
+    {
+     "name": "n_biosamples_with_age",
+     "type": "int64",
+     "description": "Harvested BioSamples with a life stage other than unknown_age"
+    },
+    {
+     "name": "n_biosamples_with_sex",
+     "type": "int64",
+     "description": "Harvested BioSamples with sex female/male"
+    },
+    {
+     "name": "sample_body_sites",
+     "type": "string",
+     "description": "JSON dict body_site_code → BioSample count (from registry_biosamples)"
+    },
+    {
+     "name": "sample_life_stages",
+     "type": "string",
+     "description": "JSON dict life_stage → BioSample count"
+    },
+    {
+     "name": "sample_countries",
+     "type": "string",
+     "description": "JSON dict ISO-3166 alpha-2 → BioSample count (top 5)"
+    },
+    {
+     "name": "sample_age_days_median",
+     "type": "float64",
+     "description": "Median age_days over harvested BioSamples with a numeric age"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Bitemporal: release id in which the row first appeared"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Bitemporal: release id in which the row was retired; null = current",
+     "nullable": true
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Bitemporal: package semver of first appearance"
+    }
+   ],
+   "bitemporal": "release columns appended at the end in releases.yaml order; built_with_release_columns: true"
+  },
+  "registry_runs.parquet": {
+   "key": [
+    "run_accession"
+   ],
+   "one_row_per": "ENA read_run in the registry universe",
+   "storage": "single working_data artifact (≈1.5M rows); columns restricted to the pull fields",
+   "columns": [
+    {
+     "name": "run_accession",
+     "type": "string",
+     "description": "ENA read_run field run_accession"
+    },
+    {
+     "name": "study_accession",
+     "type": "string",
+     "description": "ENA read_run field study_accession"
+    },
+    {
+     "name": "secondary_study_accession",
+     "type": "string",
+     "description": "ENA read_run field secondary_study_accession"
+    },
+    {
+     "name": "sample_accession",
+     "type": "string",
+     "description": "ENA read_run field sample_accession"
+    },
+    {
+     "name": "secondary_sample_accession",
+     "type": "string",
+     "description": "ENA read_run field secondary_sample_accession"
+    },
+    {
+     "name": "experiment_accession",
+     "type": "string",
+     "description": "ENA read_run field experiment_accession"
+    },
+    {
+     "name": "library_strategy",
+     "type": "string",
+     "description": "ENA read_run field library_strategy"
+    },
+    {
+     "name": "library_source",
+     "type": "string",
+     "description": "ENA read_run field library_source"
+    },
+    {
+     "name": "library_selection",
+     "type": "string",
+     "description": "ENA read_run field library_selection"
+    },
+    {
+     "name": "library_layout",
+     "type": "string",
+     "description": "ENA read_run field library_layout"
+    },
+    {
+     "name": "library_name",
+     "type": "string",
+     "description": "ENA read_run field library_name"
+    },
+    {
+     "name": "target_gene",
+     "type": "string",
+     "description": "ENA read_run field target_gene"
+    },
+    {
+     "name": "instrument_platform",
+     "type": "string",
+     "description": "ENA read_run field instrument_platform"
+    },
+    {
+     "name": "instrument_model",
+     "type": "string",
+     "description": "ENA read_run field instrument_model"
+    },
+    {
+     "name": "read_count",
+     "type": "string",
+     "description": "ENA read_run field read_count"
+    },
+    {
+     "name": "base_count",
+     "type": "string",
+     "description": "ENA read_run field base_count"
+    },
+    {
+     "name": "nominal_length",
+     "type": "string",
+     "description": "ENA read_run field nominal_length"
+    },
+    {
+     "name": "tax_id",
+     "type": "string",
+     "description": "ENA read_run field tax_id"
+    },
+    {
+     "name": "scientific_name",
+     "type": "string",
+     "description": "ENA read_run field scientific_name"
+    },
+    {
+     "name": "host_tax_id",
+     "type": "string",
+     "description": "ENA read_run field host_tax_id"
+    },
+    {
+     "name": "host_scientific_name",
+     "type": "string",
+     "description": "ENA read_run field host_scientific_name"
+    },
+    {
+     "name": "host_body_site",
+     "type": "string",
+     "description": "ENA read_run field host_body_site"
+    },
+    {
+     "name": "host_status",
+     "type": "string",
+     "description": "ENA read_run field host_status"
+    },
+    {
+     "name": "host_phenotype",
+     "type": "string",
+     "description": "ENA read_run field host_phenotype"
+    },
+    {
+     "name": "age",
+     "type": "string",
+     "description": "ENA read_run field age"
+    },
+    {
+     "name": "dev_stage",
+     "type": "string",
+     "description": "ENA read_run field dev_stage"
+    },
+    {
+     "name": "disease",
+     "type": "string",
+     "description": "ENA read_run field disease"
+    },
+    {
+     "name": "country",
+     "type": "string",
+     "description": "ENA read_run field country"
+    },
+    {
+     "name": "first_public",
+     "type": "string",
+     "description": "ENA read_run field first_public"
+    },
+    {
+     "name": "center_name",
+     "type": "string",
+     "description": "ENA read_run field center_name"
+    },
+    {
+     "name": "project_name",
+     "type": "string",
+     "description": "ENA read_run field project_name"
+    },
+    {
+     "name": "study_title",
+     "type": "string",
+     "description": "ENA read_run field study_title"
+    },
+    {
+     "name": "sample_title",
+     "type": "string",
+     "description": "ENA read_run field sample_title"
+    },
+    {
+     "name": "serovar",
+     "type": "string",
+     "description": "ENA read_run field serovar"
+    },
+    {
+     "name": "sub_species",
+     "type": "string",
+     "description": "ENA read_run field sub_species"
+    },
+    {
+     "name": "strain",
+     "type": "string",
+     "description": "ENA read_run field strain"
+    },
+    {
+     "name": "isolate",
+     "type": "string",
+     "description": "ENA read_run field isolate"
+    },
+    {
+     "name": "checklist",
+     "type": "string",
+     "description": "ENA read_run field checklist"
+    },
+    {
+     "name": "environmental_medium",
+     "type": "string",
+     "description": "ENA read_run field environmental_medium"
+    },
+    {
+     "name": "isolation_source",
+     "type": "string",
+     "description": "ENA read_run field isolation_source"
+    },
+    {
+     "name": "experimental_factor",
+     "type": "string",
+     "description": "ENA read_run field experimental_factor"
+    },
+    {
+     "name": "extraction_protocol",
+     "type": "string",
+     "description": "ENA read_run field extraction_protocol"
+    },
+    {
+     "name": "environmental_sample",
+     "type": "string",
+     "description": "ENA read_run field environmental_sample"
+    },
+    {
+     "name": "found_by",
+     "type": "string",
+     "description": "Enumeration slice tag that pulled the run"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Bitemporal"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Bitemporal; null = current",
+     "nullable": true
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Bitemporal"
+    }
+   ]
+  },
+  "registry_universe_audit.csv": {
+   "key": [
+    "slice"
+   ],
+   "one_row_per": "enumeration slice",
+   "columns": [
+    {
+     "name": "slice",
+     "type": "string",
+     "description": "Slice tag / ENA query label"
+    },
+    {
+     "name": "ena_query",
+     "type": "string",
+     "description": "ENA portal query string"
+    },
+    {
+     "name": "ena_count",
+     "type": "int64",
+     "description": "Count returned by the ENA count endpoint"
+    },
+    {
+     "name": "rows_pulled",
+     "type": "int64",
+     "description": "read_run rows actually streamed"
+    },
+    {
+     "name": "n_studies",
+     "type": "int64",
+     "description": "Distinct studies in the slice"
+    },
+    {
+     "name": "completeness",
+     "type": "float64",
+     "description": "rows_pulled / ena_count"
+    },
+    {
+     "name": "pulled_at",
+     "type": "string",
+     "description": "ISO timestamp of the pull"
+    }
+   ]
+  },
+  "registry_biosamples.parquet": {
+   "key": [
+    "sample_accession"
+   ],
+   "one_row_per": "harvested BioSample of a registry study (S2: human_all studies outside the curated infant catalog)",
+   "columns": [
+    {
+     "name": "sample_accession",
+     "type": "string",
+     "description": "BioSample accession (SAMN/SAME/SAMD) as listed in registry_biosample_index; primary key",
+     "key": true
+    },
+    {
+     "name": "study_accession",
+     "type": "string",
+     "description": "ENA study (BioProject) the sample belongs to"
+    },
+    {
+     "name": "n_attributes",
+     "type": "int64",
+     "description": "Non-placeholder attribute rows harvested for the sample"
+    },
+    {
+     "name": "source",
+     "type": "string",
+     "description": "ena_xml | ncbi_biosample — where the attribute record came from"
+    },
+    {
+     "name": "body_site_code",
+     "type": "string",
+     "description": "config/vocab/body_sites.yaml code from the normalised body-site attribute; unknown_site when an attribute existed but mapped to no site; null when no body-site attribute"
+    },
+    {
+     "name": "body_site_raw_key",
+     "type": "string",
+     "description": "Normalised attribute key the code came from (e.g. host_body_site, isolation_source)"
+    },
+    {
+     "name": "body_site_raw_value",
+     "type": "string",
+     "description": "Raw attribute value the code came from"
+    },
+    {
+     "name": "life_stage",
+     "type": "string",
+     "description": "config/vocab/life_stages.yaml code from the age attribute (or from age_days); unknown_age when an age attribute existed but was not interpretable; null when none"
+    },
+    {
+     "name": "age_days",
+     "type": "float64",
+     "description": "Age at collection in days when a numeric age with unit was given"
+    },
+    {
+     "name": "age_raw_key",
+     "type": "string",
+     "description": "Attribute key the age came from"
+    },
+    {
+     "name": "age_raw_value",
+     "type": "string",
+     "description": "Raw age value"
+    },
+    {
+     "name": "sex",
+     "type": "string",
+     "description": "female | male | unknown; null when no sex attribute"
+    },
+    {
+     "name": "sex_raw_key",
+     "type": "string",
+     "description": "Attribute key the sex came from"
+    },
+    {
+     "name": "sex_raw_value",
+     "type": "string",
+     "description": "Raw sex/gender value"
+    },
+    {
+     "name": "country_iso2",
+     "type": "string",
+     "description": "ISO-3166-1 alpha-2 from geo_loc_name / country attributes"
+    },
+    {
+     "name": "country_raw_key",
+     "type": "string",
+     "description": "Attribute key the country came from"
+    },
+    {
+     "name": "country_raw_value",
+     "type": "string",
+     "description": "Raw geographic value"
+    },
+    {
+     "name": "collection_date_raw",
+     "type": "string",
+     "description": "Raw collection date attribute"
+    },
+    {
+     "name": "collection_year",
+     "type": "Int64",
+     "description": "Year extracted from collection_date_raw"
+    },
+    {
+     "name": "disease_raw",
+     "type": "string",
+     "description": "First non-placeholder disease/health/phenotype attribute value (≤200 chars; NOT normalised — no controlled vocabulary yet)"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Release id in which the row first appeared"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Release id in which the row was retired (null = current)"
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Package version that first carried the row"
+    }
+   ],
+   "bitemporal": "release columns written by build_biosamples; normalisation map = utility-model pass over distinct (key,value) pairs (docs/REGISTRY_S2_PILOT.md, config/budgets.yaml registry_s2)"
+  },
+  "registry_study_papers.parquet": {
+   "key": [
+    "study_accession",
+    "paper_id"
+   ],
+   "one_row_per": "study × linked paper (accession mention in Europe PMC and/or publication declared in the NCBI BioProject record); 4,217 human_all studies outside the curated infant catalog",
+   "columns": [
+    {
+     "name": "study_accession",
+     "type": "str",
+     "description": "ENA study (BioProject) accession",
+     "key": true
+    },
+    {
+     "name": "paper_id",
+     "type": "str",
+     "description": "Europe PMC id (MED:<pmid> | PMC… | PPR… | DOI:…); part of the key",
+     "key": true
+    },
+    {
+     "name": "pmid",
+     "type": "str",
+     "description": "PubMed id of the linked paper"
+    },
+    {
+     "name": "pmcid",
+     "type": "str",
+     "description": "PubMed Central id"
+    },
+    {
+     "name": "doi",
+     "type": "str",
+     "description": "DOI"
+    },
+    {
+     "name": "title",
+     "type": "str",
+     "description": "Paper title"
+    },
+    {
+     "name": "journal",
+     "type": "str",
+     "description": "Journal"
+    },
+    {
+     "name": "year",
+     "type": "Int64",
+     "description": "Publication year"
+    },
+    {
+     "name": "pub_type",
+     "type": "str",
+     "description": "Europe PMC publication types"
+    },
+    {
+     "name": "is_open_access",
+     "type": "boolean",
+     "description": "Europe PMC open-access flag"
+    },
+    {
+     "name": "in_epmc_fulltext",
+     "type": "object",
+     "description": "Full text available in Europe PMC"
+    },
+    {
+     "name": "source",
+     "type": "str",
+     "description": "europepmc_mention | bioproject_xml | both — how the paper was linked"
+    },
+    {
+     "name": "match_field",
+     "type": "str",
+     "description": "abstract_or_title | fulltext_only — where the accession was mentioned"
+    },
+    {
+     "name": "match_accession",
+     "type": "str",
+     "description": "Accession matched (primary PRJ… or secondary ERP/SRP/DRP)"
+    },
+    {
+     "name": "bioproject_declared",
+     "type": "bool",
+     "description": "Paper is listed as a publication in the NCBI BioProject record"
+    },
+    {
+     "name": "n_registry_studies",
+     "type": "int64",
+     "description": "How many processed registry studies this paper mentions"
+    },
+    {
+     "name": "relation",
+     "type": "str",
+     "description": "data_paper | related | unsure — deterministic link class (see REGISTRY_S2_PAPERS.md §2.3)"
+    },
+    {
+     "name": "method",
+     "type": "str",
+     "description": "Rule that produced the relation (det_bioproject_declared 0.9, det_single_mention_abstract 0.75, det_single_mention_fulltext 0.6)"
+    },
+    {
+     "name": "confidence",
+     "type": "float64",
+     "description": "Rule confidence (null for unsure)"
+    },
+    {
+     "name": "contested",
+     "type": "bool",
+     "description": "True when the paper mentions ≥ 2 processed studies"
+    },
+    {
+     "name": "contest_reason",
+     "type": "str",
+     "description": "multi_study | …"
+    },
+    {
+     "name": "epmc_rank",
+     "type": "float64",
+     "description": "Rank of the paper in the Europe PMC hit list for the study"
+    },
+    {
+     "name": "epmc_hit_count",
+     "type": "float64",
+     "description": "Europe PMC hitCount for the study query"
+    },
+    {
+     "name": "epmc_hits_capped",
+     "type": "object",
+     "description": "Hit list truncated at 300 (never true in R2026.5)"
+    },
+    {
+     "name": "body_site_primary",
+     "type": "str",
+     "description": "registry_studies.body_site_primary at harvest time (convenience)"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Release id in which the row first appeared"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Release id in which the row was retired (null = current)"
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Package version that first carried the row"
+    }
+   ],
+   "bitemporal": "release columns appended by catalog.registry.add_registry_tables (harvest 2026-09-27, docs/REGISTRY_S2_PAPERS.md)"
+  },
+  "registry_bioproject_records.parquet": {
+   "key": [
+    "study_accession"
+   ],
+   "one_row_per": "processed registry study (NCBI BioProject XML)",
+   "columns": [
+    {
+     "name": "study_accession",
+     "type": "str",
+     "description": "ENA study (BioProject) accession",
+     "key": true
+    },
+    {
+     "name": "secondary_study_accession",
+     "type": "str",
+     "description": "ENA secondary study accession"
+    },
+    {
+     "name": "found_in_ncbi",
+     "type": "bool",
+     "description": "BioProject record found via esearch"
+    },
+    {
+     "name": "bioproject_uid",
+     "type": "str",
+     "description": "NCBI BioProject UID"
+    },
+    {
+     "name": "archive",
+     "type": "str",
+     "description": "NCBI | EBI | DDBJ"
+    },
+    {
+     "name": "center_id",
+     "type": "str",
+     "description": "Submitting center id"
+    },
+    {
+     "name": "center_id_center",
+     "type": "str",
+     "description": "Center attribute of center_id"
+    },
+    {
+     "name": "title",
+     "type": "str",
+     "description": "Paper title"
+    },
+    {
+     "name": "name",
+     "type": "str",
+     "description": "BioProject name"
+    },
+    {
+     "name": "organisation",
+     "type": "str",
+     "description": "Submitting organisation (first)"
+    },
+    {
+     "name": "submitter_owner",
+     "type": "str",
+     "description": "Submitter/owner organisation"
+    },
+    {
+     "name": "organizations_json",
+     "type": "str",
+     "description": "JSON list of organisations (name, abbr, role)"
+    },
+    {
+     "name": "n_publications",
+     "type": "float64",
+     "description": "Publications declared in the record"
+    },
+    {
+     "name": "publication_pmids",
+     "type": "str",
+     "description": "; -joined PMIDs declared"
+    },
+    {
+     "name": "publication_dois",
+     "type": "str",
+     "description": "; -joined DOIs declared"
+    },
+    {
+     "name": "publications_json",
+     "type": "str",
+     "description": "JSON list of declared publications"
+    },
+    {
+     "name": "grants_json",
+     "type": "str",
+     "description": "JSON list of grants"
+    },
+    {
+     "name": "external_links_json",
+     "type": "str",
+     "description": "JSON list of external links"
+    },
+    {
+     "name": "registration_date",
+     "type": "str",
+     "description": "ProjectReleaseDate when present (239 studies)"
+    },
+    {
+     "name": "submitted",
+     "type": "str",
+     "description": "Submission date"
+    },
+    {
+     "name": "last_update",
+     "type": "str",
+     "description": "Last update date"
+    },
+    {
+     "name": "submission_access",
+     "type": "str",
+     "description": "public | controlled"
+    },
+    {
+     "name": "data_types",
+     "type": "str",
+     "description": "Declared data types"
+    },
+    {
+     "name": "target_material",
+     "type": "str",
+     "description": "BioProject target material (eGenome, …)"
+    },
+    {
+     "name": "target_capture",
+     "type": "str",
+     "description": "Target capture (eWhole, …)"
+    },
+    {
+     "name": "target_sample_scope",
+     "type": "str",
+     "description": "Sample scope (eMultiisolate, eEnvironment, …)"
+    },
+    {
+     "name": "method_type",
+     "type": "str",
+     "description": "Method type (eSequencing, …)"
+    },
+    {
+     "name": "relevance_medical",
+     "type": "str",
+     "description": "Medical relevance flag"
+    },
+    {
+     "name": "body_site_primary",
+     "type": "str",
+     "description": "registry_studies.body_site_primary at harvest time (convenience)"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Release id in which the row first appeared"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Release id in which the row was retired (null = current)"
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Package version that first carried the row"
+    }
+   ],
+   "bitemporal": "release columns appended by catalog.registry.add_registry_tables (harvest 2026-09-27, docs/REGISTRY_S2_PAPERS.md)"
+  },
+  "registry_authors.parquet": {
+   "key": [
+    "study_accession",
+    "pmid",
+    "position"
+   ],
+   "one_row_per": "study × paper × author (Europe PMC core records of ≤ 5 linked papers per study)",
+   "columns": [
+    {
+     "name": "study_accession",
+     "type": "str",
+     "description": "ENA study (BioProject) accession",
+     "key": true
+    },
+    {
+     "name": "author_full_name",
+     "type": "str",
+     "description": "Author full name (Europe PMC)"
+    },
+    {
+     "name": "author_display",
+     "type": "str",
+     "description": "Surname + initials"
+    },
+    {
+     "name": "author_surname",
+     "type": "str",
+     "description": "Surname"
+    },
+    {
+     "name": "author_initials",
+     "type": "str",
+     "description": "Initials"
+    },
+    {
+     "name": "is_group",
+     "type": "bool",
+     "description": "Collective/group author"
+    },
+    {
+     "name": "source",
+     "type": "str",
+     "description": "europepmc_mention | bioproject_xml | both — how the paper was linked"
+    },
+    {
+     "name": "pmid",
+     "type": "str",
+     "description": "PubMed id of the linked paper",
+     "key": true
+    },
+    {
+     "name": "pmcid",
+     "type": "str",
+     "description": "PubMed Central id"
+    },
+    {
+     "name": "doi",
+     "type": "str",
+     "description": "DOI"
+    },
+    {
+     "name": "paper_title",
+     "type": "str",
+     "description": "Paper title"
+    },
+    {
+     "name": "pub_year",
+     "type": "Int64",
+     "description": "Publication year"
+    },
+    {
+     "name": "position",
+     "type": "int64",
+     "description": "Author position (1 = first); part of the key",
+     "key": true
+    },
+    {
+     "name": "n_authors",
+     "type": "int64",
+     "description": "Authors on the paper"
+    },
+    {
+     "name": "is_first",
+     "type": "bool",
+     "description": "First author"
+    },
+    {
+     "name": "is_last",
+     "type": "bool",
+     "description": "Last author"
+    },
+    {
+     "name": "affiliation",
+     "type": "str",
+     "description": "Affiliation string (e-mail addresses removed, rule F7)"
+    },
+    {
+     "name": "orcid",
+     "type": "str",
+     "description": "ORCID iD when present"
+    },
+    {
+     "name": "paper_relation",
+     "type": "str",
+     "description": "relation of the study×paper link (registry_study_papers)"
+    },
+    {
+     "name": "link_method",
+     "type": "str",
+     "description": "method of the link"
+    },
+    {
+     "name": "author_source",
+     "type": "str",
+     "description": "europepmc_core"
+    },
+    {
+     "name": "author_key",
+     "type": "str",
+     "description": "lower-case surname + initials key for de-duplication"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Release id in which the row first appeared"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Release id in which the row was retired (null = current)"
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Package version that first carried the row"
+    }
+   ],
+   "bitemporal": "release columns appended by catalog.registry.add_registry_tables (harvest 2026-09-27, docs/REGISTRY_S2_PAPERS.md)"
+  },
+  "gut_sample_determinations.parquet": {
+   "key": [
+    "sample_key",
+    "field_name"
+   ],
+   "one_row_per": "sample × field of the gut_all curated scope (current value; precedence infant catalog > R1 > R2 > R3 > R4)",
+   "columns": [
+    {
+     "name": "sample_key",
+     "type": "string",
+     "description": "BioSample accession (or run accession for run-unit samples); with field_name the key",
+     "key": true
+    },
+    {
+     "name": "field_name",
+     "type": "string",
+     "description": "Field of config/packs/gut.yaml",
+     "key": true
+    },
+    {
+     "name": "study_accession",
+     "type": "string",
+     "description": "ENA study"
+    },
+    {
+     "name": "field_value",
+     "type": "string",
+     "description": "Raw value as found in the source"
+    },
+    {
+     "name": "value_normalized",
+     "type": "string",
+     "description": "Normalised value (days for age, vocabulary codes, ISO-2 country, yes/no)"
+    },
+    {
+     "name": "confidence",
+     "type": "float64",
+     "description": "Route/parser confidence tier (R1 0.85–0.9, R2 0.8–0.85, R3 ≤ 0.7, R4 ≤ 0.5)"
+    },
+    {
+     "name": "evidence_source",
+     "type": "string",
+     "description": "Labelled source: sample.attr.<key> | paper.supp.<file>[sheet!column] | paper.abstract | study.description | study.title | …"
+    },
+    {
+     "name": "evidence_locator",
+     "type": "string",
+     "description": "biosample_attr | PMCID | PMID | accession"
+    },
+    {
+     "name": "evidence_quote",
+     "type": "string",
+     "description": "Verbatim quote ≤ 12 words"
+    },
+    {
+     "name": "evidence_limited_to_abstract",
+     "type": "float64",
+     "description": "1 when the evidence is abstract/description only (R4)"
+    },
+    {
+     "name": "determined_by",
+     "type": "string",
+     "description": "Parser / stage id"
+    },
+    {
+     "name": "route",
+     "type": "string",
+     "description": "R1 | R2 | R3 | R4"
+    },
+    {
+     "name": "scope",
+     "type": "string",
+     "description": "sample (rows expanded from study_all statements carry 'expanded from study_all' in parse_note)"
+    },
+    {
+     "name": "parse_note",
+     "type": "string",
+     "description": "Parser notes"
+    },
+    {
+     "name": "group_audit",
+     "type": "string",
+     "description": "Audit note for group statements (infant rows)"
+    },
+    {
+     "name": "src_track",
+     "type": "string",
+     "description": "infant_catalog (copied from the curated infant tables) | gut_all_v1"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Release id in which the row first appeared"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Release id in which the row was retired (null = current)"
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Package version that first carried the row"
+    }
+   ],
+   "bitemporal": "release columns written by catalog.scopes.build_gut_scope; infant-catalog rows keep their original release_added"
+  },
+  "gut_sample_metadata_wide.parquet": {
+   "key": [
+    "sample_key"
+   ],
+   "one_row_per": "sample of the gut_all curated scope (one column per field with its route and confidence)",
+   "columns": [
+    {
+     "name": "sample_key",
+     "type": "string",
+     "description": "BioSample accession; primary key",
+     "key": true
+    },
+    {
+     "name": "study_accession",
+     "type": "string",
+     "description": "ENA study"
+    },
+    {
+     "name": "biosample_accession",
+     "type": "string",
+     "description": "BioSample accession"
+    },
+    {
+     "name": "secondary_sample",
+     "type": "string",
+     "description": "ERS/SRS/DRS accession (infant rows)"
+    },
+    {
+     "name": "sample_unit",
+     "type": "string",
+     "description": "biosample | run"
+    },
+    {
+     "name": "body_site_code",
+     "type": "string",
+     "description": "Registry body-site code of the sample (from its attributes) or the infant catalog's class"
+    },
+    {
+     "name": "sample_life_stage",
+     "type": "string",
+     "description": "Registry life stage from the sample's age attribute"
+    },
+    {
+     "name": "curated_source",
+     "type": "string",
+     "description": "infant_catalog | gut_all_v1"
+    },
+    {
+     "name": "in_infant_catalog",
+     "type": "bool",
+     "description": "Study is an included infant-catalog study"
+    },
+    {
+     "name": "age_at_collection_days",
+     "type": "float64",
+     "description": "Age at collection in days"
+    },
+    {
+     "name": "sex",
+     "type": "string",
+     "description": "female | male"
+    },
+    {
+     "name": "bmi",
+     "type": "float64",
+     "description": "Body-mass index kg/m²"
+    },
+    {
+     "name": "country",
+     "type": "string",
+     "description": "ISO-3166-1 alpha-2"
+    },
+    {
+     "name": "health_condition",
+     "type": "string",
+     "description": "config/vocab/health_conditions.yaml code"
+    },
+    {
+     "name": "health_condition_detail",
+     "type": "string",
+     "description": "Raw health / disease text"
+    },
+    {
+     "name": "antibiotic_exposure",
+     "type": "string",
+     "description": "yes | no"
+    },
+    {
+     "name": "subject_id",
+     "type": "string",
+     "description": "Subject / participant identifier as given by the source"
+    },
+    {
+     "name": "timepoint_label",
+     "type": "string",
+     "description": "Timepoint / visit label as given"
+    },
+    {
+     "name": "age_at_collection_days__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed age_at_collection_days value"
+    },
+    {
+     "name": "age_at_collection_days__route",
+     "type": "string",
+     "description": "Route of the committed age_at_collection_days value"
+    },
+    {
+     "name": "sex__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed sex value"
+    },
+    {
+     "name": "sex__route",
+     "type": "string",
+     "description": "Route of the committed sex value"
+    },
+    {
+     "name": "bmi__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed bmi value"
+    },
+    {
+     "name": "bmi__route",
+     "type": "string",
+     "description": "Route of the committed bmi value"
+    },
+    {
+     "name": "country__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed country value"
+    },
+    {
+     "name": "country__route",
+     "type": "string",
+     "description": "Route of the committed country value"
+    },
+    {
+     "name": "health_condition__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed health_condition value"
+    },
+    {
+     "name": "health_condition__route",
+     "type": "string",
+     "description": "Route of the committed health_condition value"
+    },
+    {
+     "name": "health_condition_detail__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed health_condition_detail value"
+    },
+    {
+     "name": "health_condition_detail__route",
+     "type": "string",
+     "description": "Route of the committed health_condition_detail value"
+    },
+    {
+     "name": "antibiotic_exposure__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed antibiotic_exposure value"
+    },
+    {
+     "name": "antibiotic_exposure__route",
+     "type": "string",
+     "description": "Route of the committed antibiotic_exposure value"
+    },
+    {
+     "name": "subject_id__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed subject_id value"
+    },
+    {
+     "name": "subject_id__route",
+     "type": "string",
+     "description": "Route of the committed subject_id value"
+    },
+    {
+     "name": "timepoint_label__confidence",
+     "type": "float64",
+     "description": "Confidence of the committed timepoint_label value"
+    },
+    {
+     "name": "timepoint_label__route",
+     "type": "string",
+     "description": "Route of the committed timepoint_label value"
+    },
+    {
+     "name": "collection_date",
+     "type": "string",
+     "description": "ISO 8601 partial date or interval of sample collection (R2026.12): YYYY, YYYY-MM, YYYY-MM-DD or start/end"
+    },
+    {
+     "name": "collection_date__confidence",
+     "type": "float",
+     "description": "Confidence of the collection_date value"
+    },
+    {
+     "name": "collection_date__route",
+     "type": "string",
+     "description": "Route of the collection_date value (R1–R4)"
+    },
+    {
+     "name": "location_region",
+     "type": "string",
+     "description": "First-level administrative region below the country (English exonym) — R2026.12"
+    },
+    {
+     "name": "location_region__confidence",
+     "type": "float",
+     "description": "Confidence of the location_region value"
+    },
+    {
+     "name": "location_region__route",
+     "type": "string",
+     "description": "Route of the location_region value (R1–R4)"
+    },
+    {
+     "name": "location_locality",
+     "type": "string",
+     "description": "City / town / village of recruitment (English exonym) — R2026.12"
+    },
+    {
+     "name": "location_locality__confidence",
+     "type": "float",
+     "description": "Confidence of the location_locality value"
+    },
+    {
+     "name": "location_locality__route",
+     "type": "string",
+     "description": "Route of the location_locality value (R1–R4)"
+    },
+    {
+     "name": "location_site",
+     "type": "string",
+     "description": "Named recruitment site (hospital, clinic, cohort station, community) as written by the source — R2026.12"
+    },
+    {
+     "name": "location_site__confidence",
+     "type": "float",
+     "description": "Confidence of the location_site value"
+    },
+    {
+     "name": "location_site__route",
+     "type": "string",
+     "description": "Route of the location_site value (R1–R4)"
+    },
+    {
+     "name": "latitude",
+     "type": "float",
+     "description": "Decimal degrees, 4 decimals, from lat_lon-style attributes — R2026.12"
+    },
+    {
+     "name": "latitude__confidence",
+     "type": "float",
+     "description": "Confidence of the latitude value"
+    },
+    {
+     "name": "latitude__route",
+     "type": "string",
+     "description": "Route of the latitude value (R1–R4)"
+    },
+    {
+     "name": "longitude",
+     "type": "float",
+     "description": "Decimal degrees, 4 decimals, same source row as latitude — R2026.12"
+    },
+    {
+     "name": "longitude__confidence",
+     "type": "float",
+     "description": "Confidence of the longitude value"
+    },
+    {
+     "name": "longitude__route",
+     "type": "string",
+     "description": "Route of the longitude value (R1–R4)"
+    },
+    {
+     "name": "lifestyle",
+     "type": "string",
+     "description": "config/vocab/lifestyle.yaml code, only when the source states it — R2026.12"
+    },
+    {
+     "name": "lifestyle__confidence",
+     "type": "float",
+     "description": "Confidence of the lifestyle value"
+    },
+    {
+     "name": "lifestyle__route",
+     "type": "string",
+     "description": "Route of the lifestyle value (R1–R4)"
+    },
+    {
+     "name": "lifestyle_detail",
+     "type": "string",
+     "description": "Named population or the source's own words for the lifestyle — R2026.12"
+    },
+    {
+     "name": "lifestyle_detail__confidence",
+     "type": "float",
+     "description": "Confidence of the lifestyle_detail value"
+    },
+    {
+     "name": "lifestyle_detail__route",
+     "type": "string",
+     "description": "Route of the lifestyle_detail value (R1–R4)"
+    },
+    {
+     "name": "detailed_location",
+     "type": "string",
+     "description": "Derived: 'site, locality, region' with empty parts dropped (not a determination; its parts are) — R2026.12"
+    },
+    {
+     "name": "collection_year",
+     "type": "float",
+     "description": "Derived: leading YYYY of collection_date (start of an interval) — R2026.12"
+    },
+    {
+     "name": "delivery_mode",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "feeding_mode",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "preterm_status",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "gestational_age_weeks",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "birth_weight_grams",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "maternal_antibiotics",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "probiotic_exposure",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "hmo_supplementation",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "nec_status",
+     "type": "string",
+     "description": "Infant-catalog field (only on infant rows)"
+    },
+    {
+     "name": "age_category",
+     "type": "string",
+     "description": "neonate | infant | child | adolescent | adult | elderly | unknown (config/packs/gut.yaml age_categories)"
+    },
+    {
+     "name": "age_category_basis",
+     "type": "string",
+     "description": "age_at_collection_days | infant_catalog_age_scope | sample_life_stage | study_life_stage | unknown"
+    },
+    {
+     "name": "body_site_class",
+     "type": "string",
+     "description": "primary (gut/stool) | unknown | excluded | linked"
+    },
+    {
+     "name": "body_site_basis",
+     "type": "string",
+     "description": "sample_attribute | study_single_site | none"
+    },
+    {
+     "name": "infant_scope",
+     "type": "bool",
+     "description": "== the infant catalog's catalog_scope rule (reproduces the infant catalog exactly)"
+    },
+    {
+     "name": "n_fields_with_value",
+     "type": "int64",
+     "description": "Pack fields with a committed value"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Release id"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Release id when retired (null = current)"
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Package version"
+    }
+   ],
+   "bitemporal": "release columns written by catalog.scopes.build_gut_scope"
+  },
+  "gut_studies.parquet": {
+   "key": [
+    "study_accession"
+   ],
+   "one_row_per": "study of the gut_all curated scope — registry columns plus curation coverage",
+   "columns": [
+    {
+     "name": "study_accession",
+     "type": "string",
+     "description": "ENA study; primary key",
+     "key": true
+    },
+    {
+     "name": "secondary_study_accession",
+     "type": "string",
+     "description": "registry_studies column (see registry_studies.parquet)"
+    },
+    {
+     "name": "study_title",
+     "type": "string",
+     "description": "registry_studies column (see registry_studies.parquet)"
+    },
+    {
+     "name": "description_short",
+     "type": "string",
+     "description": "registry_studies column (see registry_studies.parquet)"
+    },
+    {
+     "name": "center_name",
+     "type": "string",
+     "description": "registry_studies column (see registry_studies.parquet)"
+    },
+    {
+     "name": "first_public_min",
+     "type": "string",
+     "description": "registry_studies column (see registry_studies.parquet)"
+    },
+    {
+     "name": "first_public_max",
+     "type": "string",
+     "description": "registry_studies column (see registry_studies.parquet)"
+    },
+    {
+     "name": "n_runs",
+     "type": "int64",
+     "description": "Runs"
+    },
+    {
+     "name": "n_samples",
+     "type": "int64",
+     "description": "Samples"
+    },
+    {
+     "name": "n_biosamples",
+     "type": "int64",
+     "description": "BioSamples"
+    },
+    {
+     "name": "n_runs_sandpiper",
+     "type": "int64",
+     "description": "Runs with Sandpiper profiles"
+    },
+    {
+     "name": "…registry_studies columns…",
+     "type": "",
+     "description": "all registry_studies columns are carried (classification, evidence, scope memberships, sample roll-ups)"
+    },
+    {
+     "name": "cov_<field>",
+     "type": "float64",
+     "description": "Share of the study's samples with a value for each pack field"
+    },
+    {
+     "name": "n_samples_curated",
+     "type": "int64",
+     "description": "Samples in gut_sample_metadata_wide"
+    },
+    {
+     "name": "age_categories",
+     "type": "string",
+     "description": "JSON dict age_category → samples"
+    },
+    {
+     "name": "health_conditions",
+     "type": "string",
+     "description": "JSON dict health_condition → samples (top 6)"
+    },
+    {
+     "name": "curated_depth",
+     "type": "string",
+     "description": "Routes present among the study's committed values (e.g. R1;R2;R4)"
+    },
+    {
+     "name": "curated_source",
+     "type": "string",
+     "description": "infant_catalog | gut_all_v1"
+    },
+    {
+     "name": "n_runs_total",
+     "type": "int",
+     "description": "Runs of the study in gut_runs — R2026.12"
+    },
+    {
+     "name": "gbp_per_run_mean",
+     "type": "float",
+     "description": "Mean Gbp per run (base_count / 1e9) — R2026.12"
+    },
+    {
+     "name": "gbp_per_run_median",
+     "type": "float",
+     "description": "Median Gbp per run — R2026.12"
+    },
+    {
+     "name": "instrument_models_top",
+     "type": "string",
+     "description": "JSON dict instrument_model → runs (top 5) — R2026.12"
+    },
+    {
+     "name": "library_layouts",
+     "type": "string",
+     "description": "JSON dict library_layout → runs — R2026.12"
+    },
+    {
+     "name": "sandpiper_profiled_share",
+     "type": "float",
+     "description": "Share of the study's runs profiled by Sandpiper — R2026.12"
+    },
+    {
+     "name": "release_added",
+     "type": "string",
+     "description": "Release id"
+    },
+    {
+     "name": "release_retired",
+     "type": "string",
+     "description": "Release id when retired"
+    },
+    {
+     "name": "package_added",
+     "type": "string",
+     "description": "Package version"
+    }
+   ],
+   "bitemporal": "release columns written by catalog.scopes.build_gut_scope",
+   "columns_note": "gut_studies carries every registry_studies column; the list above names only the scope-specific additions"
+  },
+  "gut_runs.parquet": {
+   "key": [
+    "run_accession"
+   ],
+   "one_row_per": "sequencing run of a gut_all catalog study (registry_runs ∩ gut_studies) with the catalog sample_key — added R2026.12 / 1.12.0",
+   "bitemporal": "none: pure projection of registry_runs + registry_runs_sandpiper, rebuilt in full each release (catalog.scopes.build_gut_scope / newfields_r1.build_gut_runs)",
+   "columns": [
+    {
+     "name": "run_accession",
+     "type": "string",
+     "description": "ENA/SRA run accession (SRR/ERR/DRR)"
+    },
+    {
+     "name": "study_accession",
+     "type": "string",
+     "description": "BioProject of the run (a gut_studies row)"
+    },
+    {
+     "name": "sample_accession",
+     "type": "string",
+     "description": "BioSample accession(s) of the run (';'-joined when the run pools several)"
+    },
+    {
+     "name": "secondary_sample_accession",
+     "type": "string",
+     "description": "SRS/ERS secondary sample accession(s)"
+    },
+    {
+     "name": "experiment_accession",
+     "type": "string",
+     "description": "SRX/ERX experiment accession"
+    },
+    {
+     "name": "library_name",
+     "type": "string",
+     "description": "Submitter library name"
+    },
+    {
+     "name": "library_strategy",
+     "type": "string",
+     "description": "ENA library_strategy (WGS / WXS / OTHER …)"
+    },
+    {
+     "name": "library_source",
+     "type": "string",
+     "description": "ENA library_source (METAGENOMIC …)"
+    },
+    {
+     "name": "library_layout",
+     "type": "string",
+     "description": "SINGLE | PAIRED"
+    },
+    {
+     "name": "instrument_platform",
+     "type": "string",
+     "description": "ENA instrument_platform"
+    },
+    {
+     "name": "instrument_model",
+     "type": "string",
+     "description": "ENA instrument_model"
+    },
+    {
+     "name": "read_count",
+     "type": "string",
+     "description": "ENA read_count (as delivered by the portal)"
+    },
+    {
+     "name": "base_count",
+     "type": "string",
+     "description": "ENA base_count (as delivered by the portal)"
+    },
+    {
+     "name": "first_public",
+     "type": "string",
+     "description": "ENA first_public date (YYYY-MM-DD); its year bounds collection_date (R1 parser)"
+    },
+    {
+     "name": "sandpiper_profiled",
+     "type": "bool",
+     "description": "Run present in the Sandpiper snapshot (registry_runs_sandpiper)"
+    },
+    {
+     "name": "sample_key",
+     "type": "string",
+     "description": "gut_sample_metadata_wide.sample_key of the run's sample (run accession for run-unit samples; null when the BioSample is not a catalog sample, e.g. pooled runs)"
+    }
+   ]
+  },
+  "gut_sandpiper_sample_summary.parquet": {
+   "key": [
+    "sample_key"
+   ],
+   "one_row_per": "catalog sample with >= 1 run in the Sandpiper 2.0.0 snapshot (339,626 samples / 2,084 studies) — added R2026.12",
+   "bitemporal": "none: derived from the Sandpiper 2.0.0 snapshot (Zenodo 20419175, GTDB R232), rebuilt in full each release (data/inputs/gut/sandpiper/build_gut_tables.py)",
+   "columns": [
+    {
+     "name": "sample_key",
+     "type": "str",
+     "description": "catalog sample key (gut_sample_metadata_wide)"
+    },
+    {
+     "name": "study_accession",
+     "type": "str",
+     "description": "BioProject"
+    },
+    {
+     "name": "n_runs_profiled",
+     "type": "int64",
+     "description": "runs of the sample with a Sandpiper profile"
+    },
+    {
+     "name": "n_runs_total",
+     "type": "int64",
+     "description": "runs of the sample in gut_runs"
+    },
+    {
+     "name": "qc_partial",
+     "type": "bool",
+     "description": "1 = some runs of the sample are unprofiled"
+    },
+    {
+     "name": "root_coverage_sum",
+     "type": "float64",
+     "description": "summed SingleM root coverage over the profiled runs (depth proxy)"
+    },
+    {
+     "name": "richness_genus",
+     "type": "int64",
+     "description": "genera with relative abundance >= 0.001"
+    },
+    {
+     "name": "shannon_genus",
+     "type": "float64",
+     "description": "Shannon index over genus relative abundances (natural log)"
+    },
+    {
+     "name": "shannon_genus_assigned",
+     "type": "float64",
+     "description": "Shannon over genus-assigned coverage only (unassigned remainder excluded)"
+    },
+    {
+     "name": "top_genus",
+     "type": "str",
+     "description": "most abundant GTDB genus"
+    },
+    {
+     "name": "top_genus_relabund",
+     "type": "float64",
+     "description": "its relative abundance (0-1)"
+    },
+    {
+     "name": "unassigned_genus_relabund",
+     "type": "float64",
+     "description": "share of root coverage not resolved to a genus"
+    },
+    {
+     "name": "unassigned_species_relabund",
+     "type": "float64",
+     "description": "share of root coverage not resolved to a species"
+    },
+    {
+     "name": "spf",
+     "type": "float64",
+     "description": "Sandpiper single-copy-marker profile fraction (per_acc_summary)"
+    },
+    {
+     "name": "known_species_fraction",
+     "type": "float64",
+     "description": "fraction of coverage in known species (per_acc_summary)"
+    },
+    {
+     "name": "qc_flags",
+     "type": "str",
+     "description": "';'-joined QC flags (qc_low_depth, qc_low_complexity, qc_non_metagenome, qc_partial, ...) — flagged, never dropped"
+    },
+    {
+     "name": "qc_any_flag",
+     "type": "bool",
+     "description": "1 = at least one QC flag set"
+    },
+    {
+     "name": "qc_low_depth",
+     "type": "bool",
+     "description": "root coverage below the depth threshold"
+    },
+    {
+     "name": "qc_low_complexity",
+     "type": "bool",
+     "description": "Sandpiper low_complexity flag"
+    },
+    {
+     "name": "qc_readfraction_warning",
+     "type": "bool",
+     "description": "Sandpiper read-fraction warning"
+    },
+    {
+     "name": "qc_non_metagenome",
+     "type": "bool",
+     "description": "organism prediction not a metagenome (loose rule)"
+    },
+    {
+     "name": "qc_non_metagenome_strict",
+     "type": "bool",
+     "description": "organism prediction not a metagenome (strict rule)"
+    },
+    {
+     "name": "qc_synthetic",
+     "type": "bool",
+     "description": "Sandpiper synthetic-sample flag"
+    },
+    {
+     "name": "qc_rna",
+     "type": "bool",
+     "description": "RNA / non-DNA library flag"
+    },
+    {
+     "name": "qc_predicted_ecological",
+     "type": "bool",
+     "description": "Sandpiper host_or_not prediction = ecological"
+    },
+    {
+     "name": "qc_no_genus_assigned",
+     "type": "bool",
+     "description": "no coverage resolved to any genus"
+    },
+    {
+     "name": "organism_labels",
+     "type": "str",
+     "description": "';'-joined Sandpiper organism labels of the runs"
+    },
+    {
+     "name": "runs_profiled",
+     "type": "str",
+     "description": "';'-joined profiled run accessions"
+    },
+    {
+     "name": "sandpiper_url",
+     "type": "str",
+     "description": "Sandpiper page of the first profiled run"
+    },
+    {
+     "name": "age_category",
+     "type": "str",
+     "description": "catalog age category (copied from the wide table)"
+    },
+    {
+     "name": "body_site_class",
+     "type": "str",
+     "description": "catalog body-site class"
+    },
+    {
+     "name": "infant_scope",
+     "type": "bool",
+     "description": "infant-extension filter flag"
+    },
+    {
+     "name": "taxonomy_db",
+     "type": "str",
+     "description": "taxonomy database (GTDB)"
+    },
+    {
+     "name": "taxonomy_version",
+     "type": "str",
+     "description": "GTDB release (R232)"
+    },
+    {
+     "name": "sandpiper_version",
+     "type": "str",
+     "description": "Sandpiper version (2.0.0)"
+    },
+    {
+     "name": "zenodo_record",
+     "type": "str",
+     "description": "Zenodo record of the bulk snapshot (20419175)"
+    }
+   ]
+  },
+  "gut_sandpiper_pca_scores.parquet": {
+   "key": [
+    "sample_key"
+   ],
+   "one_row_per": "scored sample of the genus-level CLR-PCA (335,956 samples x 383 genera; root coverage >= 2) — added R2026.12",
+   "bitemporal": "none: derived from the Sandpiper 2.0.0 snapshot (Zenodo 20419175, GTDB R232), rebuilt in full each release (data/inputs/gut/sandpiper/build_gut_tables.py)",
+   "columns": [
+    {
+     "name": "sample_key",
+     "type": "str",
+     "description": "catalog sample key"
+    },
+    {
+     "name": "pc1",
+     "type": "float32",
+     "description": "PCA score, component 1 (16.3 % variance)"
+    },
+    {
+     "name": "pc2",
+     "type": "float32",
+     "description": "component 2 (6.5 %)"
+    },
+    {
+     "name": "pc3",
+     "type": "float32",
+     "description": "component 3 (3.8 %)"
+    },
+    {
+     "name": "pc4",
+     "type": "float32",
+     "description": "component 4 (3.2 %)"
+    },
+    {
+     "name": "pc5",
+     "type": "float32",
+     "description": "component 5 (2.3 %)"
+    },
+    {
+     "name": "study_accession",
+     "type": "str",
+     "description": "BioProject"
+    },
+    {
+     "name": "root_coverage_sum",
+     "type": "float64",
+     "description": "summed root coverage (depth proxy)"
+    },
+    {
+     "name": "taxonomy_db",
+     "type": "str",
+     "description": "taxonomy database (GTDB)"
+    },
+    {
+     "name": "taxonomy_version",
+     "type": "str",
+     "description": "GTDB release (R232)"
+    },
+    {
+     "name": "sandpiper_version",
+     "type": "str",
+     "description": "Sandpiper version (2.0.0)"
+    },
+    {
+     "name": "zenodo_record",
+     "type": "str",
+     "description": "Zenodo record of the bulk snapshot (20419175)"
+    },
+    {
+     "name": "pca_method",
+     "type": "str",
+     "description": "CLR on 383 genera (prevalence >= 1 %), multiplicative pseudocount, randomized SVD"
+    }
+   ]
+  },
+  "gut_sandpiper_pca_loadings.parquet": {
+   "key": [
+    "genus"
+   ],
+   "one_row_per": "genus x component loading of the CLR-PCA — added R2026.12",
+   "bitemporal": "none: derived from the Sandpiper 2.0.0 snapshot (Zenodo 20419175, GTDB R232), rebuilt in full each release (data/inputs/gut/sandpiper/build_gut_tables.py)",
+   "columns": [
+    {
+     "name": "genus",
+     "type": "str",
+     "description": "GTDB R232 genus"
+    },
+    {
+     "name": "pc1",
+     "type": "float64",
+     "description": "loading"
+    },
+    {
+     "name": "pc2",
+     "type": "float64",
+     "description": "loading"
+    },
+    {
+     "name": "pc3",
+     "type": "float64",
+     "description": "loading"
+    },
+    {
+     "name": "pc4",
+     "type": "float64",
+     "description": "loading"
+    },
+    {
+     "name": "pc5",
+     "type": "float64",
+     "description": "loading"
+    },
+    {
+     "name": "prevalence_ge_0p1pct",
+     "type": "float64",
+     "description": "share of samples where the genus is >= 0.1 % relative abundance"
+    },
+    {
+     "name": "mean_relabund",
+     "type": "float64",
+     "description": "mean relative abundance over scored samples"
+    },
+    {
+     "name": "clr_mean",
+     "type": "float64",
+     "description": "mean CLR value"
+    },
+    {
+     "name": "taxonomy_db",
+     "type": "str",
+     "description": "taxonomy database (GTDB)"
+    },
+    {
+     "name": "taxonomy_version",
+     "type": "str",
+     "description": "GTDB release (R232)"
+    },
+    {
+     "name": "sandpiper_version",
+     "type": "str",
+     "description": "Sandpiper version (2.0.0)"
+    }
+   ]
+  },
+  "gut_sandpiper_pca_variance.csv": {
+   "key": [
+    "pc"
+   ],
+   "one_row_per": "PCA component: explained variance ratio — added R2026.12",
+   "bitemporal": "none: derived from the Sandpiper 2.0.0 snapshot (Zenodo 20419175, GTDB R232), rebuilt in full each release (data/inputs/gut/sandpiper/build_gut_tables.py)",
+   "columns": [
+    {
+     "name": "pc",
+     "type": "str",
+     "description": "component index"
+    },
+    {
+     "name": "explained_variance_ratio",
+     "type": "float64",
+     "description": "share of CLR variance"
+    },
+    {
+     "name": "singular_value",
+     "type": "float64",
+     "description": "singular value"
+    },
+    {
+     "name": "cumulative",
+     "type": "float64",
+     "description": "cumulative explained variance ratio"
+    },
+    {
+     "name": "n_samples",
+     "type": "int64",
+     "description": "samples in the PCA"
+    },
+    {
+     "name": "n_genera",
+     "type": "int64",
+     "description": "genera in the PCA"
+    },
+    {
+     "name": "root_coverage_min",
+     "type": "int64",
+     "description": "minimum root coverage for inclusion"
+    },
+    {
+     "name": "prevalence_min",
+     "type": "float64",
+     "description": "minimum genus prevalence for inclusion"
+    },
+    {
+     "name": "prevalence_detection",
+     "type": "float64",
+     "description": "relative-abundance threshold used for prevalence"
+    },
+    {
+     "name": "pseudocount",
+     "type": "float64",
+     "description": "multiplicative pseudocount before CLR"
+    },
+    {
+     "name": "total_clr_variance",
+     "type": "float64",
+     "description": "total variance of the CLR matrix"
+    }
+   ]
+  },
+  "gut_sandpiper_study_coverage.csv": {
+   "key": [
+    "study_accession"
+   ],
+   "one_row_per": "catalog study: Sandpiper join coverage — added R2026.12",
+   "bitemporal": "none: derived from the Sandpiper 2.0.0 snapshot (Zenodo 20419175, GTDB R232), rebuilt in full each release (data/inputs/gut/sandpiper/build_gut_tables.py)",
+   "columns": [
+    {
+     "name": "study_accession",
+     "type": "str",
+     "description": "BioProject"
+    },
+    {
+     "name": "study_title",
+     "type": "str",
+     "description": "study title"
+    },
+    {
+     "name": "n_runs",
+     "type": "int64",
+     "description": "runs in gut_runs"
+    },
+    {
+     "name": "n_runs_profiled",
+     "type": "int64",
+     "description": "runs with a profile"
+    },
+    {
+     "name": "n_samples",
+     "type": "int64",
+     "description": "samples"
+    },
+    {
+     "name": "n_infant_scope",
+     "type": "int64",
+     "description": "infant-scope samples"
+    },
+    {
+     "name": "n_samples_profiled",
+     "type": "int64",
+     "description": "samples with >= 1 profiled run"
+    },
+    {
+     "name": "n_samples_partial",
+     "type": "int64",
+     "description": "samples with unprofiled runs"
+    },
+    {
+     "name": "n_low_depth",
+     "type": "int64",
+     "description": "samples flagged low depth"
+    },
+    {
+     "name": "n_low_complexity",
+     "type": "int64",
+     "description": "samples flagged low complexity"
+    },
+    {
+     "name": "n_any_flag",
+     "type": "int64",
+     "description": "samples with any QC flag"
+    },
+    {
+     "name": "root_coverage_median",
+     "type": "float64",
+     "description": "median root coverage"
+    },
+    {
+     "name": "richness_genus_median",
+     "type": "float64",
+     "description": "median genus richness"
+    },
+    {
+     "name": "shannon_genus_median",
+     "type": "float64",
+     "description": "median Shannon"
+    },
+    {
+     "name": "frac_runs_profiled",
+     "type": "float64",
+     "description": "profiled / total runs"
+    },
+    {
+     "name": "frac_samples_profiled",
+     "type": "float64",
+     "description": "profiled / total samples"
+    },
+    {
+     "name": "coverage_class",
+     "type": "str",
+     "description": "full | partial | none"
+    },
+    {
+     "name": "top_genus_mode",
+     "type": "str",
+     "description": "most frequent top genus"
+    },
+    {
+     "name": "prefix",
+     "type": "str",
+     "description": "accession prefix (SRR/ERR/DRR)"
+    },
+    {
+     "name": "sandpiper_version",
+     "type": "str",
+     "description": "Sandpiper version (2.0.0)"
+    },
+    {
+     "name": "taxonomy_db",
+     "type": "str",
+     "description": "taxonomy database (GTDB)"
+    },
+    {
+     "name": "taxonomy_version",
+     "type": "str",
+     "description": "GTDB release (R232)"
+    },
+    {
+     "name": "zenodo_record",
+     "type": "int64",
+     "description": "Zenodo record of the bulk snapshot (20419175)"
+    }
+   ]
+  }
+ }
+}
