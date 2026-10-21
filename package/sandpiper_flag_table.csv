@@ -1,0 +1,21 @@
+field,level,site_label,definition,used
+sp_nonmeta_class,run,Organism-label class,"Class of the run's ENA organism/scientific_name label: not_flagged (metagenome/community term), named_human_host ('Homo sapiens' — routine submitter label, NOT a quality signal), named_nonhuman_host (a non-human animal species, e.g. Mus musculus), named_microbe_or_other (a single named microbe or other non-community organism). Sample-level column = highest-priority class over the sample's runs (nonhuman_host > microbe_or_other > human_host > not_flagged).",True
+sp_flag_non_metagenome_strict,run,Non-metagenome organism (strict),"Sandpiper rule: organism name names a single specific species (including 'Homo sapiens'); names containing 'metagenome' or community terms (uncultured, environmental sample, enrichment/mixed culture, microbial community, consortium, microbiome) and placeholders (bacterium, unidentified, archaeon, prokaryote, eukaryote, organism, microorganism) are not flagged. Kept for reproducibility; noisy because of the human-host label.",True
+sp_flag_non_metagenome_loose,run,Non-metagenome organism (loose),Sandpiper rule: organism name lacks 'metagenome' and any community term; placeholders still count as flagged.,True
+sp_flag_non_metagenome,sample,Non-metagenome label (curated),"True when sp_nonmeta_class in {named_nonhuman_host, named_microbe_or_other} over the sample's runs (v1.2.1; v1.2.0 used the strict rule and was dominated by the 'Homo sapiens' label).",True
+sp_flag_synthetic,run+sample,Synthetic,"Organism name contains 'synthetic' or 'simulat', or library_source = SYNTHETIC. Sample level: any run.",True
+sp_flag_rna_strict,run,RNA / non-DNA (strict),"library_strategy in {RNA-Seq, miRNA-Seq, FL-cDNA, ssRNA-seq, ncRNA-Seq, RIP-Seq, Ribo-seq, EST} or library_source in {METATRANSCRIPTOMIC, TRANSCRIPTOMIC, TRANSCRIPTOMIC SINGLE CELL}.",True
+sp_flag_rna_loose,run,RNA / non-DNA (loose),"As strict, plus library_source in {OTHER, SYNTHETIC}.",True
+sp_flag_rna,sample,RNA / non-DNA,Any run fires the strict RNA rule.,True
+sp_flag_low_complexity,run+sample,Low complexity,"Sandpiper low-complexity rule on the profile (few taxa dominate). Expected for Bifidobacterium-/Enterobacterales-dominated neonatal stool; display only, never a triage input.",True
+sp_low_depth,run+sample,Low depth,Root coverage < 2 genome equivalents (sample level: summed over profiled runs). Such samples are excluded from study panels and study medians (v1.2.1).,True
+sp_flag_readfraction_warning,run+sample,Read-fraction warning,Sandpiper reports a warning on the prokaryotic read fraction (sp_spf) for the run.,True
+sp_predicted_ecological,run,Predicted ecological (host-or-not),Sandpiper's sp_prediction / sp_host_or_not says the community looks environmental rather than host-associated.,True
+sp_low_known_species_high_depth,run,Low known-species fraction at high depth,Known-species fraction low despite adequate depth — novel community or off-target sample; study-level fraction is frac_low_ksf_high_depth_profiled.,True
+sp_frac_runs_flagged,study,Runs flagged,"Fraction of the study's runs with sp_nonmeta_class in {named_nonhuman_host, named_microbe_or_other} or synthetic or RNA (strict). The 'Homo sapiens' label is not counted.",True
+sp_frac_low_complexity_profiled,study,Low-complexity fraction,Fraction of profiled samples with sp_flag_low_complexity.,True
+sp_frac_low_depth_profiled,study,Low-depth fraction,Fraction of profiled samples with sp_low_depth.,True
+sp_auditor_attention,study,Auditor attention,Hint that a study deserves a human look (reason in sp_auditor_reason); never a verdict.,True
+domain_only_gtdb,run,Domain-only (GTDB),Every classification in the condensed GTDB profile stops at domain. Not shipped in this package (all catalog profiles reach phylum or deeper for the run set used).,False
+domain_only_globdb,run,Domain-only (GlobDB),GlobDB-scheme profile flag. UNUSED: the catalog uses GTDB profiles only.,False
+domain_only_both,run,Domain-only (both),"UNUSED: requires the GlobDB profile, which the catalog does not use.",False
