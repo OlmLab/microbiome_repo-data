@@ -1,6 +1,6 @@
 # infant-gut-catalog-data
 
-Published data tables of the **Infant Gut Shotgun-Metagenome Catalog** (https://olmlab.github.io/infant-gut-catalog/).
+Published data tables of the **Infant Gut Shotgun-Metagenome Catalog** (https://microbiomerepo.com/).
 
 * `package/` — the current data package (one file per table, ≤50 MB each; `VERSION.json` lists every file with its sha256).
 * `audit/findings/` — applied auditor/owner findings (CSV, one file per date).
