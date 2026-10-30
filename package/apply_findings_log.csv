@@ -1,0 +1,5 @@
+file,row,identifier,action,finding_type,sample_key,field_name,new_value,status,message
+2026-09-25_auditor_session.csv,0,PRJNA294605,,missing_paper,,,,needs_structuring,needs_structuring: no `action` column value (free-text finding)
+2026-09-25_auditor_session.csv,1,PRJNA294605,,coverage_gap,,,,needs_structuring,needs_structuring: no `action` column value (free-text finding)
+2026-09-25_auditor_session.csv,2,PRJNA294605,,value_error,,,,needs_structuring,needs_structuring: no `action` column value (free-text finding)
+2026-10-09_owner_decisions.csv,0,PRJEB14941,study_verdict,wrong_verdict,,,excluded,applied,excluded -> excluded
