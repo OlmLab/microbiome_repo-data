@@ -1,0 +1,245 @@
+{
+ "study": "PRJNA1140720",
+ "tables": {
+  "runs.parquet": {
+   "before": 174022,
+   "added": 150,
+   "after": 174172,
+   "existing_rows_hash": "059e8110e52b1087"
+  },
+  "sample_metadata_wide.parquet": {
+   "before": 154206,
+   "added": 150,
+   "after": 154356,
+   "existing_rows_hash": "e584f42b4c31ffa7"
+  },
+  "sample_determinations.parquet": {
+   "before": 618898,
+   "added": 749,
+   "after": 619647,
+   "existing_rows_hash": "af24891dfeef5eae"
+  },
+  "sample_determinations_all.parquet": {
+   "before": 620214,
+   "added": 749,
+   "after": 620963,
+   "existing_rows_hash": "7cb75f43daa908dd"
+  },
+  "sample_subjects.parquet": {
+   "before": 154206,
+   "added": 150,
+   "after": 154356,
+   "existing_rows_hash": "a34e2e0f4415eadd"
+  },
+  "sandpiper_run_qc.parquet": {
+   "before": 174022,
+   "added": 150,
+   "after": 174172,
+   "existing_rows_hash": "399a29d681699b37"
+  },
+  "sandpiper_sample_summary.parquet": {
+   "before": 79473,
+   "added": 0,
+   "after": 79473
+  },
+  "sandpiper_study_panel_status.csv": {
+   "updated_rows": 1
+  },
+  "sandpiper_study_coverage.csv": {
+   "updated_rows": 1
+  },
+  "sandpiper_study_qc_flags.csv": {
+   "updated_rows": 1
+  }
+ },
+ "study_metadata_wide": {
+  "n_samples": {
+   "before": 1013,
+   "after": 1163
+  },
+  "n_runs": {
+   "before": 1013,
+   "after": 1163
+  },
+  "n_biosamples": {
+   "before": 1013,
+   "after": 1163
+  },
+  "n_sample_rows": {
+   "before": 1013,
+   "after": 1163
+  },
+  "n_infant_scope_samples": {
+   "before": 1013,
+   "after": 1013
+  },
+  "n_body_site_excluded": {
+   "before": 0,
+   "after": 150
+  },
+  "n_catalog_scope": {
+   "before": 0,
+   "after": 0
+  },
+  "n_age_scope_infant": {
+   "before": 0,
+   "after": 0
+  },
+  "n_adult_flagged": {
+   "before": 0,
+   "after": 145
+  },
+  "n_non_infant_role": {
+   "before": 361,
+   "after": 366
+  },
+  "n_infant_evidenced": {
+   "before": 0,
+   "after": 0
+  },
+  "n_study_all_infant": {
+   "before": 0,
+   "after": 0
+  },
+  "n_age_unknown_mixed_study": {
+   "before": 0,
+   "after": 0
+  },
+  "n_age_unknown_no_study_estimate": {
+   "before": 652,
+   "after": 652
+  },
+  "n_mothers": {
+   "before": 151,
+   "after": 232
+  },
+  "n_infant_role_samples": {
+   "before": 652,
+   "after": 652
+  },
+  "sp_n_samples_profiled": {
+   "before": 935,
+   "after": 935
+  },
+  "sp_frac_samples_profiled": {
+   "before": 0.923,
+   "after": 0.804
+  },
+  "sp_n_runs_profiled": {
+   "before": 935,
+   "after": 935
+  },
+  "sp_frac_runs_profiled": {
+   "before": 0.923,
+   "after": 0.804
+  },
+  "cov_probiotic_exposure": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_preterm_status": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_gestational_age_weeks": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_delivery_mode": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_feeding_mode": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_antibiotic_exposure": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_age_at_collection_days": {
+   "before": 0.0,
+   "after": 0.128117
+  },
+  "cov_birth_weight_grams": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_country": {
+   "before": 1.0,
+   "after": 1.0
+  },
+  "cov_maternal_antibiotics": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_hmo_supplementation": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_nec_status": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_health_condition": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_multiple_birth": {
+   "before": 0.0,
+   "after": 0.0
+  },
+  "cov_sibling_in_study": {
+   "before": 0.6436327739387957,
+   "after": 0.560619
+  },
+  "cov_geo_subregion": {
+   "before": 0.0,
+   "after": 0.0
+  }
+ },
+ "universe_studies_all": {
+  "n_samples": {
+   "before": [
+    1013
+   ],
+   "after": 1163
+  },
+  "n_runs": {
+   "before": [
+    1013
+   ],
+   "after": 1163
+  }
+ },
+ "build_counts": {
+  "n_samples": {
+   "before": 154206,
+   "after": 154356
+  },
+  "n_runs": {
+   "before": 174022,
+   "after": 174172
+  },
+  "n_biosample_units": {
+   "before": 153685,
+   "after": 153835
+  },
+  "n_determinations_current": {
+   "before": 618898,
+   "after": 619647
+  },
+  "n_determinations_all": {
+   "before": 620214,
+   "after": 620963
+  },
+  "n_body_site_excluded": {
+   "before": 4914,
+   "after": 5064
+  },
+  "n_profiled_samples": {
+   "before": 79473,
+   "after": 79473
+  }
+ }
+}
