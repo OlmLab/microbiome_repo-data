@@ -1,0 +1,387 @@
+{
+ "$comment": "SINGLE SOURCE for the findings loop (R1-09/F2): .github/ISSUE_TEMPLATE/catalog-finding.yml is GENERATED from this file (python -m catalog.findings_schema --write-template), apply_findings.py reads FINDING_COLS/STRUCT_COLS/ACTIONS/finding_types from it, ingest_issues.py maps issue-form headings to columns with it, and the CATALOG_AUDITOR profile text lists finding_types from it. tests/test_findings_schema.py asserts template == generated.",
+ "version": "2026-09-27",
+ "csv_columns": {
+  "required": [
+   "date",
+   "identifier",
+   "finding_type",
+   "current_state",
+   "proposed_change",
+   "evidence_quote",
+   "evidence_source",
+   "confidence"
+  ],
+  "structured": [
+   "action",
+   "sample_key",
+   "field_name",
+   "new_value",
+   "route",
+   "reason_code",
+   "source",
+   "release_tag"
+  ]
+ },
+ "finding_types": {
+  "value_error": {
+   "actions": [
+    "supersede_determination",
+    "add_determination",
+    "note_only"
+   ],
+   "description": "a committed value is wrong"
+  },
+  "coverage_gap": {
+   "actions": [
+    "add_determination",
+    "note_only"
+   ],
+   "description": "a value is recoverable from cited evidence but missing"
+  },
+  "missing_paper": {
+   "actions": [
+    "paper_link",
+    "note_only"
+   ],
+   "description": "an own-data paper is not linked"
+  },
+  "wrong_verdict": {
+   "actions": [
+    "study_verdict"
+   ],
+   "description": "study included/excluded wrongly"
+  },
+  "triage_error": {
+   "actions": [
+    "study_verdict",
+    "note_only"
+   ],
+   "description": "alias of wrong_verdict used by the Auditor profile"
+  },
+  "universe_miss": {
+   "actions": [
+    "add_study",
+    "note_only"
+   ],
+   "description": "an in-scope study is absent from the universe"
+  },
+  "wrong_sample_unit": {
+   "actions": [
+    "study_note",
+    "note_only"
+   ],
+   "description": "sample_unit (biosample / run / pooled) is wrong — needs a pipeline re-key, recorded as a study note"
+  },
+  "duplicate": {
+   "actions": [
+    "study_note",
+    "note_only"
+   ],
+   "description": "mirror / reanalysis deposit"
+  },
+  "documentation": {
+   "actions": [
+    "note_only"
+   ],
+   "description": "docs / dictionary / site text"
+  },
+  "confirmed_correct": {
+   "actions": [
+    "confirm"
+   ],
+   "description": "a human checked the value and it is right (truth-set row; evidence optional)"
+  },
+  "other": {
+   "actions": [
+    "note_only",
+    "study_note"
+   ],
+   "description": "anything else"
+  }
+ },
+ "actions": {
+  "add_determination": {
+   "needs": [
+    "sample_key",
+    "field_name",
+    "new_value",
+    "evidence_quote",
+    "evidence_source",
+    "confidence"
+   ],
+   "writes": "sample_determinations (+ wide table cell)"
+  },
+  "supersede_determination": {
+   "needs": [
+    "sample_key",
+    "field_name",
+    "new_value",
+    "evidence_quote",
+    "evidence_source",
+    "confidence"
+   ],
+   "writes": "sample_determinations + superseded (+ wide table cell)"
+  },
+  "study_verdict": {
+   "needs": [
+    "identifier",
+    "new_value"
+   ],
+   "needs_if": {
+    "new_value=excluded": [
+     "reason_code"
+    ]
+   },
+   "writes": "study_metadata_wide + universe_studies_all catalog_status/decision_stage; excluded studies leave sample_metadata_wide"
+  },
+  "study_note": {
+   "needs": [
+    "identifier",
+    "proposed_change"
+   ],
+   "writes": "study_metadata_wide.note"
+  },
+  "paper_link": {
+   "needs": [
+    "identifier",
+    "proposed_change"
+   ],
+   "writes": "study note; link_papers.py re-run required"
+  },
+  "add_study": {
+   "needs": [
+    "identifier",
+    "proposed_change"
+   ],
+   "writes": "audit/candidates_<date>.csv for the next triage cycle (never a direct include)"
+  },
+  "confirm": {
+   "needs": [
+    "identifier"
+   ],
+   "optional": [
+    "sample_key",
+    "field_name"
+   ],
+   "writes": "confirmations.parquet + <field_name>__verified = true in sample_metadata_wide (sample-level) or study_metadata_wide.verified_fields (study-level)"
+  },
+  "note_only": {
+   "needs": [],
+   "writes": "log only"
+  }
+ },
+ "study_verdict_values": [
+  "included",
+  "excluded",
+  "human_review"
+ ],
+ "routes": {
+  "R1": "archive attributes",
+  "R2": "supplementary table",
+  "R3": "paper text",
+  "R4": "abstract / ENA description",
+  "H": "human / external curation (default for external_curation.* sources)"
+ },
+ "field_names": [
+  "age_at_collection_days",
+  "delivery_mode",
+  "feeding_mode",
+  "preterm_status",
+  "gestational_age_weeks",
+  "birth_weight_grams",
+  "antibiotic_exposure",
+  "maternal_antibiotics",
+  "probiotic_exposure",
+  "hmo_supplementation",
+  "nec_status",
+  "country",
+  "health_condition",
+  "multiple_birth",
+  "sibling_in_study",
+  "geo_subregion",
+  "sex",
+  "subject_id",
+  "timepoint_label"
+ ],
+ "reason_codes": [
+  "assay_amplicon",
+  "assay_amplicon_misfiled",
+  "assay_rna",
+  "assay_isolate_genome",
+  "assay_other_nonshotgun",
+  "assay_assembly_only",
+  "host_nonhuman",
+  "host_environmental",
+  "host_synthetic",
+  "age_adult_only",
+  "age_child_over_36m",
+  "age_maternal_only",
+  "age_unknown_no_evidence",
+  "site_excluded",
+  "site_unknown",
+  "fp_salmonella_infantis",
+  "fp_bifido_infantis",
+  "fp_name_only",
+  "access_controlled",
+  "access_suppressed",
+  "dup_mirror",
+  "dup_reanalysis"
+ ],
+ "confidence_options": [
+  "0.9",
+  "0.8",
+  "0.7",
+  "0.6",
+  "0.5"
+ ],
+ "issue_form": {
+  "name": "Catalog finding",
+  "labels": [
+   "finding"
+  ],
+  "title": "[finding] <identifier>: <field or verdict>",
+  "description": "Report a wrong, missing or unsupported value, verdict or link in the Infant Gut Shotgun-Metagenome Catalog — or confirm a value is correct",
+  "evidence_optional_for": [
+   "confirmed_correct"
+  ],
+  "date_and_source_from": "issue.created_at (date) and issue.number (source) — filled by ingest_issues.py, never typed by hand"
+ },
+ "schema_version": "1.3.0",
+ "release_columns": {
+  "$comment": "R2026.1 (config/releases.yaml, docs/RELEASES.md): appended at the end of every fact table; sample_metadata_wide has none",
+  "release_added": "str — release id (R<YYYY>.<n>) or pre-numbered package semver in which the row first became visible; pre-1.3.0 values reconstructed from value_history.change_stage / src_track",
+  "release_retired": "str|null — release that replaced/removed the row; null = current",
+  "package_added": "str — semver of the package in which the row first appeared",
+  "sample_determinations_all_extra": {
+   "retired_reason": "str|null — value_history.reason",
+   "retired_change_stage": "str|null — value_history.change_stage"
+  },
+  "release_tag_note": "the structured finding column release_tag (data-v<semver>) names the package the finding was raised against; apply_findings rows applied in release R get release_added = R"
+ },
+ "contribute_worklist": {
+  "$comment": "R2026.2 (config/contribute.yaml is the single source; docs/CONTRIBUTE.md): contribute_worklist.csv (one row per open include/uncertain study) and contribute_worklist_fields.csv (study × 6 fields). Values here MUST equal contribute.yaml (tests/test_contribute_worklist.py + test_findings_schema).",
+  "blocker_codes": [
+   "archive_only_uncertain",
+   "complete",
+   "controlled_access",
+   "no_linked_paper",
+   "no_supplement_found",
+   "partial_coverage",
+   "paywalled_abstract_only",
+   "pdf_only_supplement",
+   "tables_unjoinable_need_key",
+   "unitless_age_needs_curator"
+  ],
+  "blocker_order": [
+   "controlled_access",
+   "no_linked_paper",
+   "paywalled_abstract_only",
+   "tables_unjoinable_need_key",
+   "pdf_only_supplement",
+   "no_supplement_found",
+   "unitless_age_needs_curator",
+   "partial_coverage"
+  ],
+  "contribution_types": [
+   "age_schedule",
+   "id_key",
+   "paper_pointer",
+   "per_sample_table",
+   "verdict_evidence"
+  ],
+  "fields": [
+   "age",
+   "delivery",
+   "feeding",
+   "preterm",
+   "antibiotics",
+   "probiotic"
+  ],
+  "field_weights": {
+   "age": 3.0,
+   "delivery": 2.0,
+   "feeding": 2.0,
+   "preterm": 1.5,
+   "antibiotics": 1.0,
+   "probiotic": 0.5
+  },
+  "missing_threshold": 0.5,
+  "worklist_columns": [
+   "rank",
+   "study_accession",
+   "study_title",
+   "cohort_id",
+   "cohort_name",
+   "triage_verdict",
+   "n_samples",
+   "n_catalog_scope",
+   "n_infant_samples_est",
+   "missing_fields",
+   "n_missing_fields",
+   "coverage_age",
+   "coverage_delivery",
+   "coverage_feeding",
+   "coverage_preterm",
+   "coverage_antibiotics",
+   "coverage_probiotic",
+   "best_tier_age",
+   "best_tier_delivery",
+   "best_tier_feeding",
+   "best_tier_preterm",
+   "best_tier_antibiotics",
+   "best_tier_probiotic",
+   "blocker_code",
+   "blocker_detail",
+   "unlock_text",
+   "contribution_type",
+   "n_linked_papers",
+   "own_data_pmids",
+   "n_supp_tables_inventoried",
+   "controlled_access",
+   "priority_score",
+   "ena_url",
+   "ncbi_url",
+   "issue_url",
+   "release_added",
+   "release_retired",
+   "package_added"
+  ],
+  "fields_columns": [
+   "study_accession",
+   "field",
+   "coverage",
+   "n_with_value",
+   "n_catalog_scope",
+   "best_tier",
+   "blocker_code",
+   "evidence",
+   "release_added",
+   "release_retired",
+   "package_added"
+  ],
+  "issue_form": {
+   "template": "catalog-contribution.yml",
+   "name": "Catalog contribution",
+   "labels": [
+    "contribution"
+   ],
+   "field_ids": [
+    "study_accession",
+    "contribution_type",
+    "source",
+    "source_url",
+    "licence",
+    "note",
+    "attachment",
+    "release_tag"
+   ],
+   "source_options": [
+    "journal_supplement_url",
+    "author_correspondence",
+    "own_lab_records",
+    "other"
+   ]
+  }
+ }
+}
