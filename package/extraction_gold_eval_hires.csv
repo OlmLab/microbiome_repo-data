@@ -1,0 +1,7 @@
+,gold_n,covered,correct,coverage,precision,recall
+age_days,3346,3210,3182,0.959,0.991,0.951
+born_method,2546,2386,2374,0.937,0.995,0.932
+feeding_practice,693,449,400,0.648,0.891,0.577
+premature,1998,1920,1920,0.961,1.0,0.961
+antibiotics_current_use,2534,2398,2079,0.946,0.867,0.82
+gestational_age,1998,528,528,0.264,1.0,0.264

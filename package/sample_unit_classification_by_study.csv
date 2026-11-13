@@ -1,0 +1,68 @@
+study,heuristic_class,multi_run_biosamples,runs,c1,c2,c2_isolated,c3,c4,final_A,final_class,study_biosamples,study_runs,cohort_name
+PRJNA294605,A_confirmed_pooled_biological,11,158.0,11.0,11.0,0.0,0.0,0.0,11.0,A,11,158,
+PRJNA1055141,B_verify_possible_pooled,1,94.0,0.0,1.0,0.0,0.0,1.0,1.0,A,1,94,van Tilburg Bernardes 2026 Canada
+PRJNA1258733,B_verify_possible_pooled,1,156.0,0.0,1.0,0.0,0.0,0.0,1.0,A,1,156,Parizadeh early-life gut microbiome cohort
+PRJNA299342,B_verify_possible_pooled,1,11.0,0.0,0.0,0.0,0.0,1.0,1.0,A,1,11,singleton study PRJNA299342
+PRJNA751712,B_verify_possible_pooled,1,94.0,0.0,0.0,0.0,0.0,1.0,1.0,A,1,94,Westaway 2022 Australia
+PRJNA869587,B_verify_possible_pooled,1,8.0,0.0,0.0,0.0,0.0,1.0,1.0,A,2,9,Li 2023 China
+PRJEB101714,B_verify_possible_pooled,90,360.0,0.0,0.0,0.0,0.0,0.0,0.0,C,100,370,singleton study PRJEB101714
+PRJEB22207,B_verify_possible_pooled,2,4.0,0.0,0.0,0.0,0.0,0.0,0.0,C,17,19,Leggett 2020
+PRJEB37883,B_verify_possible_pooled,374,748.0,0.0,0.0,0.0,0.0,0.0,0.0,C,379,753,singleton study PRJEB37883
+PRJEB45356,B_verify_possible_pooled,1,2.0,0.0,0.0,0.0,0.0,0.0,0.0,C,949,950,singleton study PRJEB45356
+PRJEB46943,B_verify_possible_pooled,655,1310.0,0.0,0.0,0.0,0.0,0.0,0.0,C,655,1310,singleton study PRJEB46943
+PRJEB49206,B_verify_possible_pooled,38,76.0,0.0,0.0,0.0,0.0,0.0,0.0,C,439,477,
+PRJEB52774,B_verify_possible_pooled,9,18.0,0.0,0.0,0.0,0.0,0.0,0.0,C,477,486,
+PRJEB64567,B_verify_possible_pooled,10,20.0,0.0,0.0,0.0,0.0,0.0,0.0,C,35,45,singleton study PRJEB64567
+PRJEB79896,B_verify_possible_pooled,758,1522.0,0.0,0.0,0.0,0.0,0.0,0.0,C,948,1712,singleton study PRJEB79896
+PRJEB9818,B_verify_possible_pooled,71,156.0,0.0,0.0,0.0,0.0,0.0,0.0,C,235,320,singleton study PRJEB9818
+PRJNA1378986,B_verify_possible_pooled,424,848.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1454,1878,singleton study PRJNA1378986
+PRJNA215106,B_verify_possible_pooled,22,169.0,0.0,0.0,0.0,0.0,0.0,0.0,C,22,169,Moore 2013 USA
+PRJNA284162,B_verify_possible_pooled,48,143.0,0.0,0.0,0.0,0.0,0.0,0.0,C,48,143,singleton study PRJNA284162
+PRJNA296814,B_verify_possible_pooled,19,38.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1063,1082,New Hampshire Birth Cohort Study
+PRJNA312041,B_verify_possible_pooled,1,2.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1,2,Guo 2016 China
+PRJNA320015,B_verify_possible_pooled,2,28.0,0.0,0.0,0.0,0.0,0.0,0.0,C,2,28,singleton study PRJNA320015
+PRJNA379120,B_verify_possible_pooled,1,6.0,0.0,0.0,0.0,0.0,0.0,0.0,C,65,70,Wampach 2018 Luxembourg
+PRJNA400115,B_verify_possible_pooled,936,1915.0,0.0,0.0,0.0,0.0,0.0,0.0,C,12266,13245,TEDDY
+PRJNA46337,B_verify_possible_pooled,234,560.0,0.0,0.0,0.0,0.0,0.0,0.0,C,827,1153,singleton study PRJNA46337
+PRJNA473126,B_verify_possible_pooled,41,86.0,0.0,0.0,0.0,0.0,0.0,0.0,C,402,447,Baumann-Dudenhoeffer 2018 USA
+PRJNA524703,B_verify_possible_pooled,143,334.0,0.0,3.0,3.0,0.0,0.0,0.0,C,249,440,singleton study PRJNA524703
+PRJNA63661,B_verify_possible_pooled,536,3358.0,0.0,0.0,0.0,0.0,0.0,0.0,C,667,3489,Taft 2015 USA
+PRJNA731529,B_verify_possible_pooled,1,13.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1,13,singleton study PRJNA731529
+PRJNA819247,B_verify_possible_pooled,20,40.0,0.0,0.0,0.0,0.0,0.0,0.0,C,20,40,Sindi reduced fat/sugar maternal diet lactation cohort
+PRJEB106892,C_technical_replicate_or_lane,2,4.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1851,1853,singleton study PRJEB106892
+PRJEB108038,C_technical_replicate_or_lane,5,10.0,0.0,0.0,0.0,0.0,0.0,0.0,C,16,21,Niu 2026 China
+PRJEB11419,C_technical_replicate_or_lane,3379,8896.0,0.0,0.0,0.0,0.0,0.0,0.0,C,7024,12541,singleton study PRJEB11419
+PRJEB12669,C_technical_replicate_or_lane,7,14.0,0.0,0.0,0.0,0.0,0.0,0.0,C,19,26,singleton study PRJEB12669
+PRJEB21259,C_technical_replicate_or_lane,28,196.0,0.0,0.0,0.0,0.0,0.0,0.0,C,28,196,singleton study PRJEB21259
+PRJEB24006,C_technical_replicate_or_lane,1,2.0,0.0,0.0,0.0,0.0,0.0,0.0,C,25,26,singleton study PRJEB24006
+PRJEB24041,C_technical_replicate_or_lane,138,559.0,0.0,0.0,0.0,0.0,0.0,0.0,C,212,633,Korpela 2018 Netherlands
+PRJEB28671,C_technical_replicate_or_lane,85,170.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1605,1690,de Goffau 2022 Gambia
+PRJEB33847,C_technical_replicate_or_lane,8,252.0,0.0,0.0,0.0,0.0,0.0,0.0,C,8,252,singleton study PRJEB33847
+PRJEB41102,C_technical_replicate_or_lane,175,696.0,0.0,0.0,0.0,0.0,0.0,0.0,C,286,807,singleton study PRJEB41102
+PRJEB49383,C_technical_replicate_or_lane,1,2.0,0.0,0.0,0.0,0.0,0.0,0.0,C,2351,2352,Beck preterm probiotics UK cohort
+PRJEB51728,C_technical_replicate_or_lane,875,1750.0,0.0,0.0,0.0,0.0,0.0,0.0,C,875,1750,Robertson 2023 Zimbabwe
+PRJEB6921,C_technical_replicate_or_lane,200,495.0,0.0,0.0,0.0,0.0,0.0,0.0,C,772,1067,singleton study PRJEB6921
+PRJEB77202,C_technical_replicate_or_lane,1,2.0,0.0,0.0,0.0,0.0,0.0,0.0,C,538,539,singleton study PRJEB77202
+PRJEB86954,C_technical_replicate_or_lane,51,138.0,0.0,0.0,0.0,0.0,0.0,0.0,C,51,138,Ngwese 2025 Gabon
+PRJNA1081952,C_technical_replicate_or_lane,314,628.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1422,1736,BRISC
+PRJNA1112760,C_technical_replicate_or_lane,64,132.0,0.0,0.0,0.0,0.0,0.0,0.0,C,64,132,Seki 2024 Austria
+PRJNA1139951,C_technical_replicate_or_lane,47,166.0,0.0,0.0,0.0,0.0,0.0,0.0,C,544,663,singleton study PRJNA1139951
+PRJNA1472032,C_technical_replicate_or_lane,21,42.0,0.0,0.0,0.0,0.0,0.0,0.0,C,33,54,singleton study PRJNA1472032
+PRJNA231909,C_technical_replicate_or_lane,124,542.0,0.0,0.0,0.0,0.0,0.0,0.0,C,124,542,singleton study PRJNA231909
+PRJNA268964,C_technical_replicate_or_lane,58,116.0,0.0,0.0,0.0,0.0,0.0,0.0,C,58,116,singleton study PRJNA268964
+PRJNA272371,C_technical_replicate_or_lane,12,28.0,0.0,0.0,0.0,0.0,0.0,0.0,C,12,28,Oh 2017 Singapore
+PRJNA300541,C_technical_replicate_or_lane,191,382.0,0.0,0.0,0.0,0.0,0.0,0.0,C,191,382,singleton study PRJNA300541
+PRJNA301903,C_technical_replicate_or_lane,401,980.0,0.0,0.0,0.0,0.0,0.0,0.0,C,403,982,singleton study PRJNA301903
+PRJNA311208,C_technical_replicate_or_lane,5,10.0,0.0,0.0,0.0,0.0,0.0,0.0,C,11,16,singleton study PRJNA311208
+PRJNA343144,C_technical_replicate_or_lane,1,19.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1,19,singleton study PRJNA343144
+PRJNA544346,C_technical_replicate_or_lane,56,112.0,0.0,0.0,0.0,0.0,0.0,0.0,C,56,112,singleton study PRJNA544346
+PRJNA60717,C_technical_replicate_or_lane,1,18.0,0.0,0.0,0.0,0.0,0.0,0.0,C,1,18,singleton study PRJNA60717
+PRJNA61745,C_technical_replicate_or_lane,14,30.0,0.0,0.0,0.0,0.0,0.0,0.0,C,27,43,
+PRJNA642723,C_technical_replicate_or_lane,162,2104.0,0.0,0.0,0.0,0.0,0.0,0.0,C,162,2104,Ta 2020 Singapore
+PRJNA835720,C_technical_replicate_or_lane,83,166.0,0.0,0.0,0.0,0.0,0.0,0.0,C,298,381,singleton study PRJNA835720
+PRJNA845806,C_technical_replicate_or_lane,131,391.0,0.0,0.0,0.0,0.0,0.0,0.0,C,131,391,CHOICE
+PRJNA894152,C_technical_replicate_or_lane,23,46.0,0.0,0.0,0.0,0.0,0.0,0.0,C,57,80,Mills 2023 Nicaragua
+PRJNA1019702,X_cross_study_biosample,20,,,,,,,,X_cross_study_biosample,507,507,
+PRJNA1198101,X_cross_study_biosample,10,,,,,,,,X_cross_study_biosample,30,30,
+PRJNA613032,X_cross_study_biosample,12,,,,,,,,X_cross_study_biosample,20,20,
+PRJNA613054,X_cross_study_biosample,20,,,,,,,,X_cross_study_biosample,32,32,
