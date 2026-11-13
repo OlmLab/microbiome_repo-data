@@ -1,0 +1,11 @@
+reason,reason_label,samples,projects,total_Tbp,median_Gbp
+size_rule,Too small for Sandpiper's selection rule,120768,1627,24.73,0.055
+after_snapshot,Public after Sandpiper's snapshot,103318,514,550.22,3.868
+platform,Not sequenced on Illumina,53711,588,265.82,2.664
+unexplained,"Meets Sandpiper's selection rule, not on its run list",53497,2441,265.75,2.989
+rna,RNA only,27094,333,114.42,0.809
+no_public_date,No public date held for the run,17871,101,77.49,1.046
+listed_no_profile,"On Sandpiper's run list, no profile released",10818,754,33.38,1.526
+profile_not_used,Sandpiper profiled a run the catalog does not count as a DNA metagenome run,2265,44,5.76,1.309
+source_rule,Library source not METAGENOMIC and organism not a metagenome,324,7,1.16,2.323
+no_runs,No run row held for the sample,35,2,,

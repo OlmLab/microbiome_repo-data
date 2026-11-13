@@ -1,0 +1,497 @@
+{
+ "build_date": "2026-11-13",
+ "check_rule": "every file in the package directory with extension in TABLE_EXT must be listed in tables (unlisted files fail --check)",
+ "generator_git_sha": "e7a08a8",
+ "generator_repo": "OlmLab/microbiome_repo-pipeline",
+ "package_version": "1.32.0",
+ "previous_release_id": "R2026.38",
+ "release_id": "R2026.39",
+ "release_tag": "data-v1.32.0",
+ "tables": {
+  "APPLY_FINDINGS_DIFF.md": {
+   "rows": null,
+   "sha256": "ac22873de47269ade62ceb2627897a11dc5f22fb2fa2f93eb4eb610925a12444",
+   "size_bytes": 942
+  },
+  "APPLY_GAPFILL_PRJNA1140720.json": {
+   "rows": null,
+   "sha256": "e737eb490f3aadfab9026904d242bec0f877cfb7b62ff6f3a9d437ad6e135b35",
+   "size_bytes": 4246
+  },
+  "AUTHORS_REPORT.md": {
+   "rows": null,
+   "sha256": "7c377d8e86c4bdcf64af4375e45dbedb8e6470f264bb1b2f2208191b2d3d6b6f",
+   "size_bytes": 8768
+  },
+  "CATALOG_SANDPIPER_REPORT.md": {
+   "rows": null,
+   "sha256": "ee57d97cc662c857bf4fd6976dec620bc0928674057755613ea8ec67eb679f3c",
+   "size_bytes": 6043
+  },
+  "CHANGELOG.md": {
+   "rows": null,
+   "sha256": "7a9d7dcc45c48fe50af2492e94cd702ef45bcfebf900100671f38c75904a1ca0",
+   "size_bytes": 39730
+  },
+  "DATAFIX_REPORT.md": {
+   "rows": null,
+   "sha256": "2d672bf1a0d23b2eec96684b2afeae38da5e0989c4b163c2a6342818b09ec74b",
+   "size_bytes": 13454
+  },
+  "DATA_DICTIONARY.md": {
+   "rows": null,
+   "sha256": "6616ac57db9a6ceff08f6138caa5a3ae7c13073a5fb8b49b88e99a8b1e150a1e",
+   "size_bytes": 116399
+  },
+  "DATA_MODEL_FIX_REPORT.md": {
+   "rows": null,
+   "sha256": "49c3f393a8aa31d9fc73b9e27e92fb5e78a94c3f656db1c4acfde18a1c0959dd",
+   "size_bytes": 14671
+  },
+  "EXTRACTION_REPORT.md": {
+   "rows": null,
+   "sha256": "0cae3f1fa85d9cd78b33555d1a130c71dcc256116aab2614db405326a50ebdd1",
+   "size_bytes": 15154
+  },
+  "README.md": {
+   "rows": null,
+   "sha256": "7a73bbfc8832c1917b510b784942b87d1f1b1869bcaa9e25f372cd5294ac0fc9",
+   "size_bytes": 22348
+  },
+  "REGISTRY_REPORT.md": {
+   "rows": null,
+   "sha256": "641d588e61d89983c67bb9f878c76aa35a36116123c802f0110af35e91c7b51b",
+   "size_bytes": 44040
+  },
+  "RELEASE_NOTES_R2026.31.md": {
+   "rows": null,
+   "sha256": "0122d59d290810c961d95c7594beca64375aa0fa9d23d4f127105b574faa98bf",
+   "size_bytes": 7593
+  },
+  "RELEASE_NOTES_R2026.32.md": {
+   "rows": null,
+   "sha256": "8f312730aece9cf776d893d80507954d68d4fe931e1e35ddc8294f9d571e65a8",
+   "size_bytes": 6054
+  },
+  "RELEASE_NOTES_R2026.33.md": {
+   "rows": null,
+   "sha256": "db18bee5a7f7409c7709ff5d3eb9db86dbc0c86418c8d878d9462916ac5a1c01",
+   "size_bytes": 6382
+  },
+  "RELEASE_NOTES_R2026.34.md": {
+   "rows": null,
+   "sha256": "f5cf3c2b0ed68b1dabb2e45eb912377d9652b951454a58c0ad992e7cb4314291",
+   "size_bytes": 6117
+  },
+  "RELEASE_NOTES_R2026.35.md": {
+   "rows": null,
+   "sha256": "9e2610c7c8327d8a797ab295306fa76f625fca9db0e3e9273658c71d6c45ff4c",
+   "size_bytes": 5992
+  },
+  "RELEASE_NOTES_R2026.36.md": {
+   "rows": null,
+   "sha256": "266bd51b8cf35ec64a5864d92d7a5f8e0b0402e47b7899dcd7f152d96008fcf8",
+   "size_bytes": 6077
+  },
+  "RELEASE_NOTES_R2026.37.md": {
+   "rows": null,
+   "sha256": "6686dba6847ad5de9ad69e70f585373fd77e1123dbc1b1d6d3117995f70faa31",
+   "size_bytes": 5991
+  },
+  "RELEASE_NOTES_R2026.38.md": {
+   "rows": null,
+   "sha256": "58a0e977de2b2c6a73b48ebbb93d2866b5a12cfcd7f1aca7599d128ac5f9b06b",
+   "size_bytes": 6039
+  },
+  "RELEASE_NOTES_R2026.39.md": {
+   "rows": null,
+   "sha256": "90272f8ff3991dc9c7a0ca1dd4beeb10acd42012ad1173489db4398672ea39cd",
+   "size_bytes": 6174
+  },
+  "SANDPIPER_REPORT.md": {
+   "rows": null,
+   "sha256": "c55153a677b557c81feef32ce1efe9601a1e0f69b8f1ca91c98d7b51fbf350b8",
+   "size_bytes": 20985
+  },
+  "apply_findings_log.csv": {
+   "rows": 4,
+   "sha256": "fc828231211719be84977bc00799c5ea199ffaf60ac3d2d8deec28c50f0bbfdc",
+   "size_bytes": 631
+  },
+  "authors.parquet": {
+   "rows": 28367,
+   "sha256": "f67b98b1ab3e913f8fece267ddb3fecbc31f5ab78eb0fcee013c238455ade231",
+   "size_bytes": 755443
+  },
+  "authors_index.json": {
+   "rows": null,
+   "sha256": "dd56bbd8d6cde8557c6dc62da46ce7510ba81cefbc6544510c7b445b9c5e64d9",
+   "size_bytes": 6789607
+  },
+  "bitemporal_log.json": {
+   "rows": null,
+   "sha256": "920e2ecf460b4c154f6bdf213580348327d864f5a37219351e76410ef10473df",
+   "size_bytes": 1992
+  },
+  "build_counts.json": {
+   "rows": null,
+   "sha256": "d0aefc81b0204963544c3c7532e6a5f651f16a1a85932a8a697c4e236f9a496b",
+   "size_bytes": 875
+  },
+  "catalog_exposure_items.parquet": {
+   "rows": 656,
+   "sha256": "c72515028ace35e58c8823fd14cf9e7ffc65ad1c4093d0725f62a2b3b5120036",
+   "size_bytes": 58776
+  },
+  "catalog_metadata_contradictions.parquet": {
+   "rows": 8828,
+   "sha256": "7decf0b8e6cd02d2adfc841273930c9c8d12c1b0c44c3f4bfdb9decea229b577",
+   "size_bytes": 116758
+  },
+  "catalog_pass_coverage.csv": {
+   "rows": 5051,
+   "sha256": "7778d8634eb410cba5a5b1547afaa2b3863a64f5042c690a223de4f1c864f867",
+   "size_bytes": 346716
+  },
+  "catalog_rejected_values.parquet": {
+   "rows": 3081,
+   "sha256": "5e922465ec85d0175eeb9f386a8933438edcb6be32b9c0e0d4033356786ea1f9",
+   "size_bytes": 68958
+  },
+  "catalog_relatedness.parquet": {
+   "rows": 6540,
+   "sha256": "516776dac4095b6ab5ba36d6d79549c2c7ca8618913bb601faacbda80e334732",
+   "size_bytes": 352885
+  },
+  "catalog_relations.parquet": {
+   "rows": 1122,
+   "sha256": "232ca383b82982dc6d728aab583068369955967092d4098c12fd2e57044214da",
+   "size_bytes": 34964
+  },
+  "catalog_runs.parquet": {
+   "rows": 988374,
+   "sha256": "e32ac0b7d72ced7e701e4cf5c4c5559c68b4a9b14c15f0b3a3a9985d51360041",
+   "size_bytes": 43056368
+  },
+  "catalog_sample_determinations.parquet": {
+   "rows": 5229344,
+   "sha256": "66a43d6ada22dcc497190d710741fcae7d66464e37e6e24d6310cb8346d8c99a",
+   "size_bytes": 56477755
+  },
+  "catalog_sample_determinations_conflicts.parquet": {
+   "rows": 176023,
+   "sha256": "ad721c8d6676bdbacc7e47f0b0d3cc09805b27bbb73fb1dd518c9ae1145e7123",
+   "size_bytes": 3634722
+  },
+  "catalog_sample_metadata_wide.parquet": {
+   "rows": 865529,
+   "sha256": "328277eb32484a7b9bdc16c7f78d63e81a9ec591dc724f63e50cc7cc33dafd66",
+   "size_bytes": 30865253
+  },
+  "catalog_sandpiper_gap_by_cause.csv": {
+   "rows": 10,
+   "sha256": "6e56dbad9ae65c7866ed99e6fd30ac3c3d08b9eb46a3b7a6348b0977293ed942",
+   "size_bytes": 796
+  },
+  "catalog_sandpiper_pca_loadings.parquet": {
+   "rows": 386,
+   "sha256": "f8e7405466ece6ef649f7792aac9f76a99dae54e474c2a9e7f08671817282948",
+   "size_bytes": 38167
+  },
+  "catalog_sandpiper_pca_scores.parquet": {
+   "rows": 404897,
+   "sha256": "74175e8ac8c32576cf471b2b26e28d5a394731e1caaf10eb99705883465d476e",
+   "size_bytes": 15023904
+  },
+  "catalog_sandpiper_pca_variance.csv": {
+   "rows": 5,
+   "sha256": "b97d7169f1e4738cf4311346890eb54e9bf37ed42e70d0ca5709918d93171c3a",
+   "size_bytes": 531
+  },
+  "catalog_sandpiper_sample_summary.parquet": {
+   "rows": 416336,
+   "sha256": "7d81eef141d05925f838f687ecc0eadd9e2fec2d8fe7bcfac12bc8af4c9a9384",
+   "size_bytes": 29500267
+  },
+  "catalog_sandpiper_study_coverage.csv": {
+   "rows": 5051,
+   "sha256": "a7a1129e5e6bab664655e4bb02ab86e366d1095c5f1d4155ccda951d5739d92b",
+   "size_bytes": 927352
+  },
+  "catalog_sandpiper_study_panels.parquet": {
+   "rows": 37228,
+   "sha256": "d60181bc0a168248f30096ddb02acf0ef523b754c40af5727ae91eecfed7c4f9",
+   "size_bytes": 478029
+  },
+  "catalog_sandpiper_unprofiled.parquet": {
+   "rows": 389701,
+   "sha256": "7a910d77ca4fdac55320d09f6fa951a8edf2e5ff4b2bbd4a1d24a5154b1d7cde",
+   "size_bytes": 3587054
+  },
+  "catalog_studies.parquet": {
+   "rows": 5353,
+   "sha256": "b1fed309d6783e870a4d4fa1c3c6b7dbab39f61f24f67bcac5e58ebc5d934718",
+   "size_bytes": 5801318
+  },
+  "catalog_study_papers.parquet": {
+   "rows": 7796,
+   "sha256": "573df8870bb57e34b88a8f7a96183b5c52cfe273fd580f0609c105450a619a73",
+   "size_bytes": 737442
+  },
+  "cohorts.csv": {
+   "rows": 373,
+   "sha256": "3d33b23da94b66d7e14fc71195e00721e5cdb67e0fc6156c9ab42be817f566c9",
+   "size_bytes": 171435
+  },
+  "confidence_tiers.csv": {
+   "rows": 29,
+   "sha256": "7ba8d0415b266ab591897f8e08d20757266ba4aae64e821e6f52dd720f4c4025",
+   "size_bytes": 4277
+  },
+  "confirmations.parquet": {
+   "rows": 0,
+   "sha256": "6ed49059c514b22923a8ca46ad0aa375c01622de66e76fef21eb515c2107150c",
+   "size_bytes": 4411
+  },
+  "contribute_worklist.csv": {
+   "rows": 439,
+   "sha256": "cc481f4aab4f7c53ca0d3459bd583b5cebb487aedea13c39a3992fd311632264",
+   "size_bytes": 407210
+  },
+  "contribute_worklist_fields.csv": {
+   "rows": 2634,
+   "sha256": "8636964b79294eb5faf475211014265385709c22e823f3a4acb37a339ff6b469",
+   "size_bytes": 396060
+  },
+  "extraction_gold_eval_hires.csv": {
+   "rows": 6,
+   "sha256": "d1b17b3070635511f9c9ec9cc3652c920ae488b7e857aa1e85f84f1d4c153740",
+   "size_bytes": 326
+  },
+  "field_coverage_summary.csv": {
+   "rows": 19,
+   "sha256": "ce801bcea775bd007c9baa7361107666a6a7e44fde28f377ceb8e0654635f14a",
+   "size_bytes": 1504
+  },
+  "getting_started.ipynb": {
+   "rows": null,
+   "sha256": "3d19897cdfd9c4467e9be917f4a307fc4bf395076bf550f45b175cc534d96b08",
+   "size_bytes": 50466
+  },
+  "human_review_queue.csv": {
+   "rows": 52,
+   "sha256": "bb2677f58c35ce438eba09a716e953d4be7dba25e018d64fc62d66e45800d88c",
+   "size_bytes": 49502
+  },
+  "organisations.parquet": {
+   "rows": 18888,
+   "sha256": "e1469af4a90a13327d6cce4c390c1a13cde9b1a9ca252c2991b85cc01634be6c",
+   "size_bytes": 449919
+  },
+  "organisations_index.json": {
+   "rows": null,
+   "sha256": "9f6ad0e220908fa13fe73816e816a47d8fdb59b695529da0c82d40328ae93e14",
+   "size_bytes": 894406
+  },
+  "parent_biosamples.parquet": {
+   "rows": 16,
+   "sha256": "305cac7718d87e9d29768755db8a3b986a6fde05b4ce8f8c8811dafe1fad2b5f",
+   "size_bytes": 63874
+  },
+  "registry_authors.parquet": {
+   "rows": 52110,
+   "sha256": "b24e5824214a8d2939dafb46520d92ef8f0d52c7b91142ee94935a1093d0078b",
+   "size_bytes": 3383171
+  },
+  "registry_bioproject_records.parquet": {
+   "rows": 4217,
+   "sha256": "9d099f60f48788aa58493b037aa9f92d398a6795199885dab3829f0122045e28",
+   "size_bytes": 933308
+  },
+  "registry_biosamples.parquet": {
+   "rows": 637397,
+   "sha256": "306ed5360d4bda5907efebf62325c974e5947a1caa267b320cec7a3e7608399d",
+   "size_bytes": 4397091
+  },
+  "registry_studies.parquet": {
+   "rows": 64369,
+   "sha256": "517fada6ce3d2542328cac959436ea69478e836099ffe1870bd7651b7a354b27",
+   "size_bytes": 9323114
+  },
+  "registry_study_papers.parquet": {
+   "rows": 6998,
+   "sha256": "90a15114cd1d23b8d626ef3d19956fbd00e84fe0ca8ebbed40e55dbbb27cf293",
+   "size_bytes": 665525
+  },
+  "registry_universe_audit.csv": {
+   "rows": 35,
+   "sha256": "97ea4a8ad84c1a0c95c6522ebf7a87987e6145d7b74f7c1b3d69ea08de6abfa6",
+   "size_bytes": 9387
+  },
+  "releases.csv": {
+   "rows": 43,
+   "sha256": "85a16d258d06c52200af520eb48701c7a79356b933b2568e869bf59c9c3b1b94",
+   "size_bytes": 3770
+  },
+  "review_amplicon_runs.csv": {
+   "rows": 39,
+   "sha256": "63ad163889168f009d45e150ee367cd8c43b681070d28b5a36b8b7bfdf7c7d1b",
+   "size_bytes": 4791
+  },
+  "review_genomic_only_samples.csv": {
+   "rows": 3158,
+   "sha256": "4e61acf46b7b87ab0a28ae3bf9797e7c0187c2a693843193929c036ace624e34",
+   "size_bytes": 389492
+  },
+  "review_named_microbe_metagenomic_samples.csv": {
+   "rows": 70,
+   "sha256": "99d300ef799a6d0a631c0bdc687b2bedc83bdbcb5979f58a20e1510e23225fdd",
+   "size_bytes": 11269
+  },
+  "runs.parquet": {
+   "rows": 174172,
+   "sha256": "e0609d1de7e7efe1ce2ac7ec1d82590633fdcab7435de8173660b09dea8091c3",
+   "size_bytes": 8814277
+  },
+  "sample_determinations.parquet": {
+   "rows": 619647,
+   "sha256": "5d7f281214d150b65a7e8b080ab58088739c8825dde72e73023ca8a986e2ac3f",
+   "size_bytes": 7153382
+  },
+  "sample_determinations_all.parquet": {
+   "rows": 620963,
+   "sha256": "1f163d60df16609ced0d966e531737cbaf8ec48cbcd2c751c7a409c90a73ba38",
+   "size_bytes": 7177033
+  },
+  "sample_determinations_superseded.parquet": {
+   "rows": 223,
+   "sha256": "35e5f093c459667d14f793ed225ef7c69facf260301864a456b98214990d8c73",
+   "size_bytes": 17804
+  },
+  "sample_metadata_wide.csv.gz": {
+   "rows": 154356,
+   "sha256": "f401a00d76073000e44673c5e883c1836f2688d1eb4ec542ca4a013b9de61f5d",
+   "size_bytes": 11783851
+  },
+  "sample_metadata_wide.parquet": {
+   "rows": 153238,
+   "sha256": "4ea03455bf0a82591823ccbfe3e7e329d2f5b7e647328f82bee254de5397c780",
+   "size_bytes": 12881207
+  },
+  "sample_metadata_wide_excluded_by_review.parquet": {
+   "rows": 1118,
+   "sha256": "e9910fcfc9d4d17c5344aed581380d9d4d960166b08a802c00932131832277fa",
+   "size_bytes": 150106
+  },
+  "sample_subjects.parquet": {
+   "rows": 154356,
+   "sha256": "fcc6d8fbf5d9588adad57a2284936226e827f5c2191676886d6fab333b01ed57",
+   "size_bytes": 2898866
+  },
+  "sample_unit_classification.csv": {
+   "rows": 11116,
+   "sha256": "da7e51879682f47863245e715d36d1e3a65521b1b1f1290a1eb9cf509b99e502",
+   "size_bytes": 2068790
+  },
+  "sample_unit_classification_by_study.csv": {
+   "rows": 67,
+   "sha256": "a3c1007cd305266d526a6be5b0279900d58045955dd7bf12181f09b88940456f",
+   "size_bytes": 7051
+  },
+  "sandpiper_auditor_candidate_runs.csv": {
+   "rows": 375,
+   "sha256": "72ece46b6e0306fc72c0fafeb6be5604388a260fea8a5175c9c686a388fdfcc9",
+   "size_bytes": 50826
+  },
+  "sandpiper_flag_definitions.json": {
+   "rows": null,
+   "sha256": "fc1036563afd682a70091a5139e1dd98feaed8e63d6aad8ee1a0a1f1727a89da",
+   "size_bytes": 5591
+  },
+  "sandpiper_flag_table.csv": {
+   "rows": 20,
+   "sha256": "d3a84f7a27e79bb802190416135722f7fad8441c5b96df69bcaaad18501537ba",
+   "size_bytes": 4066
+  },
+  "sandpiper_run_qc.parquet": {
+   "rows": 174172,
+   "sha256": "dca210259a574ae6ccdc0fe3a263535085790c154bf0a2cdf7d73a73dffdb283",
+   "size_bytes": 9036554
+  },
+  "sandpiper_sample_summary.parquet": {
+   "rows": 79473,
+   "sha256": "04a3ba232ffef3ae0b508a4646c5e1cf66dc8f532bdf1288221b9637c9bf69e7",
+   "size_bytes": 10475240
+  },
+  "sandpiper_study_coverage.csv": {
+   "rows": 389,
+   "sha256": "e7f6991c34fa15a8bebc1f913bdcdd012a99b7f1d9e25b2a721e218c2e981041",
+   "size_bytes": 81830
+  },
+  "sandpiper_study_panel_status.csv": {
+   "rows": 389,
+   "sha256": "2eed345b6268c27d25f9f6fe3fc378e3aa6ae4600fd46b426aa7c1e0e9378276",
+   "size_bytes": 27852
+  },
+  "sandpiper_study_panels.parquet": {
+   "rows": 4656,
+   "sha256": "0f9e0455a78276127a304136e74c27888c555a3119f1f270d9f15c5c4ce5d76f",
+   "size_bytes": 74813
+  },
+  "sandpiper_study_qc_flags.csv": {
+   "rows": 389,
+   "sha256": "afbf1ccf5e2fc27d03cf5d4a70177e5a74b24d52448620d0f5fcaf6bd90650fc",
+   "size_bytes": 74962
+  },
+  "sandpiper_top_genera.parquet": {
+   "rows": 1049958,
+   "sha256": "78057720f207eeb5d869434b17fac17382db3e1443b7d3971669103c1874126a",
+   "size_bytes": 4850498
+  },
+  "study_authors_summary.csv": {
+   "rows": 9579,
+   "sha256": "b5eeec618b6c9a685ae034de48b395bf6b62d3999adb77ee5f5acaa9831a1dc5",
+   "size_bytes": 987036
+  },
+  "study_field_coverage_matrix.csv": {
+   "rows": 371,
+   "sha256": "028221d65d8db250e89bc8b95ca15f58f7bd96952fe1a364ef3877aa938739d9",
+   "size_bytes": 33017
+  },
+  "study_metadata_wide.csv": {
+   "rows": 389,
+   "sha256": "352ceab2affad1acc7131b5ae96fca002b974fc2d103df4e6340947252d59564",
+   "size_bytes": 492823
+  },
+  "study_metadata_wide.parquet": {
+   "rows": 389,
+   "sha256": "7be75680dd3621ed2cc0e263e93b1ee240231c3e9b586e3c2e9fc1ab8e83ee5e",
+   "size_bytes": 234193
+  },
+  "study_paper_links.csv": {
+   "rows": 973,
+   "sha256": "3c0079d5bd03bb24e8215e775883d8dbab84909f62ec1572cdc9c86821a68e07",
+   "size_bytes": 176732
+  },
+  "study_verdict_history.parquet": {
+   "rows": 32233,
+   "sha256": "6d234dd67cd5d6266c1e65b5c9e673a34e1968624dfe6b36222abb111c36f949",
+   "size_bytes": 1077658
+  },
+  "tier_field_precision.csv": {
+   "rows": 49,
+   "sha256": "74a412eca0beefc873751cdeafba4b73567321e0b7c3116d3d1a442b552a354e",
+   "size_bytes": 2590
+  },
+  "universe_studies_all.parquet": {
+   "rows": 9581,
+   "sha256": "0e282ac71b55d80937a981e05b4c93474123042cc1721ca824fc33e549cd6766",
+   "size_bytes": 1107165
+  },
+  "value_history.parquet": {
+   "rows": 46587,
+   "sha256": "c7ca0cd2fc6913cedcdfca0e652ae43e3d7ca6986f012bb98a7fd2c7585bbb97",
+   "size_bytes": 582791
+  }
+ }
+}
