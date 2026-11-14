@@ -1,0 +1,559 @@
+# Changelog
+
+Earlier versions are archived with their own releases (GitHub / Zenodo).
+
+## Package 1.33.0 (R2026.40, 2026-11-14)
+
+Stage B of the catalog deep pass: the paper of every project that has one was read again for facts the earlier passes did not
+keep with their sentence, compared groups were re-derived for projects with new evidence, and every exposure item was checked.
+One project leaves the catalog: samples 806,037 → 805,008, projects 5,051 → 5,050. `RELEASE_NOTES_R2026.40.md` has the
+per-field counts.
+
+### Paper re-read (3,386 projects with an own-data paper)
+
+- 3,258 projects were read (2,851 from open full text, 407 from the abstract); 127 have no paper text to read and one was
+  declined by the model. 519 projects whose first request failed in transit were read in a second run.
+- **Methods, with the sentence each fact was read from** (`methods_evidence`): extraction kit for 1,962 projects (536 had
+  none), library kit for 1,763 (485 had none), instrument for 2,434 (682 had none). Where an earlier pass had a wording
+  without a sentence, the re-read's wording replaces it.
+- **Sequencing facility** (new: `sequencing_facility`, `_norm`, `_country`, `_type`) for 949 projects.
+- **Controlled names** (`extraction_kit_norm`, `library_kit_norm`, `platform_norm`, `sequencing_facility_norm`): Opus 5 readers
+  mapped the distinct wordings — 1,476 extraction wordings to 383 names, 1,201 library wordings to 188, 1,020 instrument
+  wordings to 155 (in the archives' model spelling), 705 facility wordings to 293. 74 wordings name no kit, method or
+  instrument and get no controlled name. The maps are `config/methods_names/*_map.csv` in the pipeline; rows with a
+  `mapping_note` (identity inferred from a catalogue number, a renamed company, a family-level name) are provisional.
+- **Paper's instrument against the archive's** (`platform_vs_archive`, 2,429 projects): agree 1,546, paper less specific 464,
+  differ 405, not compared 14. A project page flags "paper names another instrument" for the 405; neither source is
+  corrected.
+- **Sampling periods**: 585 projects state the period in which their samples were collected. It is written as a cohort-level
+  collection date for the 7,913 samples in 58 projects that had none. In 545 projects that already have sample dates the
+  sample years lie inside the paper's period for 486, outside for 21 and partly inside for 38 (not changed; list kept for
+  review).
+- **Lifestyle**: 72 statements passed the pass's own check and were then read by independent Opus 5 readers: 64 right
+  (all 28 per-sample statements; 36 of 44 cohort-wide ones — the 8 others had a wrong code, twice hospital stay coded as
+  institutionalized, or covered only part of the deposit). Only confirmed statements are committed, and no cohort-wide code
+  that R2026.38 withdrew for the same project: 1,213 per-sample values in 16 projects and a cohort-wide value for 12 projects
+  that had none. 144 subgroup statements have no sample variable that selects the subgroup and are not committed.
+- Audit of a random sample by the same readers: sampling period 39 of 40 right, facility 39 of 40, extraction kit 19 of 20,
+  library kit 20 of 20, instrument 19 of 20 (one unclear).
+
+### Exposure items: every item checked (656 → 883 items, 445 → 581 projects)
+
+- An audit of 40 exposure items from the re-read found 21 right (9 wrong scale, 7 not stated by the quoted sentence, 2 wrong
+  concept, 1 about animals). No exposure item is committed on a single reading any more: every item — the 656 already in
+  `catalog_exposure_items` and the 673 the re-read proposed — was checked by Opus 5 against the passage that holds its quote
+  and the deposit's sample table. Items whose quote was not verbatim in the text (246 of the existing ones) were checked
+  against the paper text and kept only with a verbatim sentence (153 kept).
+- Existing items: 443 kept, 213 removed (194 not reported by the passage, 7 not about the people in the deposit, 5 second
+  items of one concept, 5 of projects no longer in the catalog, 2 without a usable verdict). New items: 440 kept of 673.
+- Among the 883 kept: scale corrected for 221, summary rewritten to the supported facts for 225, concept changed for 17.
+  On the 40 audited items the check dropped all 8 the readers found unsupported, corrected (8) or dropped (3) the 11 with
+  a wrong scale or concept, and kept the 21 right ones (changing the scale of 2).
+
+### Compared groups and trial arms (419 projects with new evidence)
+
+- Of 1,452 projects with compared groups no sample variable separates, or trials without full per-sample arms, 419 had
+  something new to read: candidate variables from run-level fields (270) or a newly linked paper (199). Only these were read
+  again, with the run-level fields offered as group keys.
+- **39 projects gain per-sample groups (2,681 specimens)**; 9 keep theirs; in 5 the re-run assigned nothing and the
+  earlier assignment stays. Design statements of 223 projects were replaced and checked (170 supported as written, 49
+  rewritten to the supported facts). About 1,030 projects had nothing new and were not read again; they need a
+  supplementary table or the authors.
+- The 923 projects that gained an own-data paper in R2026.39 went through the cohort-level passes for the first time
+  (two readings of the paper, a statement is kept when both agree): 1,544 statements from full text and 240 from
+  abstracts or archive records. The standard third reading (Opus 5, each statement against the passage around its quote:
+  does it hold for every person in the deposit?) removed 244 and 16, and a code-choice reading of the health conditions
+  removed 64 more — most often antibiotic exposure (59 of 153), collection date (61 of 154), life stage and medication.
+  Kept: 1,249 full-text statements in 494 projects (country 327, health condition 200, life stage 145,
+  antibiotic exposure 94, collection date 93, and others) and 212 from abstracts or archive records (120 projects); each fills only
+  samples without a value. Of 124 relatedness calls 51 were cleared; generated person ids were dropped for 14 projects whose
+  stated number of participants is smaller than their number of specimens.
+- One project (PRJNA693793) gets the code `sequence_independent_amplification` from the kit named in its paper; two projects
+  whose amplification code was set and checked in R2026.39 keep the kit wording it was set from.
+
+### Papers with shotgun-based claims that had no project link (list of the replication test, 82 papers)
+
+- 22 of the 82 have an own-data project link since R2026.39. The other 60 were searched for accessions in their open full
+  text (42 papers): two more links are committed after the one-pair audit and scope check (PRJNA765566, PRJNA624223). Three
+  papers account for a part of a project only and three reuse public projects (not linked as own data). For the rest the
+  paper's data are not in the archives the catalog covers: 18 have no open full text to read, 11 name another archive (EGA,
+  GSA / NGDC, CNGB, NODE, NBDC and others), 7 give data on request, 4 say the data are not public, 3 state no location and
+  2 have no shotgun data of their own; 11 name archive projects that are amplicon data, not yet public, or not in the
+  registry.
+
+### One project removed
+
+- PRJNA987980 (1,029 samples) holds derived copies of 344 samples of PRJEB6070 and PRJEB7774 (the run library names carry
+  the original sample names). The originals stay; the copies are excluded (`config/sample_exclusions.csv`).
+
+### Documentation and site
+
+- Project pages: extraction and library cells show the controlled name with the paper's wording and sentence in the
+  tooltip; a "Sequenced at" cell where the paper names the facility; a flag where the paper's instrument is not among the
+  archive's.
+- `DATA_DICTIONARY.md`: 22 columns that were in the tables but had no row are now described (9 new project columns, 4 of
+  `catalog_study_papers` from R2026.39, 9 of `registry_studies`).
+- Atlas › Profile measures recomputed for the new sample set.
+- The explorers' start-up code moved into one shared module (no change for users). Serving DuckDB-WASM from the site
+  itself is prepared and switched off.
+
+### Notice
+
+**Pre-registered replication test.** The analysis plan, the list of 6,933 claims to be tested and the code of a
+replication test of published gut-microbiome associations (BugSigDB v1.3.1) on Microbiome Repo profiles were frozen on
+2026-11-13 at 23:20 UTC, before any association between a taxon and a health condition was computed for this test.
+(Colorectal cancer, examined in a separate pilot, is excluded from the confirmatory claims.)
+Freeze hash (sha256 of `SHA256SUMS.txt`): `d5f56cba23415d8dcaa8ff8702319035e71d3810c3f45f2dba04d86015c6a966`
+
+## Package 1.32.0 (R2026.39, 2026-11-13)
+
+Stage A of the catalog deep pass: paper links, a reason for every sample without a community profile, and three fixes from a
+virome researcher's error list. Samples and projects are unchanged (806,037 samples in 5,051 projects). No per-sample value
+changes except 320 inflammatory-bowel-disease subtypes. `RELEASE_NOTES_R2026.39.md` has the per-field counts.
+
+### Paper links: an own-data paper for 923 more projects
+
+- 2,588 projects had no paper judged to have generated their data. The paper search was run again for all of them, with
+  three additions: answers older than five days were asked again, the fuzzy title search ran even where a direct hit
+  existed, and up to four run or sample accessions per project were searched as well (papers that cite a run or BioSample
+  accession instead of the project).
+- 5,684 project–paper pairs were then judged one pair per request, with the archive record, the abstract and, where the full
+  text is open, the data-availability statement and every sentence citing an accession of the project (3,897 pairs with full
+  text, 416 abstract only, 1,371 title only). The earlier audit read titles and abstracts only, eight candidates per request.
+- A link is committed when (1) the reading quotes a verbatim passage that decides it, (2) the paper reports its own sampling
+  and sequencing, (3) an independent Opus 5 reading agrees, and (4) a scope check finds the paper accounts for the project
+  as a whole. **1,096 links in 923 projects are committed** (728 on a deposit statement, 367 on a design match, 1 other);
+  projects with an own-data paper rise from 2,463 to 3,386 of 5,051 (163,773 samples are in the projects that gained one).
+- Each new link carries its sentence: `catalog_study_papers` gains `evidence_quote`, `evidence_source`, `link_basis` and
+  `link_audit` (empty for links of the earlier audit).
+- Checked by three Opus 5 readers on 75 committed pairs before the scope check was added: 69 right. The 6 that were not
+  were of one kind — an umbrella or resource accession several studies write into, a combined deposit, or a cohort accession
+  shared by sibling papers. The scope check keeps 5 of those 6 out (and 7 of the 69 right ones); on the checked pairs that
+  remain committed, 62 of 63 are right.
+- Not committed: 226 pairs where the paper produced only a part of the project (list kept for a later per-sample
+  assignment), 1,113 pairs left unclear, 1 pair the model declined to read. 2,209 pairs are recorded as reuse and 1,039 as
+  unrelated. 1,665 projects still have no own-data paper.
+- `catalog_study_papers` now has one row per project and paper. Before, 958 rows were the same paper listed twice
+  (`MED:<pmid>` and `<pmid>`), and 2,057 own-data rows had no title; titles, journals and years are filled from Europe PMC
+  (172 rows without a PubMed id still have none). The table has 7,796 rows (was 5,635).
+- The papers newly linked here have not been read for cohort statements, methods or design yet; that is stage B.
+
+### Linked paper ids for every project
+
+- `linked_pmids` and `n_linked_papers` were filled only on rows first published in R2026.7. A project that was retired and
+  added again lost them (67 projects, 10,149 samples), and 1,602 projects with an own-data paper had the column empty.
+- The column is now built for every project from the paper tables: own-data papers first, then ids an earlier row of the
+  project carried, then reuse papers. 3,707 projects have a value (was 1,436). The relation of each paper stays in
+  `catalog_study_papers.relation`; own-data ids alone are in `paper_ids_generated`.
+
+### Why a sample has no community profile
+
+- New table `catalog_sandpiper_unprofiled.parquet`: one row per current sample without a Sandpiper profile (389,701) with the
+  reason, and `catalog_sandpiper_gap_by_cause.csv` with the totals. The catalog does no profiling of its own.
+- The reasons come from Sandpiper's two run lists (profiled runs; the runs it selected from the archive, newest public date
+  2 March 2026) and its published selection rule (Illumina; library source METAGENOMIC or organism a metagenome; more than
+  1 Gbp, or more than 0.1 Gbp with library selection RANDOM):
+
+  | reason | samples | projects |
+  |---|---:|---:|
+  | too small for Sandpiper's selection rule | 120,768 | 1,627 |
+  | public after Sandpiper's snapshot | 103,318 | 514 |
+  | not sequenced on Illumina | 53,711 | 588 |
+  | meets the rule, not on Sandpiper's run list (unexplained) | 53,497 | 2,441 |
+  | RNA only | 27,094 | 333 |
+  | no public date held for the run | 17,871 | 101 |
+  | on Sandpiper's run list, no profile released | 10,818 | 754 |
+  | Sandpiper profiled a run the catalog does not count as a DNA metagenome run | 2,265 | 44 |
+  | library source not METAGENOMIC and organism not a metagenome | 324 | 7 |
+  | no run row held | 35 | 2 |
+
+- Sandpiper's newest release (2.1.0, 10 July 2026) ships the same GTDB profile file as 2.0.1, so there are no newer profiles
+  to take in; 416,336 samples have a profile, as before.
+
+### Three fixes from a virome researcher's error list
+
+- **Amplification chemistry.** New `processing` code `sequence_independent_amplification` (WTA / WTA2, SISPA, random-primed).
+  Projects whose kit text names such a chemistry were filed under `wga_mda` (phi29 multiple displacement amplification) or
+  had no code. Six projects change (340 samples): PRJNA1189570, PRJEB88042 (code replaced), PRJNA1282097 (both codes: its
+  kit is a REPLI-g WTA kit), PRJNA491626, PRJNA641593, SRP000287 (code added). `processing` stays a project-level set.
+- **Subtype named in the detail field.** 320 samples in 3 projects (PRJNA828396, PRJEB1220, PRJNA1356513) had
+  `health_condition` = `ibd_unspecified` while their own `health_condition_detail` names the subtype: 185 become
+  `ulcerative_colitis`, 135 `crohns_disease`. The other 1,972 `ibd_unspecified` samples name no single subtype and stay.
+- **Linked paper ids** (above).
+- Checked and left as they are: PRJEB67456 (`processing` is empty and stays empty: virus-like-particle and bulk arms under
+  one accession) and PRJNA987980 (the body site is right).
+
+### Not done
+
+- PRJNA987980: all 1,029 samples are derived copies of 344 samples of PRJEB6070 and PRJEB7774 that the catalog already
+  holds (each run is named after the source BioSample plus K, B or M). The project should leave the catalog; the change is
+  held for the owner and the samples are still listed.
+- Per-sample `processing` for projects with differently processed arms, and reading the virome papers for their methods.
+- 53,497 samples meet Sandpiper's rule and are not on its list; why is not known. The run list for its maintainers is built
+  with the package (`sandpiper_runs_not_profiled.csv.gz`, not shipped).
+
+## Package 1.31.0 (R2026.38, 2026-11-13)
+
+A corrections release. Values were checked against their primary sources (project records, papers, supplementary tables) by
+Opus 5 readers; errors found are fixed and statements the sources do not support are withdrawn. One project leaves the catalog
+(806,037 samples in 5,051 projects; was 806,054 in 5,052). Package 1.29.1 (R2026.35) stays frozen as the benchmark version.
+`RELEASE_NOTES_R2026.38.md` has the per-field coverage before and after.
+
+### Lifestyle: codes without a supporting sentence withdrawn
+
+- 44,046 lifestyle values in 263 projects (72 % of all lifestyle values) came from one full-text pass (`fulltext_setting_v1`)
+  that stored the code itself as its evidence quote. Each project's paper was read again. A code is kept only where the paper
+  states it for the sampled people, for the whole project.
+- **235 project codes are withdrawn (41,326 samples)**. 195 of them (38,480 samples) were `urban_industrialized`, which the
+  vocabulary reserves for cohorts the source itself describes as urban; a city or country name is not such a statement.
+- 26 are kept and now carry the sentence as their quote (2,677 samples); 2 are recoded (43 samples: PRJNA419274 to
+  `extreme_environment`, PRJNA650011 to `rural_non_industrialized`).
+- Lifestyle coverage falls from 61,335 to 20,009 samples (7.6 % → 2.5 %). Every remaining value cites a source sentence or an
+  archive attribute.
+- Not done: where a lifestyle holds for one arm only (for example PRJEB63347, PRJNA1083578, PRJNA885289, PRJEB53437,
+  PRJEB106785) the project-wide code is withdrawn and per-sample codes are not yet assigned. PRJNA846182 and PRJNA145383 (186
+  samples) were withdrawn without a readable source: their papers are not open access.
+
+### Antibiotic exposure: cohort-wide statements audited
+
+- All 484 cohort-wide antibiotic statements (480 projects, 61,228 samples) were audited. **418 are kept (46,825 samples) and 66
+  withdrawn (14,403 samples).**
+- Withdrawn: 39 trial or treatment designs in which exposure differs between time points, so neither yes nor no holds for every
+  sample (6,306 samples); 11 quotes that do not state antibiotic status (1,764); 5 statements that cover part of the deposit only
+  (2,160, of which PRJNA943687 2,089); 4 exclusions applied at analysis, not at recruitment (2,585, of which PRJEB110772 2,398);
+  6 enrolment criteria that the paper shows did not hold during follow-up (1,586); 1 other (2).
+- Kept: 317 enrolment criteria with a look-back window, 96 direct statements about the cohort, 5 others. 89 kept statements were
+  checked in the paper; 329 were judged from the stored quote alone.
+- In the 66 projects every cohort-wide antibiotic statement is withdrawn, including the one from the abstract.
+- 392 samples of PRJEB38742 change from no (an enrolment criterion) to yes (the per-sample value of curatedMetagenomicData).
+- Antibiotic coverage falls from 126,628 to 113,866 samples (15.7 % → 14.1 %).
+
+### Health condition
+
+- **Exact disease names get the specific code.** 1,660 values whose raw text is exactly "Crohn's disease" or "ulcerative
+  colitis" were on the broader IBD code and are now `crohns_disease` (1,078) or `ulcerative_colitis` (582): PRJNA398089 (1,496),
+  PRJNA1045596 (160), PRJEB33847 (4). This is a build rule (`refine_ibd_codes`) and applies to future data too.
+- **2,264 values recoded after checking the source.** The largest groups: bare "Cancer" in colorectal cohorts to
+  `colorectal_cancer` (428; PRJEB6070, PRJNA389927, PRJNA987980, PRJNA314481, PRJNA943491); ME/CFS to `neurological_psychiatric`
+  (309; PRJNA751448, PRJNA878603, PRJNA379741, PRJEB57953), the code three other ME/CFS projects already had; hospitalised
+  COVID-19 patients coded by a comorbidity flag to `other_infection` (510; PRJEB64515, PRJEB91718) and their healthy staff
+  controls, labelled COVID-19 by a prior resource, to `healthy_control` (296); PRJEB98012 to `crohns_disease` (270); PRJEB110936
+  to `other_cancer` (174); PRJNA474024 to `ulcerative_colitis` (72); PRJEB101120 to `allergy_or_atopy` (68); PRJNA1078999 to
+  `preterm_nicu` (64); PRJEB101152 to `ibd_unspecified` (41); PRJEB48814 to `type1_diabetes` (31).
+- **5,130 values keep their code and gain evidence that states it.** Their previous evidence was a sample title, a yes/no flag
+  or an unrelated attribute (for example `preterm_nicu` from "feces [ENVO:00002003]" in PRJEB79896; PRJNA746290, where the quote
+  is now the verbatim cell of the paper's table).
+- **171 values withdrawn**: PRJNA1083321 (165; `isolate: case` names no condition) and PRJEB45799 (6; `preterm_nicu` had been
+  read from an age string; the project's other 41 such samples become `healthy_control` from curatedMetagenomicData).
+  2,394 `health_condition_detail` values of PRJEB45799 that held the same age string are withdrawn too.
+
+### Other fields
+
+- Country: 400 samples of PRJEB6456 are Sweden. The value had been withheld because the archive attribute says Denmark; the
+  paper's table and abstract say Sweden. 7 re-deposited HMP samples in PRJEB14383 change from PH to US.
+- Sex: 101 values of PRJNA929328 are withdrawn (the paper's table codes sex 0/1 and gives no legend). The evidence of 98 values
+  in PRJNA1237910 and PRJNA1184021 is replaced by the statement that supports them. PRJEB45443 was checked and is correct.
+- Age: 21 values of PRJNA310878 are withdrawn; the archive gives bare numbers and no source states their unit.
+- Scope: PRJNA1165510 leaves the catalog. Its 17 samples are genomes of probiotic strains cultured from the capsules of a
+  trial, not human samples.
+- Short titles and descriptions of PRJEB6456, PRJEB110312 and PRJNA296435 named a country other than the one their samples
+  carry and are rewritten. The per-sample countries were checked and are right (Sweden, Slovakia, China).
+
+### Prior curated resources matched to every current sample
+
+The nine resources ingested on 2026-09-28 (curatedMetagenomicData, GMrepo, Meta2DB, HumanMetagenomeDB, MicrobiomeDB, HMP/iHMP,
+AGP, mBodyMap, MicrobeAtlas) were matched again, at the same resource versions, to all current samples: the catalog has grown
+since September and now covers all body sites. **87,585 further values for 55,519 samples in 532 projects** are ingested (route
+R2, `evidence_source = external.<resource>`), of which 46,705 are MicrobeAtlas countries.
+- They fill empty cells (country 2,577, sex 2,616, age 2,022, antibiotic exposure 1,641, BMI 1,210, health condition 3,907) or
+  support a value that was already there. Where the catalog had only a cohort-wide statement, the per-sample value replaces it
+  (antibiotic exposure 392, health condition 175, age 4), as in September.
+- **3,167 re-matched values are not ingested**: 2,269 differ from a current per-sample value (country 731, of which 728 are Hong
+  Kong samples that two resources code as China; health condition 888; age 638, mostly a different days-per-year convention),
+  878 are detail strings of those health conditions, and 20 fall on cells set by an earlier checked correction. These
+  disagreements are listed in the pipeline (`ext_delta_r38_not_ingested.parquet`) and none has been adjudicated.
+
+### How checked values are recorded
+
+- Rows written by this check have `determined_by = dq_adjudication_v2:r38`. Their `evidence_quote` is the whole sentence (up to
+  60 words) instead of a 12-word span, and `parse_note` gives the previous value.
+- A checked value outranks every automatic route for its sample and field (the infant extension's curated values still come
+  first), and a disagreement between two sources is no longer withheld once a check has confirmed the published side.
+- The decision tables and the readers' notes, including what they could not verify, are in the pipeline repository under
+  `docs/audits/r38/`.
+
+### Not corrected in this release
+
+Found during the check and left for the next one: PRJEB39610 (12 preterm infants without NEC are `preterm_nicu`, 437 others
+`healthy_control`); PRJNA987980 (1,029 simulated samples carry human metadata); 25 projects with fewer than 30 flag-coded
+samples each; PRJNA770647 (antibiotic statement kept, paper not open access); PRJNA544527 (linked to a paper that only cites
+it); PRJEB91658 (45 pairs of sample aliases ending .1 / .2 whose meaning is undocumented).
+
+### Tables, documents and site
+
+- `releases.csv` now carries the DOI of each earlier release (the column had been empty: a DOI is minted after its release is
+  built). The row counts in the `DATA_DICTIONARY.md` headings are those of the files as packaged; 13 were out of date.
+- Projects table: the country column now shows the curated per-sample countries (4,490 projects) and falls back to the
+  archive's project-level text only where no sample has a curated country.
+- Site maps: Crimea is drawn as part of Ukraine (UN General Assembly resolution 68/262); the Natural Earth base map draws it
+  as part of Russia. Boundaries are shown only to display sample counts.
+
+## Package 1.30.1 (R2026.37, 2026-11-11)
+
+### New address
+
+The site moves to **https://microbiome-repo.colorado.edu/**, a University of Colorado Boulder server. The catalog data are
+unchanged from 1.30.0; this release only changes where the site lives and how it is served.
+
+- Canonical links, `robots.txt`, the sitemap, `llms.txt` and `security.txt` now use the new address. The old address, microbiomerepo.com, will become a permanent redirect that keeps the path, so existing links and the
+  Zenodo records that cite it keep working.
+- The server deploys the newest exact `site-vX.Y.Z` tag of the public site repository. Each release now carries a root
+  `version.json` with its site tag, and a post-release check in the site repository confirms the server is serving it.
+- A `404.html` page is served for missing addresses. It offers a project's catalog page or a registry lookup when the missing
+  address names a project accession.
+- d3 and topojson are now served from the site itself with the same Subresource Integrity hashes; only the DuckDB-WASM engine of
+  the Samples and Registry explorers still loads from jsDelivr.
+- `make verify` now rejects a build that the server would refuse: symlinks, files without an extension, or file types outside
+  the server's allow-list.
+- `CHANGELOG.md` again lists every public release (1.26.0 onwards). Since 1.28.0 the entries for 1.28.0, 1.29.0, 1.29.1 and
+  1.30.0 had been dropped when the file was trimmed to the public history; they are restored from their source files.
+
+## Package 1.30.0 (R2026.36, 2026-11-06)
+
+An integrity release. Package 1.29.1 (R2026.35) stays frozen as the benchmark version; nothing here changes it.
+
+### Sandpiper profiles rebuilt (`scripts/refresh_sandpiper.py`)
+
+- Every Sandpiper table was rebuilt in one pass from Sandpiper **2.0.1** (Zenodo record 21287531, GTDB R232) for the
+  **current** catalog samples only. Earlier tables were built for package 1.11.0 and extended in R2026.31. 2.0.1 ships
+  *unfilled* coverage; it is converted to filled coverage (each node = its whole subtree). Root coverage matches 2.0.0 for all
+  449,912 runs present in both versions.
+- 416,961 current samples in 3,136 projects have a profile (51.4 % of 810,820), from 449,912 DNA runs. Against 1.29.1: no
+  sample lost, 26 gained. Root coverage changes by more than 1 % for 3 samples and the top genus for 3.
+- Removed: 6,235 summary rows of samples retired in earlier releases. Metatranscriptome (RNA) runs no longer enter a community profile.
+- QC flags from Sandpiper's per-run metadata (low complexity, read-fraction warning, non-metagenome organism label, ecological
+  prediction) are now set for every sample; they were empty for the 83,544 samples added in R2026.31, as were
+  `runs_profiled` and `sandpiper_url`. 67,175 profiled samples carry at least one flag.
+- `catalog_sandpiper_study_coverage.csv` has one row per current project (it had stale rows for 174 projects with no current
+  sample and wrong counts for 278). The PCA was refit: 405,460 samples, 388 genera.
+- `catalog_runs.sandpiper_profiled` follows the 2.0.1 run list (registry flags 838,702 → 840,403 runs).
+
+### Release integrity checks (`catalog.release.integrity_checks`, run by `make verify`)
+
+Cross-table checks on current rows: unique sample keys, samples without runs, Sandpiper rows only for current samples with a
+flagged profiled run, coverage counts equal to the sample table, propagated values only within a person, no person with two sex
+values, ages 0–122 years and dates from 1980 to the build date. Report: `build/integrity_checks.json` (pipeline).
+
+**Identify people by (`study_accession`, `person_key`).** `person_key` is a project's own subject id; 9,577 values recur
+across projects.
+
+### Value gates and checked corrections (`catalog.scopes.plausibility`)
+
+Removed values are kept, with the rule that removed them, in the new table **`catalog_rejected_values.parquet`**.
+- Gates: age below 0 days or above 122 years.
+- Corrections from an Opus 5 reading of 31 projects whose values looked implausible (follow-up over 20 years, impossible ages,
+  dates before 1990). Only verdicts with confidence ≥ 0.7 are applied (`plausibility_corrections.csv` in the pipeline):
+  - **Person grouping fixed** where a subject id is not a person id: PRJEB55648 (number reused in every village → village +
+    number), PRJEB22863 (reused across the NSCLC and RCC cohorts → cohort + number), PRJEB59450 (running number → patient code),
+    PRJNA1300398, PRJEB42155 (3 samples), PRJNA419524 (organ donors separated from their recipients), PRJNA1157371
+    (`participant_ID` is a leaked spreadsheet row reference → grouping removed).
+  - **Ages cleared or corrected** where the field held something else: a submission row counter (PRJNA1138254), days postpartum
+    on breast-milk samples (PRJEB74322), the infant's age on the mother's samples (PRJEB83236, 385 samples), the recipient's age
+    on FMT donor units (PRJNA1169096), misaligned ages (PRJEB91718), sentinels such as −1 or −957 years (PRJEB32762,
+    PRJNA521587) and wrong table rows (PRJEB27661, re-read from the paper).
+  - **Dates cleared or corrected**: birth dates entered as collection dates (PRJEB55787), one placeholder date for a whole deposit
+    (PRJNA679286), a biobank's collection window (PRJNA1036630), two-digit year typos (PRJNA1031616).
+  - Genuine and kept: PRJNA785545 (two donors followed for over 30 years), PRJEB12449 (stool archived in 1985–87),
+    PRJNA1303200 (1984–85 cohort specimens), PRJNA471187 (banked serum), PRJNA542578 (a 111-year-old in a centenarian cohort).
+  - Not applied (confidence 0.6): PRJEB1220 and PRJEB29373, whose ages need closed-access supplementary tables.
+- Country values corrected in 5 projects: PRJEB37731 (the travel attribute had been read; SE → DK), PRJNA1430386 (US → CA),
+  PRJNA589866 (HU → RS for one patient), PRJNA624223 (one Hong Kong cohort, CN → HK) and PRJNA644725 (US → BD).
+
+### Per-person sex and country
+
+A person's sex or country is copied to that person's samples that lack it, only where every sample of the person that has the
+value agrees (determined_by `person_invariant_v1`; the evidence row names the sample it came from). In 1.29.1 this would add sex
+to about 2,100 samples and country to about 600.
+
+### Scope: non-human samples removed
+
+5,528 current samples in 53 projects carried an environmental or animal organism name. Opus 5 read each project:
+- **4,766 of them, in 41 projects, leave the catalog**: hospital and household surfaces, air, dust, water, soil, food products,
+  mouse / rat / pig / bovine / chicken samples. Also in this group: ex vivo bioreactor cultures of human faeces (PRJNA473225),
+  treated like the earlier exclusion of mice given human microbiota. One bacterial culture in PRJEB27661 is removed too.
+- **762 are human samples** filed under a wrong organism name (for example human stool filed as "mouse gut metagenome", and
+  human breast milk) and are kept.
+- 6 negative controls in PRJNA419524 are now marked as controls.
+
+### Interventions: filter I2 audited (`scripts/apply_i2_audit.py`)
+
+Filter I2 (R2026.32) kept intervention codes only for controlled trials. Opus 5 re-read 141 projects whose codes it had removed:
+all 121 single-arm before/after projects and a random 20 of the 106 others.
+- I2 was mostly right: 125 of 168 codes were routine care that the study only observed.
+- 35 codes in 30 projects were real study administrations and are restored: dietary supplements, diets, FMT, phage therapy,
+  antibiotics given by the protocol, prebiotics and others. Two of the 20 randomly sampled observational / unknown-design
+  projects had real administrations, so about nine more may remain among the 86 not read; they are queued for the next run.
+- 23 of the 141 verdicts rest on archive records alone (no paper could be located) and are marked provisional in their notes.
+
+### Site
+
+New page **Atlas › Profile measures**: profiling coverage and why samples have no profile, label-versus-composition agreement
+(a project-held-out classifier on genus profiles) with a queue of discordant samples, known-species share by country and body
+site, and depth and host-DNA share.
+
+## Package 1.29.1 (R2026.35, 2026-11-03)
+
+### Probiotic audit (`scripts/apply_probiotic_audit.py`)
+
+Before an external comparison with hand-curated metadata, Opus 5 read 131 projects whose probiotic annotation was in doubt:
+81 whose title, archive description, short description, design statement or paper titles mention probiotic terms but that had
+no probiotic annotation; 25 whose samples carry a probiotic value (arm, `probiotic_exposure` or `medication`) without a
+project-level tag; 14 tagged projects whose design had been read as observational or unknown; and 11 projects whose probiotic
+code had been set aside (the two earlier readings disagreed, or filter I2 kept codes only for trial designs). Each verdict names
+its source and quotes it verbatim; only verdicts with confidence ≥ 0.7 change the catalog.
+
+- 22 project-level interventions added: 20 probiotic, 1 synbiotic, 1 defined live biotherapeutic. Many are single-arm or
+  NICU-protocol cohorts — filter I2 (R2026.32) had removed codes outside trial designs, which also dropped real single-arm use.
+- 4 probiotic tags removed: 3 projects gave the product only to an in-vitro gut model or to mice, 1 recorded patients' own use.
+- `probiotic_exposure` withdrawn for PRJNA701480 (50 samples): the yes / no values mirrored vaginal seeding vs placebo.
+- Not changed (13 projects): verdicts below 0.7 confidence or unclear (for example a kefir trial, cohorts with no linked paper).
+- Estimated recall of project-level probiotic administration in 1.29.0: 110 of 132 projects (83 %).
+- Still open: per-sample arms. About 46 probiotic projects say which samples were in the probiotic arm; for the rest only the
+  project is tagged. The `medication` value `probiotic_or_prebiotic` covers both kinds of product.
+
+## Package 1.29.0 (R2026.34, 2026-11-02)
+
+### Who and when: a person and time-point reading (new pass, `scripts/persontime_passes.py`)
+
+Targets: the projects whose source describes repeated sampling but whose samples showed no person with two samples (487,
+"repeated sampling, not resolved"), and the longitudinal projects whose repeatedly sampled people had no time axis (599);
+647 of them had sample variables that could say who or when.
+
+- Candidates (deterministic): sample attributes that repeat like person identifiers; sample names split into a person part
+  and a time part (for example `P01_D7` → `P01` + `D7`), kept only when the person part repeats, each person-and-time pair
+  is unique and the time part varies within persons; time variables (attributes, stored time-point labels, name parts,
+  and numeric day / week counts); demographic and specimen vocabularies (age, sex, group, tissue, source) never count as a
+  person.
+- Two independent readings (Sonnet-class, role `rubric`) choose the person and the time variable and give each time value a
+  label and its days since the time origin, only when the text or the value states them; a third reading, shown only the
+  two disputed variables, settles disagreements (11 projects). Merge rules refuse sample types, body sites, fractions,
+  storage or incubation times and bare dates as time axes, and a person variable with more people than the text states or
+  whose sex changes within a person.
+- Every proposal was checked by Opus 5 (role `adjudicate`) — the person variable against example samples, each time value
+  against the text. Labels that only restate a code ("1" → "timepoint 1") are not written.
+- Written: **8,728** subject identifiers in **85** projects (1,619 replace one-per-sample identifiers), **21,879** time-point
+  labels (12,325 of them decode a stored code, e.g. "A" → "before ablation"), and **17,122** day offsets in **120**
+  projects, which give their repeatedly sampled people a time axis.
+- Quality: two pilots (40 and 80 projects) and a production audit of 30 projects (Opus 5 reading each project): subject
+  identifiers 1,525 / 1,525, decodings 1,131 / 1,131, labels 1,598 / 1,652, offsets 2,383 / 2,453 correct. The wrong rows
+  came from three projects: one visit code matched to the wrong visit (withheld), one age used as a time axis for people
+  sampled once, and one "W-2" (two weeks before) merged with "W2". The last two patterns are now filtered across all
+  outputs (`scripts/apply_persontime_filters.py`; 388 rows in 4 projects withheld) and blocked in the pass itself.
+- Cost: $28.75 production + $5.94 pilots.
+- Effect in the package (1.28.0 → 1.29.0): longitudinal projects whose repeatedly sampled people have a time axis 698 →
+  **828**; "repeated sampling, not resolved" 487 → **402**; people sampled more than once 64,983 → **67,428** (samples
+  272,430 → 280,639); projects whose time axis is a mapped time point 54 → 107. Samples with a subject identifier +7,109
+  and with a time-point label +9,554 (the rest of the written rows replace or decode existing values).
+
+### Study design: tie-break and re-reading
+
+- The design reading was re-run on the 504 projects whose two readings had given different design types (416) or where a
+  reading was missing (88), with the audit's prompt fixes from R2026.33; where the readings still differed, Opus 5 chose
+  between them (146 projects: first 75, second 59, neither 12). 12 projects in the whole design table still carry
+  "two readings differed" (was 416).
+- 449 new design statements, each checked by Opus 5 against its text (303 supported, 146 revised to stated facts only).
+- Cost: $24.9 readings, map checks and tie-breaks + $6.0 statement checks.
+- Effect in the package: design statements 2,562 → 3,016; per-sample comparison-group values +2,497 and intervention
+  values −81 (net), where the re-reading replaced a project's arms.
+
+### New projects
+
+- Registry delta since 2026-10-24: 134 new studies, 19 not seen before, 9 with a human signal; classified by two readings:
+  5 admitted (4 in scope, 1 partly; all DNA), 687 specimens. Their study-level passes (cohort statements, interventions,
+  design, short description) ran against an intermediate build.
+- BioSample harvest falls back to EBI BioSamples for samples released within the last day (ENA answered 404 for 347 of them).
+
+### Pipeline
+
+- `scripts/monthly_intake.py` (select / fold / prep / samples) runs steps 1–4 and the new projects' sample stage in one place.
+- Precedence: checked person / time rows now share the infant catalog's first rank and win on confidence. Without this,
+  1,182 decoded time-point labels in 8 infant projects (e.g. `BL` → "baseline", `V1` → "birth") lost to the infant
+  catalog's parser labels, which keep the raw code only (`tests/test_resolve_precedence.py`).
+- Re-runs of the design reading fold in with `scripts/merge_design_rerun.py`; catch-up, design and verification scripts take a
+  shard-name tag so a monthly run never overwrites an earlier run's shards.
+
+## Package 1.28.0 (R2026.33, 2026-11-01)
+
+### Study-design reading (new pass, `scripts/design_passes.py`)
+
+Owner request: "understand the overall design of each study and present that to the end user". Targets: every project whose
+project page had no design statement (1,729 projects), whose paper compares groups that no sample variable separated (1,123), or
+whose trial arms were not recorded per sample (479): 3,067 projects in all.
+
+- Two independent readings (Sonnet-class, role `rubric`) of the best text per project (the generating paper's abstract and
+  methods, else abstracts, else the archive record), plus the project's candidate group variables (sample attributes and
+  stems of sample names / free-text attributes with 2–40 values). Each reading gives the design type, a one-sentence design
+  statement, the compared groups and the variable that separates them with a value → group map.
+- Merge: the design type when the readings agree (2,563 projects; otherwise both are kept as "two readings differed"); the
+  statement only then. A value → group map is proposed when both readings chose the same variable and agree on the value's
+  group (634 projects), with technical controls, body-site keys and over-full groups refused.
+- Every proposed map was checked value by value by Opus 5 (role `adjudicate`): 1,542 of 1,873 values confirmed; 517 projects
+  kept an assignment covering ≥ 70 % of their specimens with ≥ 2 groups. A production audit (Opus 5, 30 random assigned
+  projects) found 75 of 80 values and 4,353 of 4,681 specimens right; the one wrong project used country of recruitment as
+  its groups, so gate G1 (`scripts/apply_design_filters.py`) now refuses place-only keys unless both readings call the study a
+  comparison of groups and a group quote is verbatim: 17 projects (3,769 specimens) lost their assignment, leaving **500**.
+- New per-sample field **`comparison_group`** (56,496 specimens in 500 projects): the study's own comparison group in the paper's wording, route
+  R1 from the attribute / name stem. From the same maps: 8,402 new `health_condition` values and 2,910 new `intervention` values
+  for specimens that had none (a code only where both readings and the Opus check agreed; specimens with an existing sample-level
+  value keep it — 3,716 health-condition and 2,378 intervention disagreements are counted, not applied).
+- New study columns in `catalog_studies`: `design_shape_reading`, `design_text_mode`, `design_statement`, `design_groups`
+  (reading 1's groups, JSON), `design_group_key`, `design_n_participants_stated`, `design_reading_status`.
+- Design statements: the same audit found an unsupported detail in 7 of 30 (most often a sample count given as a participant
+  count), so every statement was checked against its text by Opus 5 (`scripts/design_statement_check.py`): 1,353 supported
+  as written, 1,209 revised to keep only stated facts, 1 dropped; the site marks them "machine-written, checked".
+- Design type (30 audited): 23 right, 4 partly right, 3 wrong — diagnostic-yield studies read as case–control, and tissue or
+  site contrasts within one patient group read as group comparisons; both rules are now in the prompt for the next run.
+- Cost: $115.40 readings + $13.22 Opus checks of the maps + $42.0 Opus checks of the statements (3,067 projects). Pilot 2 audit (80 projects, Opus 5 reading every assigned
+  project): 38 of 39 values and 1,082 of 1,086 specimens correct.
+
+### Site
+
+- The study-design block now leads with the design type from the design reading where no paper reading existed, the
+  machine-written design statement (labelled), the groups the source compares, and the comparison_group × body-site matrix.
+- Project markers C (cases and healthy controls) and S (same people at several body sites) as in site 1.27.0.1.
+
+## 1.27.0 (R2026.32)
+
+- Study-level passes for the projects added in R2026.30 / R2026.31 (2,318 projects): one reading per project of the generating paper's full text (1,115 projects), else its abstracts (134), else the archive record (1,069), read twice independently. Cohort statements that both readings make for every participant, with a verbatim quote, are committed as route R3 (full text) or R4 (abstract / archive record) determinations with `determined_by = catalog_catchup_v1:*`; they fill sample fields only where no sample-level value exists. Every committed statement was checked a third time (Opus 5) against the passage around its quote; only confirmed statements are kept.
+- Interventions, study design (longitudinal schedule, relatedness) and the one-sample-per-person rule for the same projects: `catalog_studies.interventions`, `intervention_design`, `longitudinal_design`, `relatedness_design`; generated `subject_id` values carry `determined_by = gut_subject_unique_v1` and a `parse_note` beginning `generated:` (not generated where the stated number of participants is smaller than the number of specimens). Study-level intervention codes from this pass are kept only for trial designs (randomized, non-randomized controlled, crossover); relatedness only for kinship designs confirmed by the verification reading.
+- Supplementary tables for 146 more projects (route R2, `supp_join_v1`), with the same join ladder, column classification and value mapping as R2026.30.
+- `catalog_studies.description` holds the archive's full project description (it was cut at 300 characters for the projects added in R2026.30 / R2026.31).
+- Body site is a core field: `cov_body_site_code` in `catalog_studies`, counted in `n_fields_with_value`; `unknown_site` counts as not covered.
+- Per-sample DNA / RNA flags (`has_dna`, `has_rna`) count only the runs of the sample's own project, and follow the project's resolved nucleic acid where the paper and the rRNA read share overrode a single archive label.
+- `releases.csv` carries the Zenodo version DOI of every archived data release.
+
+## Site update 2026-11-01 (tag site-v1.27.0.1; package unchanged)
+
+- **Charts fixed in browsers.** The collection-year and sequencing-depth charts used the SVG class `bar`, which matched the
+  page-wide `.bar` rule in `site.css` (width 100 px, height 10 px); browsers apply CSS width/height to SVG rectangles, so every
+  column was drawn as a 100 × 10 px strip. Chart classes are now `gc-*`, and the new design matrix uses `ds-*` plus inline
+  presentation attributes.
+- **Study-design block** at the top of every project page (`site_generator/gen/pages/study_design.py`): the design type
+  (read from the paper, from the admission classification, or inferred from the sample variables), one sentence with people,
+  groups or arms, repeated sampling, body sites and families, a group × body-site matrix of people, a table naming the field and
+  the attributes or texts each design element comes from, and paper-versus-data checks. Interventions and "Sampling design and
+  relatedness" now follow it directly; Sources and Samples at a glance come after.
+- **Two new project markers** on the Projects table: **C** cases and healthy controls (solid: ≥ 3 samples of each in
+  `health_condition`; dotted: the source describes a case–control study but the samples do not separate cases and controls),
+  **S** same people at several body sites (solid: ≥ 3 people with samples from two or more sites; dotted: several sites, people
+  not identifiable). A legend for all markers sits above the table.
+
+## 1.26.0 (R2026.31)
+
+- One catalog of human-associated microbial communities sequenced by shotgun DNA or RNA sequencing, from every body site and at every age. All projects are in `catalog_studies.parquet`, all samples in `catalog_sample_metadata_wide.parquet` and `catalog_sample_determinations.parquet`, all runs in `catalog_runs.parquet`.
+- DNA and RNA data sets are kept apart: `catalog_runs.nucleic_acid`, `catalog_sample_metadata_wide.has_dna` / `has_rna`, `catalog_studies.nucleic_acid` (+ `n_runs_dna`, `n_runs_rna`, `n_samples_dna`, `n_samples_rna`).
+- Every sample carries its own `body_site_code`; projects carry `sample_body_sites` and `body_site_primary`.
+- Methods and setting read from each project's generating paper (`platform`, `extraction_kit`, `library_kit`, `study_shape`, `n_participants`, `recruitment`, `settlement`, `n_places`, `lifestyle_paper`, `metadata_access_paper`, `n_exposure_items`) and the exposure items behind them (`catalog_exposure_items.parquet`); papers judged to have generated or reused a project's data in `catalog_study_papers.parquet`.
+- Amplicon and single-cell data sets are excluded run by run; a sample without any in-scope data set is not in the catalog.
+- Table names: every table of the catalog tier is named `catalog_*`; earlier packages stay archived with their own releases (GitHub / Zenodo).
+
