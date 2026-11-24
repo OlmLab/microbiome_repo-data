@@ -1,0 +1,376 @@
+run_accession,study_accession,sample_accession,catalog_sample_key,organism,library_source,library_strategy,sp_nonmeta_class,in_sandpiper,action_v1_2_1
+SRR28166986,PRJNA1082298,SAMN40204545,SAMN40204545,Enterobacter asburiae,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002031,PRJNA799247,SAMN44294030,SAMN44294030,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002032,PRJNA799247,SAMN44294029,SAMN44294029,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002041,PRJNA799247,SAMN44294021,SAMN44294021,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002043,PRJNA799247,SAMN44294019,SAMN44294019,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002047,PRJNA799247,SAMN44294015,SAMN44294015,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002048,PRJNA799247,SAMN44294014,SAMN44294014,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002054,PRJNA799247,SAMN44294009,SAMN44294009,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002055,PRJNA799247,SAMN44294008,SAMN44294008,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002063,PRJNA799247,SAMN44294001,SAMN44294001,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002068,PRJNA799247,SAMN44293996,SAMN44293996,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002069,PRJNA799247,SAMN44293995,SAMN44293995,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002072,PRJNA799247,SAMN44293966,SAMN44293966,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002076,PRJNA799247,SAMN44293989,SAMN44293989,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002079,PRJNA799247,SAMN44293986,SAMN44293986,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002082,PRJNA799247,SAMN44293983,SAMN44293983,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002090,PRJNA799247,SAMN44293976,SAMN44293976,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002030,PRJNA799247,SAMN44293970,SAMN44293970,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002040,PRJNA799247,SAMN44294022,SAMN44294022,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002046,PRJNA799247,SAMN44294016,SAMN44294016,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002061,PRJNA799247,SAMN44293967,SAMN44293967,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002062,PRJNA799247,SAMN44294002,SAMN44294002,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002064,PRJNA799247,SAMN44294000,SAMN44294000,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002067,PRJNA799247,SAMN44293997,SAMN44293997,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002074,PRJNA799247,SAMN44293991,SAMN44293991,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002086,PRJNA799247,SAMN44293980,SAMN44293980,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002089,PRJNA799247,SAMN44293977,SAMN44293977,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002036,PRJNA799247,SAMN44294025,SAMN44294025,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002042,PRJNA799247,SAMN44294020,SAMN44294020,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002052,PRJNA799247,SAMN44294011,SAMN44294011,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002053,PRJNA799247,SAMN44294010,SAMN44294010,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002059,PRJNA799247,SAMN44294004,SAMN44294004,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002060,PRJNA799247,SAMN44294003,SAMN44294003,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002073,PRJNA799247,SAMN44293992,SAMN44293992,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002091,PRJNA799247,SAMN44293975,SAMN44293975,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002092,PRJNA799247,SAMN44293974,SAMN44293974,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002095,PRJNA799247,SAMN44293963,SAMN44293963,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002029,PRJNA799247,SAMN44293971,SAMN44293971,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002035,PRJNA799247,SAMN44294026,SAMN44294026,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002037,PRJNA799247,SAMN44294024,SAMN44294024,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002049,PRJNA799247,SAMN44294013,SAMN44294013,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002051,PRJNA799247,SAMN44294012,SAMN44294012,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002056,PRJNA799247,SAMN44294007,SAMN44294007,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002075,PRJNA799247,SAMN44293990,SAMN44293990,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002077,PRJNA799247,SAMN44293988,SAMN44293988,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002078,PRJNA799247,SAMN44293987,SAMN44293987,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002080,PRJNA799247,SAMN44293985,SAMN44293985,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002081,PRJNA799247,SAMN44293984,SAMN44293984,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002083,PRJNA799247,SAMN44293965,SAMN44293965,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002085,PRJNA799247,SAMN44293981,SAMN44293981,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002087,PRJNA799247,SAMN44293979,SAMN44293979,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002088,PRJNA799247,SAMN44293978,SAMN44293978,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002094,PRJNA799247,SAMN44293964,SAMN44293964,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR28166987,PRJNA1082298,SAMN40204544,SAMN40204544,Enterobacter asburiae,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002028,PRJNA799247,SAMN44293972,SAMN44293972,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002033,PRJNA799247,SAMN44294028,SAMN44294028,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002034,PRJNA799247,SAMN44294027,SAMN44294027,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002038,PRJNA799247,SAMN44294023,SAMN44294023,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002039,PRJNA799247,SAMN44293969,SAMN44293969,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002044,PRJNA799247,SAMN44294018,SAMN44294018,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002045,PRJNA799247,SAMN44294017,SAMN44294017,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002050,PRJNA799247,SAMN44293968,SAMN44293968,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002057,PRJNA799247,SAMN44294006,SAMN44294006,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002058,PRJNA799247,SAMN44294005,SAMN44294005,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002065,PRJNA799247,SAMN44293999,SAMN44293999,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002066,PRJNA799247,SAMN44293998,SAMN44293998,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002070,PRJNA799247,SAMN44293994,SAMN44293994,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002071,PRJNA799247,SAMN44293993,SAMN44293993,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+SRR31002084,PRJNA799247,SAMN44293982,SAMN44293982,Clostridioides difficile,METAGENOMIC,WGS,named_microbe_or_other,False,none (METAGENOMIC named microbe — owner review)
+SRR31002093,PRJNA799247,SAMN44293973,SAMN44293973,Staphylococcus epidermidis,METAGENOMIC,WGS,named_microbe_or_other,True,none (METAGENOMIC named microbe — owner review)
+ERR743892,PRJEB6921,SAMEA2689667,SAMEA2689667,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743896,PRJEB6921,SAMEA2689671,SAMEA2689671,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743905,PRJEB6921,SAMEA2689680,SAMEA2689680,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743924,PRJEB6921,SAMEA2689788,SAMEA2689788,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR905781,PRJEB6921,SAMEA3232173,SAMEA3232173,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514628,PRJEB6921,SAMEA3890332,SAMEA3890332,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514631,PRJEB6921,SAMEA3890335,SAMEA3890335,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514632,PRJEB6921,SAMEA3890336,SAMEA3890336,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514640,PRJEB6921,SAMEA3890344,SAMEA3890344,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514645,PRJEB6921,SAMEA3890349,SAMEA3890349,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514653,PRJEB6921,SAMEA3890357,SAMEA3890357,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514654,PRJEB6921,SAMEA3890358,SAMEA3890358,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514655,PRJEB6921,SAMEA3890359,SAMEA3890359,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514662,PRJEB6921,SAMEA3890366,SAMEA3890366,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514665,PRJEB6921,SAMEA3890369,SAMEA3890369,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514666,PRJEB6921,SAMEA3890370,SAMEA3890370,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514667,PRJEB6921,SAMEA3890371,SAMEA3890371,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514669,PRJEB6921,SAMEA3890373,SAMEA3890373,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1899998,PRJEB6921,SAMEA4551726,SAMEA4551726,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900005,PRJEB6921,SAMEA4551733,SAMEA4551733,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900006,PRJEB6921,SAMEA4551734,SAMEA4551734,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900007,PRJEB6921,SAMEA4551735,SAMEA4551735,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900009,PRJEB6921,SAMEA4551737,SAMEA4551737,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900017,PRJEB6921,SAMEA4551745,SAMEA4551745,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436206,PRJEB6921,SAMEA91501168,SAMEA91501168,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436215,PRJEB6921,SAMEA97888918,SAMEA97888918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436221,PRJEB6921,SAMEA97924918,SAMEA97924918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436231,PRJEB6921,SAMEA97913668,SAMEA97913668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436237,PRJEB6921,SAMEA97949668,SAMEA97949668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436243,PRJEB6921,SAMEA97914418,SAMEA97914418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436256,PRJEB6921,SAMEA97921168,SAMEA97921168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436262,PRJEB6921,SAMEA97957168,SAMEA97957168,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436273,PRJEB6921,SAMEA97951918,SAMEA97951918,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436278,PRJEB6921,SAMEA97910668,SAMEA97910668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436280,PRJEB6921,SAMEA97922668,SAMEA97922668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436288,PRJEB6921,SAMEA97899418,SAMEA97899418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436293,PRJEB6921,SAMEA97929418,SAMEA97929418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436294,PRJEB6921,SAMEA97935418,SAMEA97935418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2789027,PRJEB6921,SAMEA104209557,SAMEA104209557,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2789028,PRJEB6921,SAMEA104209558,SAMEA104209558,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259955,PRJEB6921,SAMEA104570768,SAMEA104570768,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259957,PRJEB6921,SAMEA104570770,SAMEA104570770,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259958,PRJEB6921,SAMEA104570771,SAMEA104570771,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259960,PRJEB6921,SAMEA104570773,SAMEA104570773,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523745,PRJEB6921,SAMEA4798992,SAMEA4798992,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523749,PRJEB6921,SAMEA4771294,SAMEA4771294,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523750,PRJEB6921,SAMEA4771295,SAMEA4771295,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523751,PRJEB6921,SAMEA4771296,SAMEA4771296,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899604,PRJEB6921,SAMEA104399752,SAMEA104399752,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021644,PRJEB6921,SAMEA6615115,SAMEA6615115,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021645,PRJEB6921,SAMEA6615117,SAMEA6615117,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021651,PRJEB6921,SAMEA6615123,SAMEA6615123,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743894,PRJEB6921,SAMEA2689669,SAMEA2689669,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743897,PRJEB6921,SAMEA2689672,SAMEA2689672,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743899,PRJEB6921,SAMEA2689674,SAMEA2689674,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743902,PRJEB6921,SAMEA2689677,SAMEA2689677,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743907,PRJEB6921,SAMEA2689682,SAMEA2689682,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743911,PRJEB6921,SAMEA2689686,SAMEA2689686,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743915,PRJEB6921,SAMEA2687555,SAMEA2687555,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743921,PRJEB6921,SAMEA2689785,SAMEA2689785,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743922,PRJEB6921,SAMEA2689786,SAMEA2689786,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743923,PRJEB6921,SAMEA2689787,SAMEA2689787,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR905778,PRJEB6921,SAMEA3292513,SAMEA3292513,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514638,PRJEB6921,SAMEA3890342,SAMEA3890342,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514647,PRJEB6921,SAMEA3890351,SAMEA3890351,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514659,PRJEB6921,SAMEA3890363,SAMEA3890363,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514661,PRJEB6921,SAMEA3890365,SAMEA3890365,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514663,PRJEB6921,SAMEA3890367,SAMEA3890367,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514668,PRJEB6921,SAMEA3890372,SAMEA3890372,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3217767,PRJEB6921,SAMEA104703328,SAMEA104703328,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3217768,PRJEB6921,SAMEA104703329,SAMEA104703329,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3217769,PRJEB6921,SAMEA104703330,SAMEA104703330,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3259952,PRJEB6921,SAMEA104570765,SAMEA104570765,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900000,PRJEB6921,SAMEA4551728,SAMEA4551728,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900002,PRJEB6921,SAMEA4551730,SAMEA4551730,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900003,PRJEB6921,SAMEA4551731,SAMEA4551731,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900004,PRJEB6921,SAMEA4551732,SAMEA4551732,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900015,PRJEB6921,SAMEA4551743,SAMEA4551743,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436220,PRJEB6921,SAMEA97918918,SAMEA97918918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436226,PRJEB6921,SAMEA97954918,SAMEA97954918,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436232,PRJEB6921,SAMEA97919668,SAMEA97919668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436247,PRJEB6921,SAMEA97938418,SAMEA97938418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436250,PRJEB6921,SAMEA97956418,SAMEA97956418,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436252,PRJEB6921,SAMEA97897168,SAMEA97897168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436261,PRJEB6921,SAMEA97951168,SAMEA97951168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436265,PRJEB6921,SAMEA97903918,SAMEA97903918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436267,PRJEB6921,SAMEA97915918,SAMEA97915918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436268,PRJEB6921,SAMEA97921918,SAMEA97921918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436269,PRJEB6921,SAMEA97927918,SAMEA97927918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436274,PRJEB6921,SAMEA97957918,SAMEA97957918,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436275,PRJEB6921,SAMEA97892668,SAMEA97892668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436277,PRJEB6921,SAMEA97904668,SAMEA97904668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436283,PRJEB6921,SAMEA97940668,SAMEA97940668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436284,PRJEB6921,SAMEA97946668,SAMEA97946668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436291,PRJEB6921,SAMEA97917418,SAMEA97917418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436301,PRJEB6921,SAMEA97906168,SAMEA97906168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436306,PRJEB6921,SAMEA97936168,SAMEA97936168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436307,PRJEB6921,SAMEA97942168,SAMEA97942168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436310,PRJEB6921,SAMEA103926772,SAMEA103926772,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2789026,PRJEB6921,SAMEA104209556,SAMEA104209556,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2789029,PRJEB6921,SAMEA104209559,SAMEA104209559,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2789030,PRJEB6921,SAMEA104209560,SAMEA104209560,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523733,PRJEB6921,SAMEA4798990,SAMEA4798990,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523740,PRJEB6921,SAMEA4771295,SAMEA4771295,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523743,PRJEB6921,SAMEA4798990,SAMEA4798990,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523746,PRJEB6921,SAMEA4798993,SAMEA4798993,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899605,PRJEB6921,SAMEA104399753,SAMEA104399753,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899606,PRJEB6921,SAMEA104399754,SAMEA104399754,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899610,PRJEB6921,SAMEA104399758,SAMEA104399758,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899611,PRJEB6921,SAMEA104399759,SAMEA104399759,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899612,PRJEB6921,SAMEA104399760,SAMEA104399760,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899613,PRJEB6921,SAMEA104399761,SAMEA104399761,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899614,PRJEB6921,SAMEA104399762,SAMEA104399762,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021641,PRJEB6921,SAMEA6615112,SAMEA6615112,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021648,PRJEB6921,SAMEA6615120,SAMEA6615120,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743893,PRJEB6921,SAMEA2689668,SAMEA2689668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743903,PRJEB6921,SAMEA2689678,SAMEA2689678,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743904,PRJEB6921,SAMEA2689679,SAMEA2689679,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743910,PRJEB6921,SAMEA2689685,SAMEA2689685,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743919,PRJEB6921,SAMEA2689783,SAMEA2689783,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743926,PRJEB6921,SAMEA2689790,SAMEA2689790,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3217766,PRJEB6921,SAMEA104703327,SAMEA104703327,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3259959,PRJEB6921,SAMEA104570772,SAMEA104570772,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1514629,PRJEB6921,SAMEA3890333,SAMEA3890333,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514630,PRJEB6921,SAMEA3890334,SAMEA3890334,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514639,PRJEB6921,SAMEA3890343,SAMEA3890343,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514648,PRJEB6921,SAMEA3890352,SAMEA3890352,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514650,PRJEB6921,SAMEA3890354,SAMEA3890354,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514651,PRJEB6921,SAMEA3890355,SAMEA3890355,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514652,PRJEB6921,SAMEA3890356,SAMEA3890356,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514657,PRJEB6921,SAMEA3890361,SAMEA3890361,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514664,PRJEB6921,SAMEA3890368,SAMEA3890368,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1899993,PRJEB6921,SAMEA4551721,SAMEA4551721,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1899994,PRJEB6921,SAMEA4551722,SAMEA4551722,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900008,PRJEB6921,SAMEA4551736,SAMEA4551736,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900010,PRJEB6921,SAMEA4551738,SAMEA4551738,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900013,PRJEB6921,SAMEA4551741,SAMEA4551741,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900016,PRJEB6921,SAMEA4551744,SAMEA4551744,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436208,PRJEB6921,SAMEA91502668,SAMEA91502668,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436209,PRJEB6921,SAMEA96242668,SAMEA96242668,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436214,PRJEB6921,SAMEA91504918,SAMEA91504918,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436219,PRJEB6921,SAMEA97912918,SAMEA97912918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436230,PRJEB6921,SAMEA97907668,SAMEA97907668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436241,PRJEB6921,SAMEA97902418,SAMEA97902418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436246,PRJEB6921,SAMEA97932418,SAMEA97932418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436249,PRJEB6921,SAMEA97950418,SAMEA97950418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436253,PRJEB6921,SAMEA97903168,SAMEA97903168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436258,PRJEB6921,SAMEA97933168,SAMEA97933168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436259,PRJEB6921,SAMEA97939168,SAMEA97939168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436266,PRJEB6921,SAMEA97909918,SAMEA97909918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436272,PRJEB6921,SAMEA97945918,SAMEA97945918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436282,PRJEB6921,SAMEA97934668,SAMEA97934668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436285,PRJEB6921,SAMEA97952668,SAMEA97952668,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436287,PRJEB6921,SAMEA97893418,SAMEA97893418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436292,PRJEB6921,SAMEA97923418,SAMEA97923418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436297,PRJEB6921,SAMEA97953418,SAMEA97953418,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436299,PRJEB6921,SAMEA97894168,SAMEA97894168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3523737,PRJEB6921,SAMEA4771292,SAMEA4771292,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523738,PRJEB6921,SAMEA4771293,SAMEA4771293,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523741,PRJEB6921,SAMEA4771296,SAMEA4771296,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523748,PRJEB6921,SAMEA4771293,SAMEA4771293,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899609,PRJEB6921,SAMEA104399757,SAMEA104399757,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899615,PRJEB6921,SAMEA104399763,SAMEA104399763,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021642,PRJEB6921,SAMEA6615113,SAMEA6615113,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021646,PRJEB6921,SAMEA6615118,SAMEA6615118,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021647,PRJEB6921,SAMEA6615119,SAMEA6615119,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021649,PRJEB6921,SAMEA6615121,SAMEA6615121,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743898,PRJEB6921,SAMEA2689673,SAMEA2689673,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743900,PRJEB6921,SAMEA2689675,SAMEA2689675,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743906,PRJEB6921,SAMEA2689681,SAMEA2689681,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743912,PRJEB6921,SAMEA2689687,SAMEA2689687,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743914,PRJEB6921,SAMEA2689689,SAMEA2689689,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743916,PRJEB6921,SAMEA2687556,SAMEA2687556,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743918,PRJEB6921,SAMEA2687562,SAMEA2687562,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743920,PRJEB6921,SAMEA2689784,SAMEA2689784,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743925,PRJEB6921,SAMEA2689789,SAMEA2689789,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1899996,PRJEB6921,SAMEA4551724,SAMEA4551724,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1899997,PRJEB6921,SAMEA4551725,SAMEA4551725,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900001,PRJEB6921,SAMEA4551729,SAMEA4551729,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900018,PRJEB6921,SAMEA4551746,SAMEA4551746,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900019,PRJEB6921,SAMEA4551747,SAMEA4551747,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436207,PRJEB6921,SAMEA91501918,SAMEA91501918,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436210,PRJEB6921,SAMEA96220918,SAMEA96220918,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436216,PRJEB6921,SAMEA97894918,SAMEA97894918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436222,PRJEB6921,SAMEA97930918,SAMEA97930918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436227,PRJEB6921,SAMEA97889668,SAMEA97889668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436228,PRJEB6921,SAMEA97895668,SAMEA97895668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436229,PRJEB6921,SAMEA97901668,SAMEA97901668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436234,PRJEB6921,SAMEA97931668,SAMEA97931668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436236,PRJEB6921,SAMEA97943668,SAMEA97943668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436242,PRJEB6921,SAMEA97908418,SAMEA97908418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436244,PRJEB6921,SAMEA97920418,SAMEA97920418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436245,PRJEB6921,SAMEA97926418,SAMEA97926418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436248,PRJEB6921,SAMEA97944418,SAMEA97944418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436251,PRJEB6921,SAMEA97891168,SAMEA97891168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436255,PRJEB6921,SAMEA97915168,SAMEA97915168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436263,PRJEB6921,SAMEA97891918,SAMEA97891918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436264,PRJEB6921,SAMEA97897918,SAMEA97897918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436271,PRJEB6921,SAMEA97939918,SAMEA97939918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436276,PRJEB6921,SAMEA97898668,SAMEA97898668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436281,PRJEB6921,SAMEA97928668,SAMEA97928668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436295,PRJEB6921,SAMEA97941418,SAMEA97941418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436296,PRJEB6921,SAMEA97947418,SAMEA97947418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436298,PRJEB6921,SAMEA97959418,SAMEA97959418,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436300,PRJEB6921,SAMEA97900168,SAMEA97900168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436302,PRJEB6921,SAMEA97912168,SAMEA97912168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436303,PRJEB6921,SAMEA97918168,SAMEA97918168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436305,PRJEB6921,SAMEA97930168,SAMEA97930168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436308,PRJEB6921,SAMEA97948168,SAMEA97948168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2789023,PRJEB6921,SAMEA104209553,SAMEA104209553,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2789024,PRJEB6921,SAMEA104209554,SAMEA104209554,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523732,PRJEB6921,SAMEA4798989,SAMEA4798989,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523734,PRJEB6921,SAMEA4798991,SAMEA4798991,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523736,PRJEB6921,SAMEA4798993,SAMEA4798993,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523744,PRJEB6921,SAMEA4798991,SAMEA4798991,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899608,PRJEB6921,SAMEA104399756,SAMEA104399756,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021643,PRJEB6921,SAMEA6615114,SAMEA6615114,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1514636,PRJEB6921,SAMEA3890340,SAMEA3890340,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514637,PRJEB6921,SAMEA3890341,SAMEA3890341,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514641,PRJEB6921,SAMEA3890345,SAMEA3890345,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514643,PRJEB6921,SAMEA3890347,SAMEA3890347,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514644,PRJEB6921,SAMEA3890348,SAMEA3890348,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3217771,PRJEB6921,SAMEA104703332,SAMEA104703332,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3259953,PRJEB6921,SAMEA104570766,SAMEA104570766,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259954,PRJEB6921,SAMEA104570767,SAMEA104570767,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259956,PRJEB6921,SAMEA104570769,SAMEA104570769,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259961,PRJEB6921,SAMEA104570774,SAMEA104570774,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR743891,PRJEB6921,SAMEA2689666,SAMEA2689666,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743895,PRJEB6921,SAMEA2689670,SAMEA2689670,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743901,PRJEB6921,SAMEA2689676,SAMEA2689676,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743908,PRJEB6921,SAMEA2689683,SAMEA2689683,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743909,PRJEB6921,SAMEA2689684,SAMEA2689684,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743913,PRJEB6921,SAMEA2689688,SAMEA2689688,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR743917,PRJEB6921,SAMEA2687561,SAMEA2687561,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR905779,PRJEB6921,SAMEA3232171,SAMEA3232171,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR905780,PRJEB6921,SAMEA3232172,SAMEA3232172,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3259962,PRJEB6921,SAMEA104570775,SAMEA104570775,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3259963,PRJEB6921,SAMEA104570776,SAMEA104570776,Bifidobacterium longum subsp. longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1514633,PRJEB6921,SAMEA3890337,SAMEA3890337,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514634,PRJEB6921,SAMEA3890338,SAMEA3890338,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514635,PRJEB6921,SAMEA3890339,SAMEA3890339,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514642,PRJEB6921,SAMEA3890346,SAMEA3890346,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514646,PRJEB6921,SAMEA3890350,SAMEA3890350,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514649,PRJEB6921,SAMEA3890353,SAMEA3890353,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514656,PRJEB6921,SAMEA3890360,SAMEA3890360,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514658,PRJEB6921,SAMEA3890362,SAMEA3890362,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1514660,PRJEB6921,SAMEA3890364,SAMEA3890364,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR1899995,PRJEB6921,SAMEA4551723,SAMEA4551723,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1899999,PRJEB6921,SAMEA4551727,SAMEA4551727,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900011,PRJEB6921,SAMEA4551739,SAMEA4551739,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900012,PRJEB6921,SAMEA4551740,SAMEA4551740,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR1900014,PRJEB6921,SAMEA4551742,SAMEA4551742,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436211,PRJEB6921,SAMEA96243418,SAMEA96243418,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436212,PRJEB6921,SAMEA91503418,SAMEA91503418,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436213,PRJEB6921,SAMEA91504168,SAMEA91504168,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2436217,PRJEB6921,SAMEA97900918,SAMEA97900918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436218,PRJEB6921,SAMEA97906918,SAMEA97906918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436223,PRJEB6921,SAMEA97936918,SAMEA97936918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436224,PRJEB6921,SAMEA97942918,SAMEA97942918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436225,PRJEB6921,SAMEA97948918,SAMEA97948918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436233,PRJEB6921,SAMEA97925668,SAMEA97925668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436235,PRJEB6921,SAMEA97937668,SAMEA97937668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436238,PRJEB6921,SAMEA97955668,SAMEA97955668,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436239,PRJEB6921,SAMEA97890418,SAMEA97890418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436240,PRJEB6921,SAMEA97896418,SAMEA97896418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436254,PRJEB6921,SAMEA97909168,SAMEA97909168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436257,PRJEB6921,SAMEA97927168,SAMEA97927168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436260,PRJEB6921,SAMEA97945168,SAMEA97945168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436270,PRJEB6921,SAMEA97933918,SAMEA97933918,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436279,PRJEB6921,SAMEA97916668,SAMEA97916668,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436286,PRJEB6921,SAMEA97958668,SAMEA97958668,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436289,PRJEB6921,SAMEA97905418,SAMEA97905418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436290,PRJEB6921,SAMEA97911418,SAMEA97911418,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436304,PRJEB6921,SAMEA97924168,SAMEA97924168,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2436309,PRJEB6921,SAMEA97954168,SAMEA97954168,Gallus gallus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR2789025,PRJEB6921,SAMEA104209555,SAMEA104209555,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR2789031,PRJEB6921,SAMEA104209561,SAMEA104209561,Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3217770,PRJEB6921,SAMEA104703331,SAMEA104703331,Mus musculus,GENOMIC,WGS,named_nonhuman_host,False,host_nonhuman
+ERR3523735,PRJEB6921,SAMEA4798992,SAMEA4798992,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523739,PRJEB6921,SAMEA4771294,SAMEA4771294,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523742,PRJEB6921,SAMEA4798989,SAMEA4798989,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3523747,PRJEB6921,SAMEA4771292,SAMEA4771292,Bifidobacterium breve UCC2003,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR3899607,PRJEB6921,SAMEA104399755,SAMEA104399755,Bifidobacterium longum,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021640,PRJEB6921,SAMEA6615111,SAMEA6615111,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR4021650,PRJEB6921,SAMEA6615122,SAMEA6615122,Bifidobacterium breve,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632041,PRJEB49206,SAMEA14201090,SAMEA14201090,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632067,PRJEB49206,SAMEA14201087,SAMEA14201087,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632036,PRJEB49206,SAMEA14201086,SAMEA14201086,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632037,PRJEB49206,SAMEA14201084,SAMEA14201084,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632056,PRJEB49206,SAMEA14201093,SAMEA14201093,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632068,PRJEB49206,SAMEA14201088,SAMEA14201088,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632102,PRJEB49206,SAMEA14201089,SAMEA14201089,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632103,PRJEB49206,SAMEA14201082,SAMEA14201082,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632034,PRJEB49206,SAMEA14201092,SAMEA14201092,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632042,PRJEB49206,SAMEA14201097,SAMEA14201097,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632043,PRJEB49206,SAMEA14201094,SAMEA14201094,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632044,PRJEB49206,SAMEA14201098,SAMEA14201098,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632046,PRJEB49206,SAMEA14201085,SAMEA14201085,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9631799,PRJEB49206,SAMEA14201081,SAMEA14201081,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632045,PRJEB49206,SAMEA14201099,SAMEA14201099,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632047,PRJEB49206,SAMEA14201095,SAMEA14201095,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632109,PRJEB49206,SAMEA14201091,SAMEA14201091,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632038,PRJEB49206,SAMEA14201083,SAMEA14201083,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632039,PRJEB49206,SAMEA14201100,SAMEA14201100,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
+ERR9632049,PRJEB49206,SAMEA14201096,SAMEA14201096,Bifidobacterium longum subsp. infantis,GENOMIC,WGS,named_microbe_or_other,False,assay_isolate_genome
