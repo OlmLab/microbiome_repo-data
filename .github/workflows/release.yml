@@ -7,6 +7,14 @@ name: release
 on:
   push:
     tags: ["data-v*"]
+  # R2026.44: the workflow that runs on a tag is the copy INSIDE the tagged commit. When that copy is stale (the data clone was
+  # tagged without `release.yml` from the pipeline) the run fails and the tag cannot be moved. Dispatching this workflow from
+  # `main` with the tag as input builds and attaches the assets of that tag with the current workflow.
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "data tag to build the release for, e.g. data-v1.35.0"
+        required: true
 
 permissions:
   contents: write
@@ -16,15 +24,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: { lfs: false }
+        with: { lfs: false, ref: "${{ inputs.tag || github.ref }}" }
       - uses: actions/setup-python@v5
         with: { python-version: "3.13" }
       - run: pip install pandas pyarrow duckdb
       - name: Check tag == VERSION.json
+        env:
+          RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
         run: |
           python - <<'EOF'
           import json, os, sys
-          tag = os.environ["GITHUB_REF_NAME"]
+          tag = os.environ.get("RELEASE_TAG") or os.environ["GITHUB_REF_NAME"]
           v = json.load(open("package/VERSION.json"))
           if v["release_tag"] != tag:
               print(f"tag {tag} != VERSION.json release_tag {v['release_tag']}"); sys.exit(1)
@@ -49,10 +59,10 @@ jobs:
           python - <<'EOF'
           import glob, os, sqlite3, pandas as pd, json
           V = json.load(open("package/VERSION.json"))["package_version"]
-          con = sqlite3.connect(f"infant_catalog_v{V}.sqlite")
+          con = sqlite3.connect(f"microbiome_repo_v{V}.sqlite")
           # 1.12.0: the two largest fact tables (gut_sample_determinations 3.1 M rows, gut_runs 0.7 M rows) push the SQLite past the
           # 2 GiB release-asset limit (data-v1.12.0 upload failed twice); they stay parquet-only, everything else is loaded.
-          SKIP = {"gut_sample_determinations", "gut_runs"}
+          SKIP = {"catalog_sample_determinations", "catalog_runs", "gut_sample_determinations", "gut_runs"}
           for f in sorted(glob.glob("package/*.parquet")):
               t = os.path.basename(f)[:-8]
               if t in SKIP:
@@ -85,12 +95,12 @@ jobs:
       - name: Attach assets to the GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
-          name: "Data package ${{ github.ref_name }}"
+          tag_name: ${{ inputs.tag || github.ref_name }}
+          name: "Data package ${{ inputs.tag || github.ref_name }}"
           body_path: package/README.md
           files: |
             data_package_v*.zip
-            infant_catalog_v*.sqlite
+            microbiome_repo_v*.sqlite
             SHA256SUMS.txt
             package/VERSION.json
             assets/*
