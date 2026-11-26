@@ -1,0 +1,196 @@
+body_site_code,health_condition,n_samples,n_projects
+(not recorded),(all),23501,181
+(not recorded),(not recorded),8492,81
+(not recorded),allergy_or_atopy,27,1
+(not recorded),cardiometabolic_other,1125,7
+(not recorded),colorectal_adenoma,32,3
+(not recorded),colorectal_cancer,81,2
+(not recorded),crohns_disease,94,3
+(not recorded),gi_infection_or_diarrhoea,159,4
+(not recorded),healthy_control,4547,52
+(not recorded),ibd_unspecified,87,2
+(not recorded),intervention_cohort,1202,2
+(not recorded),kidney_disease,250,2
+(not recorded),liver_disease,2372,15
+(not recorded),malnutrition,880,2
+(not recorded),neurological_psychiatric,117,1
+(not recorded),other_cancer,953,13
+(not recorded),other_disease,804,9
+(not recorded),other_infection,339,8
+(not recorded),pregnancy_postpartum,64,2
+(not recorded),preterm_nicu,69,2
+(not recorded),sepsis_or_infection,11,1
+(not recorded),transplant_or_immunocompromised,871,7
+(not recorded),type2_diabetes,297,2
+(not recorded),ulcerative_colitis,628,5
+blood_tissue,(all),2466,120
+blood_tissue,(not recorded),1361,68
+blood_tissue,autoimmune_inflammatory,5,2
+blood_tissue,cardiometabolic_other,43,5
+blood_tissue,colorectal_adenoma,10,1
+blood_tissue,colorectal_cancer,5,1
+blood_tissue,healthy_control,118,14
+blood_tissue,ibd_unspecified,6,1
+blood_tissue,intervention_cohort,392,1
+blood_tissue,liver_disease,17,2
+blood_tissue,neurological_psychiatric,3,2
+blood_tissue,other_cancer,28,6
+blood_tissue,other_disease,264,8
+blood_tissue,other_infection,59,18
+blood_tissue,pregnancy_postpartum,19,1
+blood_tissue,sepsis_or_infection,1,1
+blood_tissue,transplant_or_immunocompromised,135,4
+eye_ear,(all),650,23
+eye_ear,(not recorded),422,19
+eye_ear,autoimmune_inflammatory,10,1
+eye_ear,healthy_control,190,2
+eye_ear,other_disease,7,3
+eye_ear,type2_diabetes,21,1
+gut_stool,(all),304299,1996
+gut_stool,(not recorded),148057,778
+gut_stool,allergy_or_atopy,973,17
+gut_stool,autoimmune_inflammatory,2272,42
+gut_stool,cardiometabolic_other,3882,49
+gut_stool,colorectal_adenoma,1051,22
+gut_stool,colorectal_cancer,3381,59
+gut_stool,crohns_disease,4302,72
+gut_stool,gi_infection_or_diarrhoea,8134,93
+gut_stool,healthy_control,63947,768
+gut_stool,ibd_or_gi_disease,202,6
+gut_stool,ibd_unspecified,1146,34
+gut_stool,ibs,2517,30
+gut_stool,intervention_cohort,3285,23
+gut_stool,kidney_disease,1885,13
+gut_stool,liver_disease,1725,27
+gut_stool,malnutrition,3198,13
+gut_stool,nec,827,9
+gut_stool,neurological_psychiatric,5482,106
+gut_stool,obesity,5403,63
+gut_stool,other_cancer,7387,97
+gut_stool,other_disease,8161,125
+gut_stool,other_infection,8330,90
+gut_stool,pregnancy_postpartum,1202,23
+gut_stool,preterm_nicu,4173,38
+gut_stool,sepsis_or_infection,190,5
+gut_stool,transplant_or_immunocompromised,4178,46
+gut_stool,type1_diabetes,981,13
+gut_stool,type2_diabetes,3649,42
+gut_stool,ulcerative_colitis,4121,69
+gut_stool,unknown,258,6
+milk,(all),25,5
+milk,(not recorded),24,4
+milk,healthy_control,1,1
+multi_site,(all),327,6
+multi_site,(not recorded),296,4
+multi_site,colorectal_cancer,1,1
+multi_site,crohns_disease,5,1
+multi_site,healthy_control,10,2
+multi_site,ibs,5,1
+multi_site,other_cancer,4,2
+multi_site,transplant_or_immunocompromised,2,1
+multi_site,ulcerative_colitis,4,1
+nasal_nasopharyngeal,(all),4052,74
+nasal_nasopharyngeal,(not recorded),3311,46
+nasal_nasopharyngeal,allergy_or_atopy,6,1
+nasal_nasopharyngeal,cardiometabolic_other,1,1
+nasal_nasopharyngeal,gi_infection_or_diarrhoea,10,1
+nasal_nasopharyngeal,healthy_control,175,11
+nasal_nasopharyngeal,neurological_psychiatric,16,1
+nasal_nasopharyngeal,other_disease,248,3
+nasal_nasopharyngeal,other_infection,279,17
+nasal_nasopharyngeal,preterm_nicu,6,1
+oral,(all),15104,230
+oral,(not recorded),11075,151
+oral,allergy_or_atopy,82,2
+oral,autoimmune_inflammatory,554,6
+oral,cardiometabolic_other,4,2
+oral,colorectal_adenoma,1,1
+oral,colorectal_cancer,56,2
+oral,crohns_disease,1,1
+oral,gi_infection_or_diarrhoea,6,1
+oral,healthy_control,1839,63
+oral,kidney_disease,1,1
+oral,neurological_psychiatric,23,2
+oral,other_cancer,94,5
+oral,other_disease,819,34
+oral,other_infection,219,14
+oral,pregnancy_postpartum,223,2
+oral,transplant_or_immunocompromised,101,1
+oral,type1_diabetes,1,1
+oral,ulcerative_colitis,5,1
+other_site,(all),1898,61
+other_site,(not recorded),1125,39
+other_site,allergy_or_atopy,2,2
+other_site,colorectal_cancer,18,1
+other_site,crohns_disease,19,1
+other_site,gi_infection_or_diarrhoea,28,1
+other_site,healthy_control,292,13
+other_site,ibd_or_gi_disease,15,1
+other_site,neurological_psychiatric,1,1
+other_site,other_cancer,3,1
+other_site,other_disease,110,6
+other_site,other_infection,28,4
+other_site,pregnancy_postpartum,105,2
+other_site,preterm_nicu,107,4
+other_site,sepsis_or_infection,32,1
+other_site,transplant_or_immunocompromised,13,1
+respiratory_lower,(all),4269,151
+respiratory_lower,(not recorded),2885,102
+respiratory_lower,crohns_disease,24,1
+respiratory_lower,gi_infection_or_diarrhoea,16,1
+respiratory_lower,healthy_control,104,7
+respiratory_lower,neurological_psychiatric,14,1
+respiratory_lower,other_cancer,35,3
+respiratory_lower,other_disease,788,27
+respiratory_lower,other_infection,373,22
+respiratory_lower,transplant_or_immunocompromised,18,2
+respiratory_lower,ulcerative_colitis,12,1
+skin,(all),10697,98
+skin,(not recorded),8551,70
+skin,allergy_or_atopy,283,6
+skin,autoimmune_inflammatory,9,1
+skin,gi_infection_or_diarrhoea,3,1
+skin,healthy_control,1241,23
+skin,kidney_disease,2,1
+skin,other_cancer,156,5
+skin,other_disease,184,7
+skin,other_infection,104,2
+skin,preterm_nicu,95,1
+skin,transplant_or_immunocompromised,69,3
+unknown_site,(all),7366,67
+unknown_site,(not recorded),2133,37
+unknown_site,allergy_or_atopy,19,2
+unknown_site,autoimmune_inflammatory,283,2
+unknown_site,cardiometabolic_other,333,2
+unknown_site,colorectal_cancer,27,2
+unknown_site,crohns_disease,70,1
+unknown_site,gi_infection_or_diarrhoea,505,3
+unknown_site,healthy_control,1810,18
+unknown_site,ibd_or_gi_disease,154,1
+unknown_site,ibd_unspecified,8,2
+unknown_site,ibs,114,2
+unknown_site,intervention_cohort,418,1
+unknown_site,liver_disease,91,2
+unknown_site,neurological_psychiatric,73,1
+unknown_site,obesity,317,4
+unknown_site,other_cancer,124,3
+unknown_site,other_disease,656,4
+unknown_site,other_infection,93,4
+unknown_site,transplant_or_immunocompromised,19,1
+unknown_site,type1_diabetes,36,1
+unknown_site,type2_diabetes,59,3
+unknown_site,ulcerative_colitis,24,1
+vaginal_urogenital,(all),5122,85
+vaginal_urogenital,(not recorded),2897,42
+vaginal_urogenital,allergy_or_atopy,7,1
+vaginal_urogenital,autoimmune_inflammatory,1,1
+vaginal_urogenital,crohns_disease,16,1
+vaginal_urogenital,healthy_control,563,26
+vaginal_urogenital,neurological_psychiatric,1,1
+vaginal_urogenital,other_cancer,31,3
+vaginal_urogenital,other_disease,284,10
+vaginal_urogenital,other_infection,261,14
+vaginal_urogenital,pregnancy_postpartum,1032,7
+vaginal_urogenital,sepsis_or_infection,3,1
+vaginal_urogenital,transplant_or_immunocompromised,20,3
+vaginal_urogenital,ulcerative_colitis,6,2
