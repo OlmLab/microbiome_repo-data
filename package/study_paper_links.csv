@@ -1,0 +1,974 @@
+study_accession,paper_id,pmid,pmcid,doi,title,release_added,release_retired,package_added
+PRJEB2778,22546241,22546241.0,PMC3446306,10.1186/gb-2012-13-4-r32,A metagenomic study of diet-dependent interaction between gut microbiota and host in infants reveals differences in immune response.,1.0.0,,1.0.0
+PRJNA215106,24236055,24236055.0,PMC3827270,10.1371/journal.pone.0078822,Pediatric fecal microbiota harbor diverse and novel antibiotic resistance genes.,1.0.0,,1.0.0
+PRJNA215102,24451181,24451181.0,PMC4177395,10.1186/2049-2618-1-30,Genome resolved analysis of a premature infant gut microbial community reveals a Varibaculum cambriense genome and a shift towards fermentation-based metabolism during the third week of life.,1.0.0,,1.0.0
+PRJNA221723,24468033,24468033.0,PMC4392516,10.1186/2049-2618-2-1,Microbes in the neonatal intensive care unit resemble those found in the gut of premature infants.,1.0.0,,1.0.0
+PRJNA63661,25332767,25332767.0,PMC4203463,10.1186/2049-2618-2-36,Intestinal microbiota of preterm infants differ over time and between hospitals.,1.0.0,,1.0.0
+PRJNA63661,26110908,26110908.0,PMC4482142,10.1371/journal.pone.0130604,Center Variation in Intestinal Microbiota Prior to Late-Onset Sepsis in Preterm Infants.,1.0.0,,1.0.0
+PRJEB2778,26399409,26399409.0,PMC4581423,10.1186/s40168-015-0104-7,The role of breast-feeding in infant immune system: a systems perspective on the intestinal microbiome.,1.0.0,,1.0.0
+PRJNA312041,27226242,27226242.0,PMC4880902,10.1038/srep26648,Effect of short-term room temperature storage on the microbial community in infant fecal samples.,1.0.0,,1.0.0
+PRJEB14969,27694811,27694811.0,PMC5046176,10.1038/srep32385,Dairy and plant based food intakes are associated with altered faecal microbiota in 2 to 3 year old Australian children.,1.0.0,,1.0.0
+PRJNA268964,27803195,27803195.0,PMC5088602,10.1101/gr.201863.115,An integrated metagenomics pipeline for strain profiling reveals novel patterns of bacterial transmission and biogeography.,1.0.0,,1.0.0
+PRJNA327106,28073918,28073918.0,PMC5378178,10.1101/gr.213256.116,"Identical bacterial populations colonize premature infant gut, skin, and oral microbiomes and exhibit different in situ growth rates.",1.0.0,,1.0.0
+PRJEB15633,28079170,28079170.0,PMC5227965,10.1038/srep40466,Growth and Morbidity of Gambian Infants are Influenced by Maternal Milk Oligosaccharides and Infant Gut Microbiota.,1.0.0,,1.0.0
+PRJNA339914,28144631,28144631.0,PMC5264247,10.1128/msystems.00164-16,Studying Vertical Microbiome Transmission from Mothers to Infants by Strain-Level Metagenomic Profiling.,1.0.0,,1.0.0
+PRJNA46337,28274256,28274256.0,PMC5343300,10.1186/s40168-017-0248-8,Intestinal dysbiosis in preterm infants preceding necrotizing enterocolitis: a systematic review and meta-analysis.,1.0.0,,1.0.0
+PRJNA380031,28651630,28651630.0,PMC5485682,10.1186/s40168-017-0282-6,Maternal inheritance of bifidobacterial communities and bifidophages in infants through vertical transmission.,1.0.0,,1.0.0
+PRJNA272371,29049378,29049378.0,PMC5648123,10.1371/journal.pone.0184955,Immune-modulatory genomic properties differentiate gut microbiota of infants with and without eczema.,1.0.0,,1.0.0
+PRJEB14935,29096601,29096601.0,PMC5668952,10.1186/s12864-017-4229-x,Optimisation of 16S rRNA gut microbiota profiling of extremely low birth weight infants.,1.0.0,,1.0.0
+PRJNA273761,29180750,29180750.0,PMC5703836,10.1038/s41467-017-02018-w,Strain-resolved analysis of hospital rooms and infants reveals overlap between the human and room microbiome.,1.0.0,,1.0.0
+PRJNA294605,29180750,29180750.0,PMC5703836,10.1038/s41467-017-02018-w,Strain-resolved analysis of hospital rooms and infants reveals overlap between the human and room microbiome.,1.0.0,,1.0.0
+PRJNA376566,29180750,29180750.0,PMC5703836,10.1038/s41467-017-02018-w,Strain-resolved analysis of hospital rooms and infants reveals overlap between the human and room microbiome.,1.0.0,,1.0.0
+PRJNA390646,29242832,29242832.0,PMC5717325,10.1128/msphere.00501-17,Persistence of Supplemented <i>Bifidobacterium longum</i> subsp. <i>infantis</i> EVC001 in Breastfed Infants.,1.0.0,,1.0.0
+PRJNA396794,29359195,29359195.0,PMC5758725,10.1128/msystems.00123-17,Machine Learning Leveraging Genomes from Metagenomes Identifies Influential Antibiotic Resistance Genes in the Infant Gut Microbiome.,1.0.0,,1.0.0
+PRJEB24041,29496731,29496731.0,PMC5880245,10.1101/gr.233940.117,Selective maternal seeding and environment shape the human gut microbiome.,1.0.0,,1.0.0
+PRJNA273761,29636439,29636439.0,PMC5893878,10.1128/mbio.00441-18,Hospitalized Premature Infants Are Colonized by Related Bacterial Strains with Distinct Proteomic Profiles.,1.0.0,,1.0.0
+PRJNA294605,29636439,29636439.0,PMC5893878,10.1128/mbio.00441-18,Hospitalized Premature Infants Are Colonized by Related Bacterial Strains with Distinct Proteomic Profiles.,1.0.0,,1.0.0
+PRJNA376566,29636439,29636439.0,PMC5893878,10.1128/mbio.00441-18,Hospitalized Premature Infants Are Colonized by Related Bacterial Strains with Distinct Proteomic Profiles.,1.0.0,,1.0.0
+PRJNA385126,29761040,29761040.0,PMC5944432,10.7717/peerj.4694,Viromes of one year old infants reveal the impact of birth mode on microbiome diversity.,1.0.0,,1.0.0
+PRJNA376566,29925423,29925423.0,PMC6011520,10.1186/s40168-018-0493-5,The developing premature infant gut microbiome is a major factor shaping the microbiome of neonatal intensive care unit rooms.,1.0.0,,1.0.0
+PRJNA296814,29973274,29973274.0,PMC6033232,10.1186/s40168-018-0490-8,Maternal diet during pregnancy is related with the infant stool microbiome in a delivery mode-dependent manner.,1.0.0,,1.0.0
+PRJNA352475,30001516,30001516.0,PMC6716579,10.1016/j.chom.2018.06.005,Mother-to-Infant Microbial Transmission from Different Body Sites Shapes the Developing Infant Gut Microbiome.,1.0.0,,1.0.0
+PRJNA422569,30126456,30126456.0,PMC6102903,10.1186/s40168-018-0527-z,Tracing mother-infant transmission of bacteriophages by means of a novel analytical tool for shotgun metagenomic datasets: METAnnotatorX.,1.0.0,,1.0.0
+PRJNA296814,30135504,30135504.0,PMC6105615,10.1038/s41598-018-30581-9,Sex-specific associations of infants' gut microbiome with arsenic exposure in a US population.,1.0.0,,1.0.0
+PRJNA384716,30250208,30250208.0,PMC6155145,10.1038/s41467-018-06393-w,Maternal gut and breast milk microbiota affect infant gut antibiotic resistome and mobile genetic elements.,1.0.0,,1.0.0
+PRJEB6456,30258040,30258040.0,PMC6158511,10.1128/msphere.00441-18,Bifidobacterial Dominance of the Gut in Early Life and Acquisition of Antimicrobial Resistance.,1.0.0,,1.0.0
+PRJNA436562,30258040,30258040.0,PMC6158511,10.1128/msphere.00441-18,Bifidobacterial Dominance of the Gut in Early Life and Acquisition of Antimicrobial Resistance.,1.0.0,,1.0.0
+PRJNA390646,30338216,30338216.0,PMC6168692,10.1002/2211-5463.12516,Reduced colonic mucin degradation in breastfed infants colonized by <i>Bifidobacterium longum</i> subsp<i>. infantis</i> EVC001.,1.0.0,,1.0.0
+PRJEB6456,30340536,30340536.0,PMC6195700,10.1186/s40168-018-0571-8,Competitive lottery-based assembly of selected clades in the human gut microbiome.,1.0.0,,1.0.0
+PRJNA473126,30374198,30374198.0,PMC6294307,10.1038/s41591-018-0216-2,Infant diet and maternal gestational weight gain predict early metabolic maturation of gut microbiomes.,1.0.0,,1.0.0
+PRJNA379120,30504906,30504906.0,PMC6269548,10.1038/s41467-018-07631-x,Birth mode is associated with earliest strain-conferred gut microbiome functions and immunostimulatory potential.,1.0.0,,1.0.0
+PRJEB29052,30505830,30505830.0,PMC6250747,10.3389/fped.2018.00347,Effects of Probiotic Supplementation on the Gut Microbiota and Antibiotic Resistome Development in Preterm Infants.,1.0.0,,1.0.0
+PRJNA497734,30559407,30559407.0,PMC6384140,10.1038/s41564-018-0321-5,Genomic variation and strain-specific functional adaptation in the human gut microbiome during early life.,1.0.0,,1.0.0
+PRJNA231909,30661755,30661755.0,PMC6349461,10.1016/j.cell.2019.01.001,"Extensive Unexplored Human Microbiome Diversity Revealed by Over 150,000 Genomes from Metagenomes Spanning Age, Geography, and Lifestyle.",1.0.0,,1.0.0
+PRJNA485056,30661755,30661755.0,PMC6349461,10.1016/j.cell.2019.01.001,"Extensive Unexplored Human Microbiome Diversity Revealed by Over 150,000 Genomes from Metagenomes Spanning Age, Geography, and Lifestyle.",1.0.0,,1.0.0
+PRJNA504891,30661755,30661755.0,PMC6349461,10.1016/j.cell.2019.01.001,"Extensive Unexplored Human Microbiome Diversity Revealed by Over 150,000 Genomes from Metagenomes Spanning Age, Geography, and Lifestyle.",1.0.0,,1.0.0
+PRJNA231909,30710083,30710083.0,PMC6358638,10.1038/s41467-019-08377-w,Trait-based community assembly and succession of the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA290380,30894435,30894435.0,PMC6429046,10.1128/mspheredirect.00152-19,Identification of Differentiating Metabolic Pathways between Infant Gut Microbiome Populations Reveals Depletion of Function-Level Adaptation to Human Milk in the Finnish Population.,1.0.0,,1.0.0
+PRJNA543520,31337807,31337807.0,PMC6650395,10.1038/s41598-019-46964-5,Impact of intrapartum and postnatal antibiotics on the gut microbiome and emergence of antimicrobial resistance in infants.,1.0.0,,1.0.0
+PRJNA484151,31379808,31379808.0,PMC6648804,10.3389/fimmu.2019.01509,Amish (Rural) vs. non-Amish (Urban) Infant Fecal Microbiotas Are Highly Diverse and Their Transplantation Lead to Differences in Mucosal Immune Maturation in a Humanized Germfree Piglet Model.,1.0.0,,1.0.0
+PRJNA390646,31423298,31423298.0,PMC6693174,10.1186/s13756-019-0583-6,Early-life gut microbiome modulation reduces the abundance of antibiotic-resistant bacteria.,1.0.0,,1.0.0
+PRJEB32631,31534227,31534227.0,PMC6894937,10.1038/s41586-019-1560-1,Stunted microbiota and opportunistic pathogen colonization in caesarean-section birth.,1.0.0,,1.0.0
+PRJNA555020,31676793,31676793.0,PMC6825150,10.1038/s41467-019-13014-7,Impact of delivery mode-associated gut microbiota dynamics on health in the first year of life.,1.0.0,,1.0.0
+PRJNA549787,31832638,31832638.0,PMC7778358,10.1093/cid/ciz1186,"Cotrimoxazole Prophylaxis Increases Resistance Gene Prevalence and α-Diversity but Decreases β-Diversity in the Gut Microbiome of Human Immunodeficiency Virus-Exposed, Uninfected Infants.",1.0.0,,1.0.0
+PRJEB22207,31844297,31844297.0,PMC7044117,10.1038/s41564-019-0626-z,Rapid MinION profiling of preterm microbiota and antimicrobial-resistant pathogens.,1.0.0,,1.0.0
+PRJNA273761,31844663,31844663.0,PMC6905865,10.1126/sciadv.aax5727,"Necrotizing enterocolitis is preceded by increased gut bacterial replication, <i>Klebsiella</i>, and fimbriae-encoding bacteria.",1.0.0,,1.0.0
+PRJNA294605,31844663,31844663.0,PMC6905865,10.1126/sciadv.aax5727,"Necrotizing enterocolitis is preceded by increased gut bacterial replication, <i>Klebsiella</i>, and fimbriae-encoding bacteria.",1.0.0,,1.0.0
+PRJNA376566,31844663,31844663.0,PMC6905865,10.1126/sciadv.aax5727,"Necrotizing enterocolitis is preceded by increased gut bacterial replication, <i>Klebsiella</i>, and fimbriae-encoding bacteria.",1.0.0,,1.0.0
+PRJNA396794,31844663,31844663.0,PMC6905865,10.1126/sciadv.aax5727,"Necrotizing enterocolitis is preceded by increased gut bacterial replication, <i>Klebsiella</i>, and fimbriae-encoding bacteria.",1.0.0,,1.0.0
+PRJNA60717,31844663,31844663.0,PMC6905865,10.1126/sciadv.aax5727,"Necrotizing enterocolitis is preceded by increased gut bacterial replication, <i>Klebsiella</i>, and fimbriae-encoding bacteria.",1.0.0,,1.0.0
+PRJNA510445,31959989,31959989.0,PMC7018602,10.1038/s41591-019-0714-x,Fecal dysbiosis in infants with cystic fibrosis is associated with early linear growth failure.,1.0.0,,1.0.0
+PRJNA543520,32239170,32239170.0,PMC8514186,10.1093/infdis/jiaa155,Vertical Transmission of Gut Microbiome and Antimicrobial Resistance Genes in Infants Exposed to Antibiotics at Birth.,1.0.0,,1.0.0
+PRJNA557731,32284564,32284564.0,PMC8052915,10.1038/s41564-020-0694-0,Bacterial colonization reprograms the neonatal gut metabolome.,1.0.0,,1.0.0
+PRJEB32631,32431894,32431894.0,PMC7211887,10.1098/rsos.192200,An individualized mosaic of maternal microbial strains is transmitted to the infant gut microbial community.,1.0.0,,1.0.0
+PRJNA63661,32436839,32436839.0,PMC7371107,10.1099/mgen.0.000377,"Preterm infants harbour diverse &lt;i&gt;Klebsiella&lt;/i&gt; populations, including atypical species that encode and produce an array of antimicrobial resistance- and virulence-associated factors.",1.0.0,,1.0.0
+PRJNA352475,32508773,32508773.0,PMC7248251,10.3389/fmicb.2020.00932,Impact of Microbiota Transplant on Resistome of Gut Microbiota in Gnotobiotic Piglets and Human Subjects.,1.0.0,,1.0.0
+PRJNA484151,32508773,32508773.0,PMC7248251,10.3389/fmicb.2020.00932,Impact of Microbiota Transplant on Resistome of Gut Microbiota in Gnotobiotic Piglets and Human Subjects.,1.0.0,,1.0.0
+PRJNA290380,32728114,32728114.0,PMC7391733,10.1038/s41467-020-17541-6,"Microbiota assembly, structure, and dynamics among Tsimane horticulturalists of the Bolivian Amazon.",1.0.0,,1.0.0
+PRJNA592261,32788688,32788688.0,PMC7423923,10.1038/s41598-020-70684-w,Tobamoviruses can be frequently present in the oropharynx and gut of infants during their first year of life.,1.0.0,,1.0.0
+PRJNA486782,32917289,32917289.0,PMC7488762,10.1186/s40168-020-00906-w,Multi-omics analysis reveals the influence of genetic and environmental risk factors on developing gut microbiota in infants at risk of celiac disease.,1.0.0,,1.0.0
+PRJNA644725,32958861,32958861.0,PMC7506025,10.1038/s41598-020-71791-4,Metagenomic sequencing of stool samples in Bangladeshi infants: virome association with poliovirus shedding after oral poliovirus vaccination.,1.0.0,,1.0.0
+PRJNA296814,32968156,32968156.0,PMC7511970,10.1038/s41598-020-72386-9,Prospective associations of the infant gut microbiome and microbial function with social behaviors related to autism at age 3 years.,1.0.0,,1.0.0
+PRJEB11419,33005310,33005310.0,PMC7516180,10.1016/j.csbj.2020.08.028,Multi-population cohort meta-analysis of human intestinal microbiota in early life reveals the existence of infant community state types (ICSTs).,1.0.0,,1.0.0
+PRJEB15633,33005310,33005310.0,PMC7516180,10.1016/j.csbj.2020.08.028,Multi-population cohort meta-analysis of human intestinal microbiota in early life reveals the existence of infant community state types (ICSTs).,1.0.0,,1.0.0
+PRJNA642723,33023370,33023370.0,PMC7553750,10.1080/19490976.2020.1801964,A compromised developmental trajectory of the infant gut microbiome and metabolome in atopic eczema.,1.0.0,,1.0.0
+PRJEB2778,33353204,33353204.0,PMC7766018,10.3390/microorganisms8122032,Assessing the Multivariate Relationship between the Human Infant Intestinal Exfoliated Cell Transcriptome (Exfoliome) and Microbiome in Response to Diet.,1.0.0,,1.0.0
+PRJNA657818,33377127,33377127.0,PMC7762768,10.1016/j.xcrm.2020.100156,Delivery Mode Affects Stability of Early Infant Gut Microbiota.,1.0.0,,1.0.0
+PRJEB6456,33411719,33411719.0,PMC7790408,10.1371/journal.pone.0244876,Predicting drug-metagenome interactions: Variation in the microbial β-glucuronidase level in the human gut metagenomes.,1.0.0,,1.0.0
+PRJNA633576,33479326,33479326.0,PMC7820601,10.1038/s41598-020-80583-9,Metagenomic insights of the infant microbiome community structure and function across multiple sites in the United States.,1.0.0,,1.0.0
+PRJNA606271,33500411,33500411.0,PMC7838415,10.1038/s41467-020-20495-4,Neonatal antibiotic exposure impairs child growth during the first six years of life by perturbing intestinal microbial colonization.,1.0.0,,1.0.0
+PRJEB2778,33538807,33538807.0,PMC7947585,10.1093/femsec/fiab019,Breast milk urea as a nitrogen source for urease positive Bifidobacterium infantis.,1.0.0,,1.0.0
+PRJNA630999,33665175,33665175.0,PMC7921802,10.3389/fped.2021.618009,"Impact of Probiotic <i>B. infantis</i> EVC001 Feeding in Premature Infants on the Gut Microbiome, Nosocomially Acquired Antibiotic Resistance, and Enteric Inflammation.",1.0.0,,1.0.0
+PRJNA648487,33732655,33732655.0,PMC7958882,10.3389/fcimb.2021.595323,Factors Associated With the Microbiome in Moderate-Late Preterm Babies: A Cohort Study From the DIAMOND Randomized Controlled Trial.,1.0.0,,1.0.0
+PRJEB6456,33753486,33753486.0,PMC8020746,10.1073/pnas.2019336118,CODY enables quantitatively spatiotemporal predictions on in vivo gut microbial variability induced by diet intervention.,1.0.0,,1.0.0
+PRJEB32631,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJEB6456,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJNA322188,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJNA339914,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJNA352475,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJNA379120,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJNA384716,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJNA475246,33960282,33960282.0,PMC8115609,10.1080/19490976.2021.1911571,Metagenomic analysis of mother-infant gut microbiome reveals global distinct and shared microbial signatures.,1.0.0,,1.0.0
+PRJNA473126,34064844,34064844.0,PMC8151561,10.3390/microorganisms9051034,A Machine Learning Approach to Study Glycosidase Activities from <i>Bifidobacterium</i>.,1.0.0,,1.0.0
+PRJEB12669,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJEB24771,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJEB32135,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJEB6456,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA287207,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA290380,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA322188,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA339914,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA345144,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA352475,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA473126,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA475246,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA524703,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA549787,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA557731,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA715615,34152069,34152069.0,PMC8518733,10.1111/1758-2229.12960,Investigating the infant gut microbiota in developing countries: worldwide metagenomic meta-analysis involving infants living in sub-urban areas of Côte d'Ivoire.,1.0.0,,1.0.0
+PRJNA717139,34154658,34154658.0,PMC8215838,10.1186/s40168-021-01085-y,"Genetic and behavioral adaptation of Candida parapsilosis to the microbiome of hospitalized infants revealed by in situ genomics, transcriptomics, and proteomics.",1.0.0,,1.0.0
+PRJNA726032,34172012,34172012.0,PMC8229302,10.1186/s12866-021-02230-1,A synbiotic intervention modulates meta-omics signatures of gut redox potential and acidity in elective caesarean born infants.,1.0.0,,1.0.0
+PRJNA701480,34186487,34186487.0,PMC8254083,10.1016/j.ebiom.2021.103443,Oral administration of maternal vaginal microbes at birth to restore gut microbiome development in infants born by caesarean section: A pilot randomised placebo-controlled trial.,1.0.0,,1.0.0
+PRJNA296814,34215179,34215179.0,PMC8252198,10.1186/s12866-021-02129-x,The infant gut resistome is associated with E. coli and early-life exposures.,1.0.0,,1.0.0
+PRJNA486782,34253606,34253606.0,PMC8307711,10.1073/pnas.2020322118,Microbiome signatures of progression toward celiac disease onset in at-risk children in a longitudinal prospective cohort study.,1.0.0,,1.0.0
+PRJNA730640,34262484,34262484.0,PMC8273867,10.3389/fphys.2021.704313,Characteristics of Gut Microbiota in Children With Biliary Atresia After Liver Transplantation.,1.0.0,,1.0.0
+PRJNA301903,34264786,34264786.0,PMC8284144,10.1080/19490976.2021.1940792,Antibiotic-driven intestinal dysbiosis in pediatric short bowel syndrome is associated with persistently altered microbiome functions and gut-derived bloodstream infections.,1.0.0,,1.0.0
+PRJNA473126,34264786,34264786.0,PMC8284144,10.1080/19490976.2021.1940792,Antibiotic-driven intestinal dysbiosis in pediatric short bowel syndrome is associated with persistently altered microbiome functions and gut-derived bloodstream infections.,1.0.0,,1.0.0
+PRJNA489090,34264786,34264786.0,PMC8284144,10.1080/19490976.2021.1940792,Antibiotic-driven intestinal dysbiosis in pediatric short bowel syndrome is associated with persistently altered microbiome functions and gut-derived bloodstream infections.,1.0.0,,1.0.0
+PRJNA701982,34264786,34264786.0,PMC8284144,10.1080/19490976.2021.1940792,Antibiotic-driven intestinal dysbiosis in pediatric short bowel syndrome is associated with persistently altered microbiome functions and gut-derived bloodstream infections.,1.0.0,,1.0.0
+PRJNA60717,34294039,34294039.0,PMC8296540,10.1186/s12859-021-04284-4,METAMVGL: a multi-view graph-based metagenomic contig binning algorithm by integrating assembly and paired-end graphs.,1.0.0,,1.0.0
+PRJNA695570,34335499,34335499.0,PMC8320171,10.3389/fmicb.2021.670336,Comparative Analysis of 16S rRNA Gene and Metagenome Sequencing in Pediatric Gut Microbiomes.,1.0.0,,1.0.0
+PRJNA352475,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA379120,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA473126,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA489090,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA497734,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA555020,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA63661,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA695070,34429130,34429130.0,PMC8383385,10.1186/s13059-021-02463-3,Deterministic transition of enterotypes shapes the infant gut microbiome at an early age.,1.0.0,,1.0.0
+PRJNA695570,34442687,34442687.0,PMC8398307,10.3390/microorganisms9081608,Family SES Is Associated with the Gut Microbiome in Infants and Children.,1.0.0,,1.0.0
+PRJNA695570,34444993,34444993.0,PMC8401031,10.3390/nu13082833,Targeted High-Resolution Taxonomic Identification of <i>Bifidobacterium longum</i> subsp. <i>infantis</i> Using Human Milk Oligosaccharide Metabolizing Genes.,1.0.0,,1.0.0
+PRJNA296814,34454437,34454437.0,PMC8400760,10.1186/s12866-021-02282-3,Associations between the gut microbiome and metabolome in early life.,1.0.0,,1.0.0
+PRJNA748448,34523979,34523979.0,PMC8550141,10.1128/msphere.00538-21,Viability-Resolved Metagenomics Reveals Antagonistic Colonization Dynamics of Staphylococcus epidermidis Strains on Preterm Infant Skin.,1.0.0,,1.0.0
+PRJNA510445,34525965,34525965.0,PMC8444586,10.1186/s12866-021-02305-z,Infants with cystic fibrosis have altered fecal functional capacities with potential clinical and metabolic consequences.,1.0.0,,1.0.0
+PRJEB36405,34603219,34603219.0,PMC8484959,10.3389/fmicb.2021.596984,Diverse Bacterial Resistance Genes Detected in Fecal Samples From Clinically Healthy Women and Infants in Australia-A Descriptive Pilot Study.,1.0.0,,1.0.0
+PRJNA698986,34622230,34622230.0,PMC8484513,10.1016/j.xcrm.2021.100393,"Infant gut strain persistence is associated with maternal origin, phylogeny, and traits including surface adhesion and iron acquisition.",1.0.0,,1.0.0
+PRJNA730640,34646837,34646837.0,PMC8502819,10.3389/fmed.2021.704328,Effects of Previous Kasai Surgery on Gut Microbiota and Bile Acid in Biliary Atresia With End-Stage Liver Disease.,1.0.0,,1.0.0
+PRJEB32631,34677583,34677583.0,PMC8827105,10.1093/ajcn/nqab353,Early-life formula feeding is associated with infant gut microbiota alterations and an increased antibiotic resistance load.,1.0.0,,1.0.0
+PRJEB6456,34677583,34677583.0,PMC8827105,10.1093/ajcn/nqab353,Early-life formula feeding is associated with infant gut microbiota alterations and an increased antibiotic resistance load.,1.0.0,,1.0.0
+PRJNA301903,34677583,34677583.0,PMC8827105,10.1093/ajcn/nqab353,Early-life formula feeding is associated with infant gut microbiota alterations and an increased antibiotic resistance load.,1.0.0,,1.0.0
+PRJNA396794,34677583,34677583.0,PMC8827105,10.1093/ajcn/nqab353,Early-life formula feeding is associated with infant gut microbiota alterations and an increased antibiotic resistance load.,1.0.0,,1.0.0
+PRJNA473126,34677583,34677583.0,PMC8827105,10.1093/ajcn/nqab353,Early-life formula feeding is associated with infant gut microbiota alterations and an increased antibiotic resistance load.,1.0.0,,1.0.0
+PRJNA532310,34677583,34677583.0,PMC8827105,10.1093/ajcn/nqab353,Early-life formula feeding is associated with infant gut microbiota alterations and an increased antibiotic resistance load.,1.0.0,,1.0.0
+PRJNA273761,34704805,34704805.0,PMC8549755,10.1128/spectrum.01176-21,Unraveling the Microbiome of Necrotizing Enterocolitis: Insights in Novel Microbial and Metabolomic Biomarkers.,1.0.0,,1.0.0
+PRJNA376566,34704805,34704805.0,PMC8549755,10.1128/spectrum.01176-21,Unraveling the Microbiome of Necrotizing Enterocolitis: Insights in Novel Microbial and Metabolomic Biomarkers.,1.0.0,,1.0.0
+PRJNA46337,34704805,34704805.0,PMC8549755,10.1128/spectrum.01176-21,Unraveling the Microbiome of Necrotizing Enterocolitis: Insights in Novel Microbial and Metabolomic Biomarkers.,1.0.0,,1.0.0
+PRJNA63661,34704805,34704805.0,PMC8549755,10.1128/spectrum.01176-21,Unraveling the Microbiome of Necrotizing Enterocolitis: Insights in Novel Microbial and Metabolomic Biomarkers.,1.0.0,,1.0.0
+PRJNA733860,34704805,34704805.0,PMC8549755,10.1128/spectrum.01176-21,Unraveling the Microbiome of Necrotizing Enterocolitis: Insights in Novel Microbial and Metabolomic Biomarkers.,1.0.0,,1.0.0
+PRJNA746509,34946200,34946200.0,PMC8703847,10.3390/microorganisms9122599,Assessing Gut Microbiota in an Infant with Congenital Propionic Acidemia before and after Probiotic Supplementation.,1.0.0,,1.0.0
+PRJEB28671,34972822,34972822.0,PMC8727306,10.1038/s41564-021-01023-6,Gut microbiomes from Gambian infants reveal the development of a non-industrialized Prevotella-based trophic network.,1.0.0,,1.0.0
+PRJNA772730,35071138,35071138.0,PMC8767116,10.3389/fped.2021.795970,<i>B. infantis</i> EVC001 Is Well-Tolerated and Improves Human Milk Oligosaccharide Utilization in Preterm Infants in the Neonatal Intensive Care Unit.,1.0.0,,1.0.0
+PRJNA707065,35075183,35075183.0,PMC8786960,10.1038/s41598-022-04848-1,Transcription shifts in gut bacteria shared between mothers and their infants.,1.0.0,,1.0.0
+PRJNA555020,35173154,35173154.0,PMC8850541,10.1038/s41467-022-28525-z,Effects of early-life antibiotics on the developing infant gut microbiome and resistome: a randomized trial.,1.0.0,,1.0.0
+PRJNA613032,35173154,35173154.0,PMC8850541,10.1038/s41467-022-28525-z,Effects of early-life antibiotics on the developing infant gut microbiome and resistome: a randomized trial.,1.0.0,,1.0.0
+PRJNA613054,35173154,35173154.0,PMC8850541,10.1038/s41467-022-28525-z,Effects of early-life antibiotics on the developing infant gut microbiome and resistome: a randomized trial.,1.0.0,,1.0.0
+PRJNA592261,35196791,35196791.0,PMC8865552,10.1128/spectrum.01853-21,High Prevalence and Diversity of Caliciviruses in a Community Setting Determined by a Metagenomic Approach.,1.0.0,,1.0.0
+PRJNA776332,35280991,35280991.0,PMC8905226,10.3389/fimmu.2022.815046,Altered Gut Microbiome and Fecal Immune Phenotype in Early Preterm Infants With Leaky Gut.,1.0.0,,1.0.0
+PRJNA542703,35310842,35310842.0,PMC8931315,10.3389/fcimb.2022.816601,Impact of Early Feeding: Metagenomics Analysis of the Infant Gut Microbiome.,1.0.0,,1.0.0
+PRJNA751712,35345612,35345612.0,PMC8957066,10.3389/fped.2022.838559,To Probiotic or Not to Probiotic: A Metagenomic Comparison of the Discharge Gut Microbiome of Infants Supplemented With Probiotics in NICU and Those Who Are Not.,1.0.0,,1.0.0
+PRJEB15633,35406036,35406036.0,PMC9003546,10.3390/nu14071423,<i>Bifidobacterium</i> Species Colonization in Infancy: A Global Cross-Sectional Comparison by Population History of Breastfeeding.,1.0.0,,1.0.0
+PRJEB52147,35440708,35440708.0,PMC9018729,10.1038/s41598-022-10276-y,The impact of maternal asthma on the preterm infants' gut metabolome and microbiome (MAP study).,1.0.0,,1.0.0
+PRJEB32631,35545448,35545448.0,PMC9248880,10.1101/gr.276306.121,Rapid evolution and strain turnover in the infant gut microbiome.,1.0.0,,1.0.0
+PRJEB6456,35545448,35545448.0,PMC9248880,10.1101/gr.276306.121,Rapid evolution and strain turnover in the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA352475,35545448,35545448.0,PMC9248880,10.1101/gr.276306.121,Rapid evolution and strain turnover in the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA475246,35545448,35545448.0,PMC9248880,10.1101/gr.276306.121,Rapid evolution and strain turnover in the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA762668,35547149,35547149.0,PMC9083410,10.3389/fmicb.2022.780568,Longitudinal and Comparative Analysis of Gut Microbiota of Tunisian Newborns According to Delivery Mode.,1.0.0,,1.0.0
+PRJNA296814,35568730,35568730.0,PMC9659678,10.1038/s41390-022-02104-w,Impact of antibiotics on off-target infant gut microbiota and resistance genes in cohort studies.,1.0.0,,1.0.0
+PRJNA268964,35672407,35672407.0,PMC9174155,10.1038/s41467-022-30686-w,Temporal changes in gastrointestinal fungi and the risk of autoimmunity during early childhood: the TEDDY study.,1.0.0,,1.0.0
+PRJNA485056,35672407,35672407.0,PMC9174155,10.1038/s41467-022-30686-w,Temporal changes in gastrointestinal fungi and the risk of autoimmunity during early childhood: the TEDDY study.,1.0.0,,1.0.0
+PRJNA497734,35672407,35672407.0,PMC9174155,10.1038/s41467-022-30686-w,Temporal changes in gastrointestinal fungi and the risk of autoimmunity during early childhood: the TEDDY study.,1.0.0,,1.0.0
+PRJNA475246,35685890,35685890.0,PMC9171511,10.3389/fnut.2022.859627,Impact of Extensively Hydrolyzed Infant Formula on Circulating Lipids During Early Life.,1.0.0,,1.0.0
+PRJNA774819,35695455,35695455.0,PMC9239261,10.1128/mbio.01299-22,Highly Specialized Carbohydrate Metabolism Capability in <i>Bifidobacterium</i> Strains Associated with Intestinal Barrier Maturation in Early Preterm Infants.,1.0.0,,1.0.0
+PRJNA400115,35729161,35729161.0,PMC9213500,10.1038/s41467-022-31227-1,Islet autoantibody seroconversion in type-1 diabetes is associated with metagenome-assembled genomes in infant gut microbiomes.,1.0.0,,1.0.0
+PRJEB6456,35768643,35768643.0,PMC9381805,10.1038/s41396-022-01270-3,Priority effects shape the structure of infant-type Bifidobacterium communities on human milk oligosaccharides.,1.0.0,,1.0.0
+PRJNA751712,35796792,35796792.0,PMC9395480,10.1007/s00431-022-04548-y,Exploring the long-term colonisation and persistence of probiotic-prophylaxis species on the gut microbiome of preterm infants: a pilot study.,1.0.0,,1.0.0
+PRJNA296814,35847562,35847562.0,PMC9283516,10.1038/s43856-022-00152-1,The relationship between the gut microbiome and the risk of respiratory infections among newborns.,1.0.0,,1.0.0
+PRJNA853174,35891376,35891376.0,PMC9323674,10.3390/v14071395,"Gut Microbiome Changes Occurring with Norovirus Infection and Recovery in Infants Enrolled in a Longitudinal Birth Cohort in Leon, Nicaragua.",1.0.0,,1.0.0
+PRJNA296814,35906254,35906254.0,PMC9338228,10.1038/s41598-022-14668-y,Metagenomic analysis reveals associations between salivary microbiota and body composition in early childhood.,1.0.0,,1.0.0
+PRJNA845806,35966074,35966074.0,PMC9366142,10.3389/fendo.2022.921464,A maternal higher-complex carbohydrate diet increases bifidobacteria and alters early life acquisition of the infant microbiome in women with gestational diabetes mellitus.,1.0.0,,1.0.0
+PRJEB11419,36032669,36032669.0,PMC9403272,10.3389/fmolb.2022.949563,Genomic reconstruction of short-chain fatty acid production by the human gut microbiota.,1.0.0,,1.0.0
+PRJNA398089,36032669,36032669.0,PMC9403272,10.3389/fmolb.2022.949563,Genomic reconstruction of short-chain fatty acid production by the human gut microbiota.,1.0.0,,1.0.0
+PRJNA400115,36032669,36032669.0,PMC9403272,10.3389/fmolb.2022.949563,Genomic reconstruction of short-chain fatty acid production by the human gut microbiota.,1.0.0,,1.0.0
+PRJNA798191,36038938,36038938.0,PMC9426040,10.1186/s40795-022-00575-y,"Effect of bovine milk fat-based infant formulae on microbiota, metabolites and stool parameters in healthy term infants in a randomized, crossover, placebo-controlled trial.",1.0.0,,1.0.0
+PRJEB24006,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJEB32631,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJEB6456,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA272371,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA273761,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA287207,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA290380,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA294605,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA296814,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA301903,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA322188,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA327106,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA339914,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA345144,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA352475,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA376566,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA379120,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA384716,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA390646,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA396794,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA436562,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA473126,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA475246,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA489090,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA521878,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA542703,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA543520,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA555020,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA657818,36050292,36050292.0,PMC9437082,10.1038/s41467-022-32805-z,"A compendium of 32,277 metagenome-assembled genomes and over 80 million genes from the early-life human gut microbiome.",1.0.0,,1.0.0
+PRJNA273761,36081629,36081629.0,PMC9445129,10.3389/fped.2022.893059,Metabolic model of necrotizing enterocolitis in the premature newborn gut resulting from enteric dysbiosis.,1.0.0,,1.0.0
+PRJNA294605,36081629,36081629.0,PMC9445129,10.3389/fped.2022.893059,Metabolic model of necrotizing enterocolitis in the premature newborn gut resulting from enteric dysbiosis.,1.0.0,,1.0.0
+PRJNA301903,36081629,36081629.0,PMC9445129,10.3389/fped.2022.893059,Metabolic model of necrotizing enterocolitis in the premature newborn gut resulting from enteric dysbiosis.,1.0.0,,1.0.0
+PRJNA327106,36081629,36081629.0,PMC9445129,10.3389/fped.2022.893059,Metabolic model of necrotizing enterocolitis in the premature newborn gut resulting from enteric dysbiosis.,1.0.0,,1.0.0
+PRJNA376566,36081629,36081629.0,PMC9445129,10.3389/fped.2022.893059,Metabolic model of necrotizing enterocolitis in the premature newborn gut resulting from enteric dysbiosis.,1.0.0,,1.0.0
+PRJNA396794,36081629,36081629.0,PMC9445129,10.3389/fped.2022.893059,Metabolic model of necrotizing enterocolitis in the premature newborn gut resulting from enteric dysbiosis.,1.0.0,,1.0.0
+PRJNA63661,36081629,36081629.0,PMC9445129,10.3389/fped.2022.893059,Metabolic model of necrotizing enterocolitis in the premature newborn gut resulting from enteric dysbiosis.,1.0.0,,1.0.0
+PRJEB10914,36093611,36093611.0,PMC9467569,10.1080/19490976.2022.2118811,Infant gut microbiota restoration: state of the art.,1.0.0,,1.0.0
+PRJNA701480,36093611,36093611.0,PMC9467569,10.1080/19490976.2022.2118811,Infant gut microbiota restoration: state of the art.,1.0.0,,1.0.0
+PRJEB12669,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJEB24771,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJEB32135,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJEB6456,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA272371,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA287207,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA290380,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA322188,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA345144,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA352475,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA422569,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA473126,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA475246,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA482729,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA524703,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA542703,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA549787,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA557731,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA698986,36123315,36123315.0,PMC10092070,10.1111/1462-2920.16205,Designation of optimal reference strains representing the infant gut bifidobacterial species through a comprehensive multi-omics approach.,1.0.0,,1.0.0
+PRJNA339914,36170451,36170451.0,PMC9542798,10.1080/19490976.2022.2127438,Lactic acid bacteria and bifidobacteria deliberately introduced into the agro-food chain do not significantly increase the antimicrobial resistance gene pool.,1.0.0,,1.0.0
+PRJNA343144,36170451,36170451.0,PMC9542798,10.1080/19490976.2022.2127438,Lactic acid bacteria and bifidobacteria deliberately introduced into the agro-food chain do not significantly increase the antimicrobial resistance gene pool.,1.0.0,,1.0.0
+PRJEB12669,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJEB24006,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJEB32135,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJEB9150,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA215106,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA231909,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA268964,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA290380,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA300541,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA339914,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA345144,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA352475,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA379120,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA436562,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA473126,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA475246,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA486782,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA497734,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA524703,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA542703,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA543520,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA543967,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA549787,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA557731,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA588513,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA633576,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA648487,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA688164,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA695570,36177457,36177457.0,PMC9512645,10.3389/fmicb.2022.1006721,Gut microbe metabolism of small molecules supports human development across the early stages of life.,1.0.0,,1.0.0
+PRJNA231909,36195095,36195095.0,PMC9589006,10.1016/j.xcrm.2022.100762,Dysregulation of secondary bile acid metabolism precedes islet autoimmunity and type 1 diabetes.,1.0.0,,1.0.0
+PRJEB12669,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJEB24771,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJEB32135,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJEB6456,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA287207,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA290380,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA322188,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA339914,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA345144,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA352475,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA422569,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA473126,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA475246,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA524703,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA542703,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA549787,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA557731,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA782810,36316342,36316342.0,PMC9622858,10.1038/s41522-022-00349-1,Exploring species-level infant gut bacterial biodiversity by meta-analysis and formulation of an optimized cultivation medium.,1.0.0,,1.0.0
+PRJNA812583,36352460,36352460.0,PMC9647999,10.1186/s40168-022-01394-w,Cross-generational bacterial strain transfer to an infant after fecal microbiota transplantation to a pregnant patient: a case report.,1.0.0,,1.0.0
+PRJNA555020,36380002,36380002.0,PMC9666625,10.1038/s41467-022-34155-2,Mode of delivery modulates the intestinal microbiota and impacts the response to vaccination.,1.0.0,,1.0.0
+PRJNA352475,36420990,36420990.0,PMC9704388,10.1080/19490976.2022.2149023,Microbial bile salt hydrolase activity influences gene expression profiles and gastrointestinal maturation in infant mice.,1.0.0,,1.0.0
+PRJEB32631,36456554,36456554.0,PMC9715557,10.1038/s41467-022-35178-5,Strong pathogen competition in neonatal gut colonisation.,1.0.0,,1.0.0
+PRJNA872399,36474348,36474348.0,PMC9733690,10.1080/19490976.2022.2154091,Preterm infants at low risk for early-onset sepsis differ in early fecal microbiome assembly.,1.0.0,,1.0.0
+PRJNA294605,36478853,36478853.0,PMC9720133,10.3389/fmicb.2022.958638,Antibiotic resistance and host immune system-induced metal bactericidal control are key factors for microbial persistence in the developing human preterm infant gut microbiome.,1.0.0,,1.0.0
+PRJNA376566,36478853,36478853.0,PMC9720133,10.3389/fmicb.2022.958638,Antibiotic resistance and host immune system-induced metal bactericidal control are key factors for microbial persistence in the developing human preterm infant gut microbiome.,1.0.0,,1.0.0
+PRJEB33013,36504822,36504822.0,PMC9726757,10.3389/fmicb.2022.1036533,Different maturation of gut microbiome in Korean children.,1.0.0,,1.0.0
+PRJEB55713,36504822,36504822.0,PMC9726757,10.3389/fmicb.2022.1036533,Different maturation of gut microbiome in Korean children.,1.0.0,,1.0.0
+PRJNA296814,36632065,36632065.0,PMC9826880,10.1016/j.isci.2022.105833,Umbilical cord blood immune cell profiles in relation to the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA592261,36650178,36650178.0,PMC9845211,10.1038/s41598-022-26707-9,The fecal and oropharyngeal eukaryotic viromes of healthy infants during the first year of life are personal.,1.0.0,,1.0.0
+PRJEB45799,36653448,36653448.0,PMC9892008,10.1038/s41586-022-05620-1,The person-to-person transmission landscape of the gut and oral microbiomes.,1.0.0,,1.0.0
+PRJNA716780,36653448,36653448.0,PMC9892008,10.1038/s41586-022-05620-1,The person-to-person transmission landscape of the gut and oral microbiomes.,1.0.0,,1.0.0
+PRJNA524703,36659812,36659812.0,PMC9851330,10.1093/bib/bbac487,PhaTYP: predicting the lifestyle for bacteriophages using BERT.,1.0.0,,1.0.0
+PRJNA858926,36687649,36687649.0,PMC9852834,10.3389/fmicb.2022.1004175,Maternal diet associated with infants' intestinal microbiota mediated by predominant long-chain fatty acid in breast milk.,1.0.0,,1.0.0
+PRJNA379120,36717704,36717704.0,PMC9723731,10.1038/s43705-021-00003-5,"Persistence of birth mode-dependent effects on gut microbiome composition, immune system stimulation and antimicrobial resistance during the first year of life.",1.0.0,,1.0.0
+PRJNA489090,36717704,36717704.0,PMC9723731,10.1038/s43705-021-00003-5,"Persistence of birth mode-dependent effects on gut microbiome composition, immune system stimulation and antimicrobial resistance during the first year of life.",1.0.0,,1.0.0
+PRJNA595749,36717704,36717704.0,PMC9723731,10.1038/s43705-021-00003-5,"Persistence of birth mode-dependent effects on gut microbiome composition, immune system stimulation and antimicrobial resistance during the first year of life.",1.0.0,,1.0.0
+PRJNA301903,36748547,36748547.0,PMC9837561,10.1099/mgen.0.000899,"A novel approach for combining the metagenome, metaresistome, metareplicome and causal inference to determine the microbes and their antibiotic resistance gene repertoire that contribute to dysbiosis.",1.0.0,,1.0.0
+PRJNA916952,36758519,36758519.0,PMC9950819,10.1016/j.chom.2023.01.003,Longitudinal comparison of the developing gut virome in infants and their mothers.,1.0.0,,1.0.0
+PRJNA296814,36777525,36777525.0,PMC9916123,10.1097/ee9.0000000000000238,Early-life exposure to per- and polyfluoroalkyl substances and infant gut microbial composition.,1.0.0,,1.0.0
+PRJNA884688,36778973,36778973.0,PMC9909089,10.3389/fnut.2022.1063518,Different gut microbiota in U.S. formula-fed infants consuming a meat vs. dairy-based complementary foods: A randomized controlled trial.,1.0.0,,1.0.0
+PRJEB6456,36779183,36779183.0,PMC9910082,10.3389/fcimb.2023.1117421,Microbial characterization based on multifractal analysis of metagenomes.,1.0.0,,1.0.0
+PRJEB51728,36788215,36788215.0,PMC9929340,10.1038/s41467-023-36135-6,The gut microbiome and early-life growth in a population with high prevalence of stunting.,1.0.0,,1.0.0
+PRJEB52748,36794816,36794816.0,PMC9980514,10.1080/19490976.2023.2178793,Gut microbiome function and composition in infants from rural Kenya and association with human milk oligosaccharides.,1.0.0,,1.0.0
+PRJEB6456,36794816,36794816.0,PMC9980514,10.1080/19490976.2023.2178793,Gut microbiome function and composition in infants from rural Kenya and association with human milk oligosaccharides.,1.0.0,,1.0.0
+PRJNA870588,36843227,36843227.0,PMC9980517,10.1080/19490976.2023.2183690,Cholestasis impairs gut microbiota development and bile salt hydrolase activity in preterm neonates.,1.0.0,,1.0.0
+PRJNA869587,36973710,36973710.0,PMC10045071,10.1186/s12985-023-02013-2,Comparison of gut viral communities in children under 5 years old and newborns.,1.0.0,,1.0.0
+PRJNA945262,37067419,37067419.0,PMC10269640,10.1128/spectrum.04967-22,Influence of Maternal Breast Milk and Vaginal Microbiome on Neonatal Gut Microbiome: a Longitudinal Study during the First Year.,1.0.0,,1.0.0
+PRJEB6456,37116481,37116481.0,PMC10234599,10.1016/j.cub.2023.04.011,Maternal and food microbial sources shape the infant microbiome of a rural Ethiopian population.,1.0.0,,1.0.0
+PRJNA352475,37116481,37116481.0,PMC10234599,10.1016/j.cub.2023.04.011,Maternal and food microbial sources shape the infant microbiome of a rural Ethiopian population.,1.0.0,,1.0.0
+PRJNA504891,37116481,37116481.0,PMC10234599,10.1016/j.cub.2023.04.011,Maternal and food microbial sources shape the infant microbiome of a rural Ethiopian population.,1.0.0,,1.0.0
+PRJNA529124,37116481,37116481.0,PMC10234599,10.1016/j.cub.2023.04.011,Maternal and food microbial sources shape the infant microbiome of a rural Ethiopian population.,1.0.0,,1.0.0
+PRJNA529400,37116481,37116481.0,PMC10234599,10.1016/j.cub.2023.04.011,Maternal and food microbial sources shape the infant microbiome of a rural Ethiopian population.,1.0.0,,1.0.0
+PRJNA716780,37116481,37116481.0,PMC10234599,10.1016/j.cub.2023.04.011,Maternal and food microbial sources shape the infant microbiome of a rural Ethiopian population.,1.0.0,,1.0.0
+PRJNA296814,37138613,37138613.0,PMC10149717,10.3389/fmicb.2023.1164553,Human milk-associated bacterial communities associate with the infant gut microbiome over the first year of life.,1.0.0,,1.0.0
+PRJNA290380,37158607,37158607.0,PMC10292843,10.7554/elife.83152,Universal gut microbial relationships in the gut microbiome of wild baboons.,1.0.0,,1.0.0
+PRJEB12669,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJEB14935,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJEB24771,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJEB32135,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJEB6456,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA272371,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA273761,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA287207,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA290380,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA294605,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA296814,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA301903,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA320015,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA322188,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA327106,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA339914,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA345144,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA352475,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA376566,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA384716,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA390646,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA396794,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA413160,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA413162,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA417343,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA422569,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA473126,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA475246,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA489090,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA521878,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA524703,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA532310,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA542703,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA549787,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA557731,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA629392,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA63661,37169786,37169786.0,PMC10175488,10.1038/s41522-023-00392-6,Comprehensive insights from composition to functional microbe-based biodiversity of the infant human gut microbiota.,1.0.0,,1.0.0
+PRJNA949443,37175775,37175775.0,PMC10179101,10.3390/ijms24098069,Gut Microbiome and Small RNA Integrative-Omic Perspective of Meconium and Milk-FED Infant Stool Samples.,1.0.0,,1.0.0
+PRJNA898628,37187112,37187112.0,PMC10192547,10.1016/j.ebiom.2023.104613,Development of early life gut resistome and mobilome across gestational ages and microbiota-modifying treatments.,1.0.0,,1.0.0
+PRJEB6456,37188713,37188713.0,PMC10187079,10.1080/19490976.2023.2207455,Characterization of <i>Bifidobacterium kashiwanohense</i> that utilizes both milk- and plant-derived oligosaccharides.,1.0.0,,1.0.0
+PRJNA268964,37188713,37188713.0,PMC10187079,10.1080/19490976.2023.2207455,Characterization of <i>Bifidobacterium kashiwanohense</i> that utilizes both milk- and plant-derived oligosaccharides.,1.0.0,,1.0.0
+PRJNA290380,37188713,37188713.0,PMC10187079,10.1080/19490976.2023.2207455,Characterization of <i>Bifidobacterium kashiwanohense</i> that utilizes both milk- and plant-derived oligosaccharides.,1.0.0,,1.0.0
+PRJNA485056,37188713,37188713.0,PMC10187079,10.1080/19490976.2023.2207455,Characterization of <i>Bifidobacterium kashiwanohense</i> that utilizes both milk- and plant-derived oligosaccharides.,1.0.0,,1.0.0
+PRJEB12669,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJEB24006,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJEB29052,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJEB32135,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJEB39610,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJEB42363,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA215106,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA221723,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA272371,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA290380,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA300541,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA327106,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA339914,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA352475,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA379120,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA436562,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA473126,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA475246,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA486782,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA489693,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA497734,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA542703,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA549787,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA555020,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA557731,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA630999,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA633576,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA644725,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA648487,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA695570,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA730640,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJNA845806,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJEB48251,37230981,37230981.0,PMC10213049,10.1038/s41467-023-38694-0,Detailed mapping of Bifidobacterium strain transmission from mother to infant via a dual culture-based and metagenomic approach.,1.0.0,,1.0.0
+PRJEB29052,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJEB32135,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJEB6456,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA268964,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA272371,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA273761,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA287207,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA294605,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA339914,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA380031,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA473126,37259063,37259063.0,PMC10230729,10.1186/s12864-023-09388-0,Metagenome-mining indicates an association between bacteriocin presence and strain diversity in the infant gut.,1.0.0,,1.0.0
+PRJNA949528,37308527,37308527.0,PMC10261102,10.1038/s41598-023-36641-z,Compositional and functional variability of the gut microbiome in children with infantile colic.,1.0.0,,1.0.0
+PRJEB63183,37457984,37457984.0,PMC10345227,10.3389/fnut.2023.1216327,Interactions between <i>Bifidobacterium</i> and <i>Bacteroides</i> and human milk oligosaccharides and their associations with infant cognition.,1.0.0,,1.0.0
+PRJNA961698,37610205,37610205.0,PMC10654091,10.1128/msystems.00661-23,Very early life microbiome and metabolome correlates with primary vaccination variability in children.,1.0.0,,1.0.0
+PRJNA838575,37644001,37644001.0,PMC10465508,10.1038/s41467-023-40336-4,Delayed gut microbiota maturation in the first year of life is a hallmark of pediatric allergic disease.,1.0.0,,1.0.0
+PRJNA894152,37715296,37715296.0,PMC10503196,10.1186/s40168-023-01636-5,Household environment and animal fecal contamination are critical modifiers of the gut microbiome and resistome in young children from rural Nicaragua.,1.0.0,,1.0.0
+PRJNA911205,37726348,37726348.0,PMC10509221,10.1038/s41467-023-41421-4,Social and psychological adversity are associated with distinct mother and infant gut microbiome variations.,1.0.0,,1.0.0
+PRJNA938144,37754563,37754563.0,PMC10597457,10.1128/msphere.00134-23,Infants exposed <i>in utero</i> to Hurricane Maria have gut microbiomes with reduced diversity and altered metabolic capacity.,1.0.0,,1.0.0
+PRJNA858926,37771701,37771701.0,PMC10524269,10.3389/fmicb.2023.1239501,Functional proteins in breast milk and their correlation with the development of the infant gut microbiota: a study of mother-infant pairs.,1.0.0,,1.0.0
+PRJNA296814,37874156,37874156.0,PMC10734493,10.1128/msystems.00364-23,Machine-learning analysis of cross-study samples according to the gut microbiome in 12 infant cohorts.,1.0.0,,1.0.0
+PRJNA322188,37874156,37874156.0,PMC10734493,10.1128/msystems.00364-23,Machine-learning analysis of cross-study samples according to the gut microbiome in 12 infant cohorts.,1.0.0,,1.0.0
+PRJNA747761,37938667,37938667.0,PMC9723681,10.1038/s43705-022-00154-z,Higher pathogen load in children from Mozambique vs. USA revealed by comparative fecal microbiome profiling.,1.0.0,,1.0.0
+PRJNA698986,37973815,37973815.0,PMC10654741,10.1038/s41467-023-43279-y,Infant microbiome cultivation and metagenomic analysis reveal Bifidobacterium 2'-fucosyllactose utilization can be facilitated by coexisting species.,1.0.0,,1.0.0
+PRJNA947616,37974294,37974294.0,PMC10652614,10.1186/s13099-023-00583-8,Strain-resolved metagenomic analysis of the gut as a reservoir for bloodstream infection pathogens among premature infants in Singapore.,1.0.0,,1.0.0
+PRJEB62041,37980461,37980461.0,PMC10656894,10.1186/s12866-023-03098-z,Increased bacterial taxonomic and functional diversity is associated with impaired rotavirus vaccine immunogenicity in infants from India and Malawi.,1.0.0,,1.0.0
+PRJEB63351,38104504,38104504.0,PMC10731604,10.1016/j.ebiom.2023.104917,Neuroblastoma is associated with alterations in gut microbiome composition subsequent to maternal microbial seeding.,1.0.0,,1.0.0
+PRJNA715601,38135681,38135681.0,PMC10746713,10.1038/s41467-023-44289-6,Differential responses of the gut microbiome and resistome to antibiotic exposures in infants and adults.,1.0.0,,1.0.0
+PRJEB12669,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJEB22207,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJEB32135,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJEB6456,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA221723,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA273761,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA287207,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA290380,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA322188,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA327106,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA339914,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA345144,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA352475,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA376566,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA379120,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA396794,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA398089,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA436562,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA473126,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA475246,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA485056,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA489090,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA497734,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA504891,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA510445,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA521878,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA542703,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA557731,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA633576,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA715601,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJNA853174,38172624,38172624.0,PMC10769871,10.1038/s41564-023-01549-x,BilR is a gut microbial enzyme that reduces bilirubin to urobilinogen.,1.0.0,,1.0.0
+PRJEB11419,38188664,38188664.0,PMC10767325,10.12938/bmfh.2023-043,Heterogeneity of gut microbiome compositions in the third decade of life in Japanese women: insights from a comparative analysis.,1.0.0,,1.0.0
+PRJNA290380,38193687,38193687.0,PMC10846076,10.1128/spectrum.03177-23,Temporal development and potential interactions between the gut microbiome and resistome in early childhood.,1.0.0,,1.0.0
+PRJEB32631,38291346,38291346.0,PMC10827747,10.1038/s41467-024-45209-y,Longitudinal quantification of Bifidobacterium longum subsp. infantis reveals late colonization in the infant gut independent of maternal milk HMO composition.,1.0.0,,1.0.0
+PRJEB6456,38291346,38291346.0,PMC10827747,10.1038/s41467-024-45209-y,Longitudinal quantification of Bifidobacterium longum subsp. infantis reveals late colonization in the infant gut independent of maternal milk HMO composition.,1.0.0,,1.0.0
+PRJNA352475,38291346,38291346.0,PMC10827747,10.1038/s41467-024-45209-y,Longitudinal quantification of Bifidobacterium longum subsp. infantis reveals late colonization in the infant gut independent of maternal milk HMO composition.,1.0.0,,1.0.0
+PRJNA475246,38291346,38291346.0,PMC10827747,10.1038/s41467-024-45209-y,Longitudinal quantification of Bifidobacterium longum subsp. infantis reveals late colonization in the infant gut independent of maternal milk HMO composition.,1.0.0,,1.0.0
+PRJNA497734,38291346,38291346.0,PMC10827747,10.1038/s41467-024-45209-y,Longitudinal quantification of Bifidobacterium longum subsp. infantis reveals late colonization in the infant gut independent of maternal milk HMO composition.,1.0.0,,1.0.0
+PRJNA994433,38291346,38291346.0,PMC10827747,10.1038/s41467-024-45209-y,Longitudinal quantification of Bifidobacterium longum subsp. infantis reveals late colonization in the infant gut independent of maternal milk HMO composition.,1.0.0,,1.0.0
+PRJNA971895,38310316,38310316.0,PMC10837951,10.1186/s40168-023-01732-6,Early life exposure of infants to benzylpenicillin and gentamicin is associated with a persistent amplification of the gut resistome.,1.0.0,,1.0.0
+PRJEB24006,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJEB32631,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJEB6456,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA272371,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA273761,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA287207,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA290380,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA294605,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA296814,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA301903,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA322188,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA327106,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA339914,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA345144,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA352475,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA376566,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA379120,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA384716,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA385126,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA387903,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA390646,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA396794,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA436562,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA473126,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA475246,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA489090,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA521878,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA524703,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA542703,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA543520,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA555020,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJNA657818,38424077,38424077.0,PMC10904392,10.1038/s41467-024-45793-z,A metagenomic catalog of the early-life human gut virome.,1.0.0,,1.0.0
+PRJEB33013,38426063,38426063.0,PMC10902438,10.3389/fmicb.2024.1349391,Genomic and ecological approaches to identify the <i>Bifidobacterium breve</i> prototype of the healthy human gut microbiota.,1.0.0,,1.0.0
+PRJNA384716,38426063,38426063.0,PMC10902438,10.3389/fmicb.2024.1349391,Genomic and ecological approaches to identify the <i>Bifidobacterium breve</i> prototype of the healthy human gut microbiota.,1.0.0,,1.0.0
+PRJNA485056,38426063,38426063.0,PMC10902438,10.3389/fmicb.2024.1349391,Genomic and ecological approaches to identify the <i>Bifidobacterium breve</i> prototype of the healthy human gut microbiota.,1.0.0,,1.0.0
+PRJNA504891,38426063,38426063.0,PMC10902438,10.3389/fmicb.2024.1349391,Genomic and ecological approaches to identify the <i>Bifidobacterium breve</i> prototype of the healthy human gut microbiota.,1.0.0,,1.0.0
+PRJNA529124,38426063,38426063.0,PMC10902438,10.3389/fmicb.2024.1349391,Genomic and ecological approaches to identify the <i>Bifidobacterium breve</i> prototype of the healthy human gut microbiota.,1.0.0,,1.0.0
+PRJEB12669,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJEB29052,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJEB39610,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJEB41102,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJEB46788,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA1046438,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA268964,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA272371,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA290380,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA327106,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA345144,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA352475,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA379120,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA473126,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA475246,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA489090,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA497734,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA504891,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA529124,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA542703,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA543520,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA543967,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA549787,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA588513,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA633576,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA644725,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA688164,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA695570,38441032,38441032.0,PMC11019788,10.1128/msystems.01294-23,Taxonomic and metabolic development of the human gut microbiome across life stages: a worldwide metagenomic investigation.,1.0.0,,1.0.0
+PRJNA475246,38486699,38486699.0,PMC10937581,10.3389/fmicb.2024.1292377,Inspecting mother-to-infant microbiota transmission: disturbance of strain inheritance by cesarian section.,1.0.0,,1.0.0
+PRJNA991269,38589361,38589361.0,PMC11001937,10.1038/s41467-024-47182-y,Comparative characterization of the infant gut microbiome and their maternal lineage by a multi-omics approach.,1.0.0,,1.0.0
+PRJNA893826,38622998,38622998.0,PMC11021048,10.7554/elife.91853,High-risk <i>Escherichia coli</i> clones that cause neonatal meningitis and association with recrudescent infection.,1.0.0,,1.0.0
+PRJNA747761,38652229,38652229.0,PMC12405034,10.1007/s12602-024-10259-7,Comparative Genome Analysis and Characterization of the Probiotic Properties of Lactic Acid Bacteria Isolated from the Gastrointestinal Tract of Wild Boars in the Czech Republic.,1.0.0,,1.0.0
+PRJNA715601,38730321,38730321.0,PMC11084089,10.1186/s40168-024-01800-5,Co-localization of antibiotic resistance genes is widespread in the infant gut microbiome and associates with an immature gut microbial composition.,1.0.0,,1.0.0
+PRJNA296814,38760865,38760865.0,PMC11101342,10.1186/s13229-024-00597-2,Prospective association of the infant gut microbiome with social behaviors in the ECHO consortium.,1.0.0,,1.0.0
+PRJNA695570,38760865,38760865.0,PMC11101342,10.1186/s13229-024-00597-2,Prospective association of the infant gut microbiome with social behaviors in the ECHO consortium.,1.0.0,,1.0.0
+PRJNA988496,38773685,38773685.0,PMC11109039,10.1002/ctm2.1695,"Faecal zonulin, calprotectin and the infant microbiome in early life.",1.0.0,,1.0.0
+PRJNA695070,38818221,38818221.0,PMC10989755,10.1002/mlf2.12034,Maternal and neonatal viromes indicate the risk of offspring's gastrointestinal tract exposure to pathogenic viruses of vaginal origin during delivery.,1.0.0,,1.0.0
+PRJEB6456,38868710,38868710.0,PMC10989911,10.1002/imt2.41,StrainPanDA: Linked reconstruction of strain composition and gene content profiles via pangenome-based decomposition of metagenomic data.,1.0.0,,1.0.0
+PRJEB74322,38870906,38870906.0,PMC11183301,10.1016/j.chom.2024.05.005,Birthmode and environment-dependent microbiota transmission dynamics are complemented by breastfeeding during the first year.,1.0.0,,1.0.0
+PRJEB6456,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA273761,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA290380,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA294605,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA301903,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA322188,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA327106,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA339914,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA352475,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA376566,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA384716,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA390646,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA473126,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA475246,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA489090,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA63661,38882494,38882494.0,PMC11170968,10.1002/imt2.169,"Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life.",1.0.0,,1.0.0
+PRJNA1076911,38995243,38995243.0,PMC11316550,10.1099/mgen.0.001269,Delivery mode is a larger determinant of infant gut microbiome composition at 6 weeks than exposure to peripartum antibiotics.,1.0.0,,1.0.0
+PRJNA1056831,39006502,39006502.0,PMC11246047,10.1016/j.jhepr.2024.101090,Gut &lt;i&gt;Bifidobacterium longum&lt;/i&gt; is associated with better native liver survival in patients with biliary atresia.,1.0.0,,1.0.0
+PRJNA1019702,39043677,39043677.0,PMC11266569,10.1038/s41467-024-50282-4,Human cytomegalovirus in breast milk is associated with milk composition and the infant gut microbiome and growth.,1.0.0,,1.0.0
+PRJNA1130109,39081889,39081889.0,PMC11287775,10.3389/fmicb.2024.1371292,The infants' gut microbiome: setting the stage for the early onset of obesity.,1.0.0,,1.0.0
+PRJNA473126,39102225,39102225.0,PMC12549143,10.1001/jamapediatrics.2024.2626,Bifidobacterium and Lactobacillus Probiotics and Gut Dysbiosis in Preterm Infants: The PRIMAL Randomized Clinical Trial.,1.0.0,,1.0.0
+PRJNA1085219,39134593,39134593.0,PMC11319485,10.1038/s41598-024-69275-w,Antibiotic resistance gene dynamics in the commensal infant gut microbiome over the first year of life.,1.0.0,,1.0.0
+PRJEB32631,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJEB6456,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA231909,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA272371,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA273761,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA287207,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA290380,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA294605,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA296814,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA301903,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA322188,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA327106,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA339914,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA345144,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA352475,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA376566,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA379120,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA384716,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA390646,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA396794,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA436562,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA473126,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA475246,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA489090,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA524703,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA542703,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA543520,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA549787,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA557731,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA698986,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA715601,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA716780,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA916952,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJNA1086674,39138352,39138352.0,PMC12055563,10.1038/s41390-024-03440-9,The impact of breastfeeding on the preterm infant's microbiome and metabolome: a pilot study.,1.0.0,,1.0.0
+PRJNA1081952,39143045,39143045.0,PMC11324872,10.1038/s41467-024-51326-5,Community use of oral antibiotics transiently reprofiles the intestinal microbiome in young Bangladeshi children.,1.0.0,,1.0.0
+PRJNA1045584,39185682,39185682.0,PMC11352790,10.1080/19490976.2024.2394248,Gut virome and microbiome dynamics before and after SARS-CoV-2 infection in women living with HIV and their infants.,1.0.0,,1.0.0
+PRJEB39610,39216480,39216480.0,PMC11524953,10.1016/j.xcrm.2024.101708,"Human milk microbiota, oligosaccharide profiles, and infant gut microbiome in preterm infants diagnosed with necrotizing enterocolitis.",1.0.0,,1.0.0
+PRJEB32631,39242817,39242817.0,PMC11445081,10.1038/s41564-024-01804-9,Primary succession of Bifidobacteria drives pathogen resistance in neonatal microbiota assembly.,1.0.0,,1.0.0
+PRJEB6456,39242817,39242817.0,PMC11445081,10.1038/s41564-024-01804-9,Primary succession of Bifidobacteria drives pathogen resistance in neonatal microbiota assembly.,1.0.0,,1.0.0
+PRJNA400115,39242817,39242817.0,PMC11445081,10.1038/s41564-024-01804-9,Primary succession of Bifidobacteria drives pathogen resistance in neonatal microbiota assembly.,1.0.0,,1.0.0
+PRJNA806984,39242817,39242817.0,PMC11445081,10.1038/s41564-024-01804-9,Primary succession of Bifidobacteria drives pathogen resistance in neonatal microbiota assembly.,1.0.0,,1.0.0
+PRJNA994433,39242817,39242817.0,PMC11445081,10.1038/s41564-024-01804-9,Primary succession of Bifidobacteria drives pathogen resistance in neonatal microbiota assembly.,1.0.0,,1.0.0
+PRJNA1019702,39265573,39265573.0,PMC11602576,10.1016/j.xgen.2024.100638,Human milk variation is shaped by maternal genetics and impacts the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA1065277,39268487,39268487.0,PMC11390658,10.3389/fcimb.2024.1397675,Delivery mode and maternal gestational diabetes are important factors in shaping the neonatal initial gut microbiota.,1.0.0,,1.0.0
+PRJEB11419,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJEB12669,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJEB24006,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJEB32135,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJEB39610,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJEB46788,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJEB9150,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA1046438,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA215106,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA268964,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA272371,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA290380,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA300541,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA339914,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA345144,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA352475,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA379120,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA436562,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA473126,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA475246,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA486782,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA497734,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA524703,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA542703,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA543520,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA543967,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA549787,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA557731,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA588513,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA633576,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA695570,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJNA730640,39287373,39287373.0,PMC11494892,10.1128/msystems.00929-24,Exploring the vitamin biosynthesis landscape of the human gut microbiota.,1.0.0,,1.0.0
+PRJEB51728,39341154,39341154.0,PMC11467582,10.1016/j.ebiom.2024.105362,Bifidobacterium longum and microbiome maturation modify a nutrient intervention for stunting in Zimbabwean infants.,1.0.0,,1.0.0
+PRJEB48251,39365058,39365058.0,PMC11537119,10.1128/spectrum.01130-24,"Dietary amino acids, macronutrients, vaginal birth, and breastfeeding are associated with the vaginal microbiome in early pregnancy.",1.0.0,,1.0.0
+PRJNA1081952,39367018,39367018.0,PMC11452624,10.1038/s41467-024-53013-x,Effects of iron supplements and iron-containing micronutrient powders on the gut microbiome in Bangladeshi infants: a randomized controlled trial.,1.0.0,,1.0.0
+PRJNA1095378,39373498,39373498.0,PMC11542550,10.1128/msphere.00286-24,Increased antibiotic resistance in preterm neonates under early antibiotic use.,1.0.0,,1.0.0
+PRJEB6456,39428758,39428758.0,PMC11497992,10.1080/19490976.2024.2414975,Species- and subspecies-level characterization of health-associated bacterial consortia that colonize the human gut during infancy.,1.0.0,,1.0.0
+PRJNA475246,39428758,39428758.0,PMC11497992,10.1080/19490976.2024.2414975,Species- and subspecies-level characterization of health-associated bacterial consortia that colonize the human gut during infancy.,1.0.0,,1.0.0
+PRJNA486782,39428758,39428758.0,PMC11497992,10.1080/19490976.2024.2414975,Species- and subspecies-level characterization of health-associated bacterial consortia that colonize the human gut during infancy.,1.0.0,,1.0.0
+PRJNA510445,39428758,39428758.0,PMC11497992,10.1080/19490976.2024.2414975,Species- and subspecies-level characterization of health-associated bacterial consortia that colonize the human gut during infancy.,1.0.0,,1.0.0
+PRJNA521878,39428758,39428758.0,PMC11497992,10.1080/19490976.2024.2414975,Species- and subspecies-level characterization of health-associated bacterial consortia that colonize the human gut during infancy.,1.0.0,,1.0.0
+PRJNA630999,39428758,39428758.0,PMC11497992,10.1080/19490976.2024.2414975,Species- and subspecies-level characterization of health-associated bacterial consortia that colonize the human gut during infancy.,1.0.0,,1.0.0
+PRJNA698986,39428758,39428758.0,PMC11497992,10.1080/19490976.2024.2414975,Species- and subspecies-level characterization of health-associated bacterial consortia that colonize the human gut during infancy.,1.0.0,,1.0.0
+PRJNA1042647,39440978,39440978.0,PMC11558993,10.1128/mbio.01534-24,Metal availability shapes early life microbial ecology and community succession.,1.0.0,,1.0.0
+PRJNA1106565,39440978,39440978.0,PMC11558993,10.1128/mbio.01534-24,Metal availability shapes early life microbial ecology and community succession.,1.0.0,,1.0.0
+PRJNA1145027,39440978,39440978.0,PMC11558993,10.1128/mbio.01534-24,Metal availability shapes early life microbial ecology and community succession.,1.0.0,,1.0.0
+PRJNA821542,39551356,39551356.0,PMC11747200,10.1016/j.ajcnut.2024.11.011,Associations between dietary fibers and gut microbiome composition in the EDIA longitudinal infant cohort.,1.0.0,,1.0.0
+PRJNA1112760,39679616,39679616.0,PMC11459832,10.1080/19490976.2024.2410479,Gut microbiota genome features associated with brain injury in extremely premature infants.,1.0.0,,1.0.0
+PRJNA1143669,39707483,39707483.0,PMC11662858,10.1186/s40168-024-01973-z,Neonates exposed to HIV but uninfected exhibit an altered gut microbiota and inflammation associated with impaired breast milk antibody function.,1.0.0,,1.0.0
+PRJEB77729,39714161,39714161.0,PMC11756582,10.1128/msystems.01071-24,First-year dynamics of the anaerobic microbiome and archaeome in infants' oral and gastrointestinal systems.,1.0.0,,1.0.0
+PRJNA379120,39739091,39739091.0,PMC11686179,10.1038/s43856-024-00715-4,Personalized modeling of gut microbiome metabolism throughout the first year of life.,1.0.0,,1.0.0
+PRJNA595749,39739091,39739091.0,PMC11686179,10.1038/s43856-024-00715-4,Personalized modeling of gut microbiome metabolism throughout the first year of life.,1.0.0,,1.0.0
+PRJNA497734,39745374,39745374.0,PMC11834438,10.1128/msystems.01570-24,A novel robust network construction and analysis workflow for mining infant microbiota relationships.,1.0.0,,1.0.0
+PRJNA1177813,39796584,39796584.0,PMC11723031,10.3390/nu17010151,"The Bifidogenic Effect of 2'Fucosyllactose Is Driven by Age-Specific <i>Bifidobacterium</i> Species, Demonstrating Age as an Important Factor for Gut Microbiome Targeted Precision Medicine.",1.0.0,,1.0.0
+PRJEB32631,39809768,39809768.0,PMC11733223,10.1038/s41467-025-56072-w,Early life microbial succession in the gut follows common patterns in humans across the globe.,1.0.0,,1.0.0
+PRJEB6456,39809768,39809768.0,PMC11733223,10.1038/s41467-025-56072-w,Early life microbial succession in the gut follows common patterns in humans across the globe.,1.0.0,,1.0.0
+PRJNA1128723,39809768,39809768.0,PMC11733223,10.1038/s41467-025-56072-w,Early life microbial succession in the gut follows common patterns in humans across the globe.,1.0.0,,1.0.0
+PRJNA300541,39809768,39809768.0,PMC11733223,10.1038/s41467-025-56072-w,Early life microbial succession in the gut follows common patterns in humans across the globe.,1.0.0,,1.0.0
+PRJNA339914,39809768,39809768.0,PMC11733223,10.1038/s41467-025-56072-w,Early life microbial succession in the gut follows common patterns in humans across the globe.,1.0.0,,1.0.0
+PRJNA1042647,39856742,39856742.0,PMC11761179,10.1186/s40168-024-01999-3,Antibiotic exposure is associated with minimal gut microbiome perturbations in healthy term infants.,1.0.0,,1.0.0
+PRJNA1106565,39856742,39856742.0,PMC11761179,10.1186/s40168-024-01999-3,Antibiotic exposure is associated with minimal gut microbiome perturbations in healthy term infants.,1.0.0,,1.0.0
+PRJEB32631,39866568,39866568.0,PMC11758915,10.7717/peerj.18602,"Priority effects, nutrition and milk glycan-metabolic potential drive <i>Bifidobacterium longum</i> subspecies dynamics in the infant gut microbiome.",1.0.0,,1.0.0
+PRJEB66728,39866568,39866568.0,PMC11758915,10.7717/peerj.18602,"Priority effects, nutrition and milk glycan-metabolic potential drive <i>Bifidobacterium longum</i> subspecies dynamics in the infant gut microbiome.",1.0.0,,1.0.0
+PRJNA322188,39866568,39866568.0,PMC11758915,10.7717/peerj.18602,"Priority effects, nutrition and milk glycan-metabolic potential drive <i>Bifidobacterium longum</i> subspecies dynamics in the infant gut microbiome.",1.0.0,,1.0.0
+PRJNA352475,39866568,39866568.0,PMC11758915,10.7717/peerj.18602,"Priority effects, nutrition and milk glycan-metabolic potential drive <i>Bifidobacterium longum</i> subspecies dynamics in the infant gut microbiome.",1.0.0,,1.0.0
+PRJNA475246,39866568,39866568.0,PMC11758915,10.7717/peerj.18602,"Priority effects, nutrition and milk glycan-metabolic potential drive <i>Bifidobacterium longum</i> subspecies dynamics in the infant gut microbiome.",1.0.0,,1.0.0
+PRJEB76913,39881980,39881980.0,PMC11775010,10.3389/fmicb.2024.1468842,Oxygenation and intestinal perfusion and its association with perturbations of the early life gut microbiota composition of children with congenital heart disease.,1.0.0,,1.0.0
+PRJNA231909,39885121,39885121.0,PMC11782615,10.1038/s41467-025-56449-x,Metagenomic global survey and in-depth genomic analyses of Ruminococcus gnavus reveal differences across host lifestyle and health status.,1.0.0,,1.0.0
+PRJNA955235,39945545,39945545.0,PMC11898760,10.1128/mbio.03420-24,Persistent delay in maturation of the developing gut microbiota in infants with cystic fibrosis.,1.0.0,,1.0.0
+PRJNA1015704,40042126,40042126.0,PMC11881217,10.1002/ppul.71024,Effects of Therapeutic Antibiotic Exposure on the Oropharyngeal and Fecal Microbiota in Infants With Cystic Fibrosis.,1.0.0,,1.0.0
+PRJEB32631,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJEB51728,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJEB6456,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA322188,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA352475,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA379120,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA473126,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA489090,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA549787,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA595749,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA898628,40048849,40048849.0,PMC11929092,10.1016/j.ebiom.2025.105630,Dynamics of gut resistome and mobilome in early life: a meta-analysis.,1.0.0,,1.0.0
+PRJNA1113165,40102379,40102379.0,PMC11920048,10.1038/s41467-025-57838-y,Maternal balanced energy-protein supplementation reshapes the maternal gut microbiome and enhances carbohydrate metabolism in infants: a randomized controlled trial.,1.0.0,,1.0.0
+PRJNA715601,40108202,40108202.0,PMC11923282,10.1038/s41522-025-00674-1,Prophages in the infant gut are pervasively induced and may modulate the functionality of their hosts.,1.0.0,,1.0.0
+PRJNA1148144,40128855,40128855.0,PMC11931804,10.1186/s40168-025-02079-w,Metagenomic signatures of extraintestinal bacterial infection in the febrile term infant gut microbiome.,1.0.0,,1.0.0
+PRJNA807448,40175554,40175554.0,PMC12058517,10.1038/s41586-025-08796-4,Bifidobacteria support optimal infant vaccine responses.,1.0.0,,1.0.0
+PRJNA1072081,40237336,40237336.0,PMC12005435,10.1080/19490976.2025.2493900,Exclusive breastfeeding is associated with the gut microbiome maturation in infants according to delivery mode.,1.0.0,,1.0.0
+PRJNA1217583,40299456,40299456.0,PMC12024737,10.3390/biomedicines13040838,Alterations in Gut Microbiota of Infants Born to Mothers with Obesity.,1.0.0,,1.0.0
+PRJNA949528,40299456,40299456.0,PMC12024737,10.3390/biomedicines13040838,Alterations in Gut Microbiota of Infants Born to Mothers with Obesity.,1.0.0,,1.0.0
+PRJEB32631,40328944,40328944.0,PMC12122369,10.1038/s41564-025-01983-z,Longitudinal profiling of low-abundance strains in microbiomes with ChronoStrain.,1.0.0,,1.0.0
+PRJEB32631,40396737,40396737.0,PMC12172464,10.1128/msystems.00472-25,parafac4microbiome: exploratory analysis of longitudinal microbiome data using parallel factor analysis.,1.0.0,,1.0.0
+PRJNA949528,40399402,40399402.0,PMC12095471,10.1038/s41598-025-02013-y,Parity influences postpartum adaptations in the maternal gut microbiota.,1.0.0,,1.0.0
+PRJEB82926,40431157,40431157.0,PMC12114409,10.3390/microorganisms13050984,The Impact of Probiotic Supplementation on the Development of the Infant Gut Microbiota: An Exploratory Follow-Up of a Randomised Controlled Trial.,1.0.0,,1.0.0
+PRJNA979436,40442154,40442154.0,PMC12122682,10.1038/s41522-025-00714-w,Integrated multi-omics reveals different host crosstalk of atopic dermatitis-enriched Bifidobacterium longum Strains.,1.0.0,,1.0.0
+PRJNA986854,40467587,40467587.0,PMC12137722,10.1038/s41467-025-60508-8,"Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life.",1.0.0,,1.0.0
+PRJNA1128723,40586263,40586263.0,PMC12345167,10.1128/mbio.00835-25,Codevelopment of gut microbial metabolism and visual neural circuitry over human infancy.,1.0.0,,1.0.0
+PRJNA524703,40600714,40600714.0,PMC12323601,10.1128/spectrum.00013-25,Biases and complementarity in gut viromes obtained from bulk and virus-like particle-enriched metagenomic sequencing.,1.0.0,,1.0.0
+PRJNA835720,40600714,40600714.0,PMC12323601,10.1128/spectrum.00013-25,Biases and complementarity in gut viromes obtained from bulk and virus-like particle-enriched metagenomic sequencing.,1.0.0,,1.0.0
+PRJEB74322,40603287,40603287.0,PMC12222458,10.1038/s41467-025-61154-w,Breastfeeding and early Bifidobacterium-driven microbial colonization shape the infant gut resistome.,1.0.0,,1.0.0
+PRJNA1227883,40603287,40603287.0,PMC12222458,10.1038/s41467-025-61154-w,Breastfeeding and early Bifidobacterium-driven microbial colonization shape the infant gut resistome.,1.0.0,,1.0.0
+PRJNA524703,40615392,40615392.0,PMC12227732,10.1038/s41467-025-61478-7,Negativeome characterization and decontamination in early-life virome studies.,1.0.0,,1.0.0
+PRJNA838575,40623174,40623174.0,PMC12280908,10.1073/pnas.2501030122,Human milk IgA promotes normal immune development by limiting Th17-inducing <i>Erysipelatoclostridium ramosum</i> in the infant gut.,1.0.0,,1.0.0
+PRJEB48251,40755225,40755225.0,PMC12323436,10.1080/19490976.2025.2541033,Breastfeeding and the milk resistome shape the establishment and transmission of antibiotic resistance genes in the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA1138246,40755247,40755247.0,PMC12323407,10.1080/19490976.2025.2541029,Role of the gut microbiome in frequent gut colonization with extended-spectrum β lactamase-producing Enterobacterales among Peruvian children.,1.0.0,,1.0.0
+PRJNA1042647,40763731,40763731.0,PMC12375414,10.1016/j.chom.2025.07.003,Amino acid competition shapes Acinetobacter baumannii gut carriage.,1.0.0,,1.0.0
+PRJNA1106565,40763731,40763731.0,PMC12375414,10.1016/j.chom.2025.07.003,Amino acid competition shapes Acinetobacter baumannii gut carriage.,1.0.0,,1.0.0
+PRJNA1145027,40763731,40763731.0,PMC12375414,10.1016/j.chom.2025.07.003,Amino acid competition shapes Acinetobacter baumannii gut carriage.,1.0.0,,1.0.0
+PRJNA1191223,40813371,40813371.0,PMC12354744,10.1038/s41467-025-62584-2,Impact of early life antibiotic and probiotic treatment on gut microbiome and resistome of very-low-birth-weight preterm infants.,1.0.0,,1.0.0
+PRJNA988496,40823537,40823537.0,PMC12352455,10.1080/29933935.2025.2464631,Delivery mode impacts gut bacteriophage colonization during infancy.,1.0.0,,1.0.0
+PRJEB84944,40885737,40885737.0,PMC12398494,10.1038/s41467-025-63401-6,Temporal dynamics and microbial interactions shaping the gut resistome in early infancy.,1.0.0,,1.0.0
+PRJNA1206145,40898384,40898384.0,PMC12405607,10.1111/pai.70182,Improving immune-related health outcomes post-cesarean birth with a gut microbiome-based program: A randomized controlled trial.,1.0.0,,1.0.0
+PRJNA1160256,40941064,40941064.0,PMC12428287,10.3390/foods14172949,The Effect of Sodium Benzoate on the Gut Microbiome Across Age Groups.,1.0.0,,1.0.0
+PRJEB83236,40951971,40951971.0,PMC12570478,10.1128/msphere.00314-25,"Abundance of &lt;i&gt;Bifidobacterium&lt;/i&gt; species in the infant gut microbiota and associations with maternal-infant characteristics in Dhaka, Bangladesh.",1.0.0,,1.0.0
+PRJNA1304237,41017911,41017911.0,PMC12460237,10.3389/fcimb.2025.1649384,Characterization of gut microbiota signatures in Indian preterm infants with necrotizing enterocolitis: a shotgun metagenomic approach.,1.0.0,,1.0.0
+PRJEB39610,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA273761,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA290380,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA294605,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA301903,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA322188,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA327106,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA376566,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA379120,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA396794,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA473126,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA475246,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA489090,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA630999,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA698986,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA799247,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA872399,41025564,41025564.0,PMC12677589,10.1002/advs.202505154,The Gut Resistome Atlas in Preterm Infants Enables Prediction of Necrotizing Enterocolitis Onset.,1.0.0,,1.0.0
+PRJNA843963,41185061,41185061.0,PMC12581456,10.1186/s40168-025-02203-w,"Host clustering of Campylobacter species and enteric pathogens in a longitudinal cohort of infants, family members and livestock in rural Eastern Ethiopia.",1.0.0,,1.0.0
+PRJNA1312123,41203618,41203618.0,PMC12594796,10.1038/s41467-025-64819-8,Development of the preterm infant gut and gastric residuals microbiome.,1.0.0,,1.0.0
+PRJNA63661,41250602,41250602.0,PMC12629330,10.1080/19490976.2025.2582900,Refining microbiome resolution: KoSCAPE&lt;sub&gt;bio&lt;/sub&gt; identifies &lt;i&gt;Klebsiella oxytoca&lt;/i&gt; complex species in16S rRNA amplicon data and uncovers associations with NEC.,1.0.0,,1.0.0
+PRJNA1019702,41274878,41274878.0,PMC12749357,10.1038/s41467-025-66497-y,Assembly of the infant gut microbiome and resistome are linked to bacterial strains in mother's milk.,1.0.0,,1.0.0
+PRJNA1198101,41274878,41274878.0,PMC12749357,10.1038/s41467-025-66497-y,Assembly of the infant gut microbiome and resistome are linked to bacterial strains in mother's milk.,1.0.0,,1.0.0
+PRJNA821542,41299229,41299229.0,PMC12659350,10.1186/s12859-025-06286-y,Protein language models uncover carbohydrate-active enzyme function in metagenomics.,1.0.0,,1.0.0
+PRJEB87209,41339319,41339319.0,PMC12675544,10.1038/s41467-025-65758-0,Indigenous infants in remote Australia retain an ancestral gut microbiome despite encroaching Westernization.,1.0.0,,1.0.0
+PRJNA231909,41339624,41339624.0,PMC12764907,10.1038/s41467-025-66619-6,Microbiome-derived bile acid signatures in early life and their association with islet autoimmunity.,1.0.0,,1.0.0
+PRJDB4525,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJEB12669,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJEB32631,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJEB41102,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJEB42363,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJEB6456,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA215106,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA268964,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA272371,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA290380,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA300541,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA322188,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA345144,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA352475,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA379120,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA384716,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA422569,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA436562,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA473126,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA475246,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA489090,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA489693,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA497734,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA521878,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA524703,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA542703,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA543520,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA543967,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA549787,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA633576,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA644725,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA686821,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA688164,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA695570,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA833139,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJNA991269,41350579,41350579.0,PMC12769767,10.1038/s41522-025-00868-7,Compiling an early life human gut microbiome atlas and identification of key microbial drivers.,1.0.0,,1.0.0
+PRJEB46788,41358671,41358671.0,PMC12688249,10.1080/19490976.2025.2587966,Infection with gut parasites correlates with gut microbiome diversity across human populations in Africa.,1.0.0,,1.0.0
+PRJEB86954,41358671,41358671.0,PMC12688249,10.1080/19490976.2025.2587966,Infection with gut parasites correlates with gut microbiome diversity across human populations in Africa.,1.0.0,,1.0.0
+PRJEB28671,41387413,41387413.0,PMC12701053,10.1038/s41467-025-66011-4,Gut Prevotella stercorea associates with protection against infection in rural African children.,1.0.0,,1.0.0
+PRJNA988496,41405404,41405404.0,PMC12716031,10.1080/19490976.2025.2604874,Colibactin genes are highly prevalent in the developing infant gut microbiome.,1.0.0,,1.0.0
+PRJNA1031773,41411654,41411654.0,PMC12931694,10.1080/19490976.2024.2443117,Impacts of COVID-19 pandemic on early life gut microbiome.,1.0.0,,1.0.0
+PRJNA1260751,41536238,41536238.0,PMC12818807,10.1080/19490976.2025.2607043,Maternal obesity alters human milk oligosaccharides content and correlates with early acquisition of late colonizers in the neonatal gut microbiome.,1.0.0,,1.0.0
+PRJNA1140720,41565819,41565819.0,PMC12960237,10.1038/s41586-025-09983-z,Baby-to-baby strain transmission shapes the developing gut microbiome.,1.0.0,,1.0.0
+PRJNA1290379,41593042,41593042.0,PMC12851394,10.1080/19490976.2026.2616066,The enteric DNA virome differs in infants at risk for atopic disease.,1.0.0,,1.0.0
+PRJNA504891,41620544,41620544.0,PMC12963580,10.1038/s42003-026-09639-2,Gut microbial signatures expose the westernized lifestyle of urban Ethiopian children.,1.0.0,,1.0.0
+PRJNA716780,41620544,41620544.0,PMC12963580,10.1038/s42003-026-09639-2,Gut microbial signatures expose the westernized lifestyle of urban Ethiopian children.,1.0.0,,1.0.0
+PRJNA322188,41751912,41751912.0,PMC12940378,10.3390/ijms27041776,Global Microbiome: Core and Unique Signatures Across Diverse Populations.,1.0.0,,1.0.0
+PRJNA821920,41782637,41782637.0,PMC12954002,10.1177/24705470261425120,"Microbiome and Vocalization Biomarkers of Infant Distress, Maternal Depression and Parenting Styles.",1.0.0,,1.0.0
+PRJNA290380,41796297,41796297.0,PMC13081238,10.1186/s12866-026-04922-y,An adaptive weight self-distillation deep learning framework for phenotype prediction from longitudinal gut microbiome data.,1.0.0,,1.0.0
+PRJEB108038,41834868,41834868.0,PMC12980891,10.3389/fmicb.2026.1761712,Neonatal jaundice and the infant gut microbiome: an integrated shotgun metagenomics and bidirectional Mendelian randomization study in Xinjiang.,1.0.0,,1.0.0
+PRJNA1337442,41845058,41845058.0,PMC13004693,10.1038/s41591-026-04217-9,Mass azithromycin distribution and antibiotic resistance in the gut and nasopharynx: a cluster-randomized trial.,1.0.0,,1.0.0
+PRJEB89462,41873970,41873970.0,PMC13141913,10.1128/spectrum.02153-25,Impact of phage enrichment on the observed infant gut phageome.,1.0.0,,1.0.0
+PRJNA715601,41980780,41980780.0,PMC13130633,10.1016/j.xcrm.2026.102755,Breastfeeding may lessen socioeconomic disparities in child health through differences in the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA838575,41980780,41980780.0,PMC13130633,10.1016/j.xcrm.2026.102755,Breastfeeding may lessen socioeconomic disparities in child health through differences in the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA1273620,41998770,41998770.0,PMC13214156,10.1186/s13073-026-01655-5,Maternal-prenatal gut microbiome-systemic metabolome perturbations and T&lt;sub&gt;H&lt;/sub&gt;2-skewed immunity link to offspring gut microbiome disruption and atopic dermatitis susceptibility.,1.0.0,,1.0.0
+PRJNA1305341,42013844,42013844.0,PMC13198307,10.1016/j.xcrm.2026.102752,Metabolic reprogramming of the infant gut by bifidobacteria-based probiotics drives exclusion of antibiotic-resistant pathobionts.,1.0.0,,1.0.0
+PRJNA1428929,42022809,42022809.0,PMC13095817,10.3389/fcimb.2026.1799859,"Gut microbiota and metabolome signatures in preterm infants with high versus low risk for neurodevelopmental impairment: a prospective, matched, longitudinal multi-omics study.",1.0.0,,1.0.0
+PRJEB32631,42032281,42032281.0,PMC13236588,10.1038/s41564-026-02339-x,Strain-level transmission inference across multi-kingdom metagenomic data using TRACS.,1.0.0,,1.0.0
+PRJEB89491,42057198,42057198.0,PMC13267274,10.1186/s13073-026-01660-8,The impact of the COVID-19 pandemic and associated lifestyle changes on early-life microbiome development.,1.0.0,,1.0.0
+PRJNA1320699,42088498,42088498.0,PMC13136260,10.3389/fimmu.2026.1793302,Gut microbial IgA coating in infants with traditional farming lifestyle and urban infants with allergic outcomes.,1.0.0,,1.0.0
+PRJNA1452547,42129350,42129350.0,PMC13392134,10.1038/s43856-026-01626-2,Chlorinated drinking water exposure enriches antimicrobial resistance pathways in the infant gut microbiome: a randomized trial.,1.0.0,,1.0.0
+PRJNA542703,42131447,42131447.0,PMC13161719,10.1017/gmb.2026.10020,Machine learning identifies differences between breast milk and formula in the gut microbiome.,1.0.0,,1.0.0
+PRJEB24041,42171373,42171373.0,PMC13288982,10.1128/msystems.00305-26,Metagenomic polymorphic toxin effector and immunity profiling predicts microbiome development and disease-related dysbiosis.,1.0.0,,1.0.0
+PRJEB32631,42171373,42171373.0,PMC13288982,10.1128/msystems.00305-26,Metagenomic polymorphic toxin effector and immunity profiling predicts microbiome development and disease-related dysbiosis.,1.0.0,,1.0.0
+PRJEB45799,42171373,42171373.0,PMC13288982,10.1128/msystems.00305-26,Metagenomic polymorphic toxin effector and immunity profiling predicts microbiome development and disease-related dysbiosis.,1.0.0,,1.0.0
+PRJEB6456,42171373,42171373.0,PMC13288982,10.1128/msystems.00305-26,Metagenomic polymorphic toxin effector and immunity profiling predicts microbiome development and disease-related dysbiosis.,1.0.0,,1.0.0
+PRJNA1019702,42171373,42171373.0,PMC13288982,10.1128/msystems.00305-26,Metagenomic polymorphic toxin effector and immunity profiling predicts microbiome development and disease-related dysbiosis.,1.0.0,,1.0.0
+PRJNA398089,42171373,42171373.0,PMC13288982,10.1128/msystems.00305-26,Metagenomic polymorphic toxin effector and immunity profiling predicts microbiome development and disease-related dysbiosis.,1.0.0,,1.0.0
+PRJNA752686,42171373,42171373.0,PMC13288982,10.1128/msystems.00305-26,Metagenomic polymorphic toxin effector and immunity profiling predicts microbiome development and disease-related dysbiosis.,1.0.0,,1.0.0
+PRJEB6456,42203770,42203770.0,PMC13388695,10.1038/s41467-026-73297-5,Dual human milk oligosaccharide-fibre utilisation is a selection cue for the weaning gut microbiome.,1.0.0,,1.0.0
+PRJEB97976,42203770,42203770.0,PMC13388695,10.1038/s41467-026-73297-5,Dual human milk oligosaccharide-fibre utilisation is a selection cue for the weaning gut microbiome.,1.0.0,,1.0.0
+PRJNA390646,42236946,42236946.0,PMC13391359,10.1038/s41586-026-10592-7,Commensal-derived acetylcholine enhances mucosal immune education.,1.0.0,,1.0.0
+PRJNA633576,42236946,42236946.0,PMC13391359,10.1038/s41586-026-10592-7,Commensal-derived acetylcholine enhances mucosal immune education.,1.0.0,,1.0.0
+PRJNA1148144,42259839,42259839.0,PMC13402684,10.1038/s41467-026-74062-4,An ubiquitous antibacterial toxin from human gut bacteria engenders neonatal colonization advantage.,1.0.0,,1.0.0
+PRJNA301903,42259839,42259839.0,PMC13402684,10.1038/s41467-026-74062-4,An ubiquitous antibacterial toxin from human gut bacteria engenders neonatal colonization advantage.,1.0.0,,1.0.0
+PRJNA489090,42259839,42259839.0,PMC13402684,10.1038/s41467-026-74062-4,An ubiquitous antibacterial toxin from human gut bacteria engenders neonatal colonization advantage.,1.0.0,,1.0.0
+PRJNA799247,42259839,42259839.0,PMC13402684,10.1038/s41467-026-74062-4,An ubiquitous antibacterial toxin from human gut bacteria engenders neonatal colonization advantage.,1.0.0,,1.0.0
+PRJNA884103,42259839,42259839.0,PMC13402684,10.1038/s41467-026-74062-4,An ubiquitous antibacterial toxin from human gut bacteria engenders neonatal colonization advantage.,1.0.0,,1.0.0
+PRJNA955235,42262087,42262087.0,PMC13393419,10.1128/jb.00190-26,A genotoxin associated with colorectal cancer linked to gut dysbiosis in children with cystic fibrosis.,1.0.0,,1.0.0
+PRJNA1222487,42293161,42293161.0,PMC13260514,10.3389/frmbi.2026.1804117,Age-specific early-life gut microbiome associations with eczema and food allergies during early immune development.,1.0.0,,1.0.0
+PRJNA1128723,42311381,42311381.0,PMC13269231,10.3389/fmicb.2026.1830339,Microbiome-behavior coupling shapes infant adaptation to early maternal unpredictability.,1.0.0,,1.0.0
+PRJNA284162,42315844,42315844.0,PMC13434738,10.1038/s41467-026-74609-5,A meta-analysis of infant gut viromes reveals global patterns in bacteriophage community assembly and functional capacity over the first three years of life.,1.0.0,,1.0.0
+PRJNA385126,42315844,42315844.0,PMC13434738,10.1038/s41467-026-74609-5,A meta-analysis of infant gut viromes reveals global patterns in bacteriophage community assembly and functional capacity over the first three years of life.,1.0.0,,1.0.0
+PRJNA387903,42315844,42315844.0,PMC13434738,10.1038/s41467-026-74609-5,A meta-analysis of infant gut viromes reveals global patterns in bacteriophage community assembly and functional capacity over the first three years of life.,1.0.0,,1.0.0
+PRJNA524703,42315844,42315844.0,PMC13434738,10.1038/s41467-026-74609-5,A meta-analysis of infant gut viromes reveals global patterns in bacteriophage community assembly and functional capacity over the first three years of life.,1.0.0,,1.0.0
+PRJNA916952,42315844,42315844.0,PMC13434738,10.1038/s41467-026-74609-5,A meta-analysis of infant gut viromes reveals global patterns in bacteriophage community assembly and functional capacity over the first three years of life.,1.0.0,,1.0.0
+PRJNA1055141,42336834,42336834.0,PMC13291269,10.1038/s41467-026-74417-x,Antibiotic-induced Malassezia expansion in the infant gut promotes early-life immune dysregulation and airway inflammation in mice.,1.0.0,,1.0.0
+PRJNA838575,42337243,42337243.0,PMC13291349,10.1038/s41467-026-74418-w,Saccharomycetes and Malassezia fungi associate with early-life gut maturation and allergic disease risk in childhood.,1.0.0,,1.0.0
+PRJEB15633,42618579,42618579.0,PMC13490558,10.1038/s41522-026-01130-4,Global analysis of infant gut microbiota revealed distinctive maturation dynamics across lifestyles.,1.0.0,,1.0.0
+PRJNA284162,42618579,42618579.0,PMC13490558,10.1038/s41522-026-01130-4,Global analysis of infant gut microbiota revealed distinctive maturation dynamics across lifestyles.,1.0.0,,1.0.0
+PRJNA301903,42618579,42618579.0,PMC13490558,10.1038/s41522-026-01130-4,Global analysis of infant gut microbiota revealed distinctive maturation dynamics across lifestyles.,1.0.0,,1.0.0
+PRJNA379120,42618579,42618579.0,PMC13490558,10.1038/s41522-026-01130-4,Global analysis of infant gut microbiota revealed distinctive maturation dynamics across lifestyles.,1.0.0,,1.0.0
+PRJNA497734,42618579,42618579.0,PMC13490558,10.1038/s41522-026-01130-4,Global analysis of infant gut microbiota revealed distinctive maturation dynamics across lifestyles.,1.0.0,,1.0.0
+PRJNA1231247,42746483,42746483.0,PMC13576262,10.3389/fmicb.2026.1925400,The association between neonatal respiratory distress syndrome and gut microbiota dysbiosis: evidence from metagenomics.,1.0.0,,1.0.0
+PRJNA1260751,PPR1018036,,,10.1101/2025.05.09.653164,Maternal obesity alters human milk oligosaccharides content and correlates with early acquisition of late colonizers in the neonatal gut microbiome,1.0.0,,1.0.0
+PRJNA988496,PPR1064413,,,10.1101/2025.08.12.25333511,Colibactin genes are highly prevalent in the developing infant gut microbiome,1.0.0,,1.0.0
+PRJNA1305341,PPR1068637,,,10.1101/2025.08.15.670594,Metabolic reprogramming of the infant gut by bifidobacteria-based probiotics drives exclusion of antibiotic-resistant pathobionts,1.0.0,,1.0.0
+PRJEB51728,PPR1210886,,,10.64898/2026.05.06.723284,Temperate phage microdiversity reflects infant gut microbiome maturation independent of chronic undernutrition,1.0.0,,1.0.0
+PRJEB32631,PPR1261825,,,10.64898/2026.06.24.734158,MxSure: a mixture model for inferring within-host substitution rates and transmission SNP thresholds,1.0.0,,1.0.0
+PRJEB22207,PPR25591,,,10.1101/180406,Rapid profiling of the preterm infant gut microbiota using nanopore sequencing aids pathogen diagnostics,1.0.0,,1.0.0
+PRJNA695570,PPR352481,,,10.1101/2021.06.04.447087,Targeted High-Resolution Taxonomic Identification of  <i>Bifidobacterium longum</i>  subsp.  <i>infantis</i>  Using Human Milk Oligosaccharide Metabolizing Genes,1.0.0,,1.0.0
+PRJNA715601,PPR361503,,,10.1101/2021.06.25.449885,"Prophages in the infant gut are largely induced, and may be functionally relevant to their hosts",1.0.0,,1.0.0
+PRJNA352475,PPR420122,,,10.1101/2021.11.15.468566,CLMB: deep contrastive learning for robust metagenomic binning,1.0.0,,1.0.0
+PRJEB6456,PPR694049,,,10.1101/2023.07.17.549354,Longitudinal Variability of  <i>Bifidobacterium</i>  Species in the Infant Gut is Independent of Maternal Milk HMO Composition,1.0.0,,1.0.0
+PRJNA994433,PPR694049,,,10.1101/2023.07.17.549354,Longitudinal Variability of  <i>Bifidobacterium</i>  Species in the Infant Gut is Independent of Maternal Milk HMO Composition,1.0.0,,1.0.0
+PRJNA526942,PPR73492,,,10.1101/582015,crAssphage abundance and genomic selective pressure correlate with altered bacterial abundance in the fecal microbiota of South African mother-infant dyads,1.0.0,,1.0.0
+PRJNA398089,PPR801501,,,10.1101/2024.02.02.578701,Metagenomic estimation of dietary intake from human stool,1.0.0,,1.0.0
+PRJNA473126,PPR801501,,,10.1101/2024.02.02.578701,Metagenomic estimation of dietary intake from human stool,1.0.0,,1.0.0
+PRJEB32631,PPR899535,,,10.1101/2024.08.19.608527,Enhanced metagenomics-enabled transmission inference with TRACS,1.0.0,,1.0.0
+PRJDB10675,36376441,,,,,1.0.0,,1.0.0
+PRJEB100868,42644416,,,,,1.0.0,,1.0.0
+PRJEB106892,41974697,,,,,1.0.0,,1.0.0
+PRJEB15257,28149696,28149696.0,PMC5270596,10.7717/peerj.2928,Antibiotic resistance potential of the healthy preterm infant gut microbiome.,1.0.0,,1.0.0
+PRJEB15257,34362295,34362295.0,PMC8343889,10.1186/s12866-021-02285-0,Premature neonatal gut microbial community patterns supporting an epithelial TLR-mediated pathway for necrotizing enterocolitis.,1.0.0,,1.0.0
+PRJEB15257,37191543,37191543.0,PMC10269646,10.1128/spectrum.00665-23,Exploring Molecular Interactions between Human Milk Hormone Insulin and Bifidobacteria.,1.0.0,,1.0.0
+PRJEB15257,39138199,39138199.0,PMC11322291,10.1038/s41467-024-51398-3,Insights into the ecology of the infant gut plasmidome.,1.0.0,,1.0.0
+PRJEB21259,41144256,,,,,1.0.0,,1.0.0
+PRJEB21259,PPR1094326,,,,,1.0.0,,1.0.0
+PRJEB23207,29468143,,,,,1.0.0,,1.0.0
+PRJEB27325,30214024,30214024.0,PMC6137148,10.1038/s41598-018-32037-6,Fucosylated oligosaccharides in mother's milk alleviate the effects of caesarean birth on infant gut microbiota.,1.0.0,,1.0.0
+PRJEB27325,30326954,30326954.0,PMC6192119,10.1186/s40168-018-0567-4,Probiotic supplementation restores normal microbiota composition and function in antibiotic-treated and in caesarean-born infants.,1.0.0,,1.0.0
+PRJEB27325,36093611,36093611.0,PMC9467569,10.1080/19490976.2022.2118811,Infant gut microbiota restoration: state of the art.,1.0.0,,1.0.0
+PRJEB29052,39794474,,,,,1.0.0,,1.0.0
+PRJEB37883,32354144,32354144.0,PMC7281991,10.3390/nu12051256,Hospital Regimens Including Probiotics Guide the Individual Development of the Gut Microbiome of Very Low Birth Weight Infants in the First Two Weeks of Life.,1.0.0,,1.0.0
+PRJEB37883,36906612,36906612.0,PMC10008552,10.1038/s41467-023-36825-1,Clinical NEC prevention practices drive different microbiome profiles and functional responses in the preterm intestine.,1.0.0,,1.0.0
+PRJEB37883,38908894,38908894.0,PMC11251410,10.1016/j.advnut.2024.100233,Effects of Probiotics on Preterm Infant Gut Microbiota Across Populations: A Systematic Review and Meta-Analysis.,1.0.0,,1.0.0
+PRJEB37883,PPR519223,,,10.21203/rs.3.rs-1807088/v1,Successful clinical practices to prevent necrotizing enterocolitis drive different microbiome profiles and functional responses in the preterm intestine,1.0.0,,1.0.0
+PRJEB37883,PPR911643,,,,,1.0.0,,1.0.0
+PRJEB45356,38093016,,,,,1.0.0,,1.0.0
+PRJEB45356,42014682,,,,,1.0.0,,1.0.0
+PRJEB45356,PPR705804,,,,,1.0.0,,1.0.0
+PRJEB45443,35485368,35485368.0,PMC9067516,10.1080/19490976.2022.2068366,Disordered development of gut microbiome interferes with the establishment of the gut ecosystem during early childhood with atopic dermatitis.,1.0.0,,1.0.0
+PRJEB45443,40442154,40442154.0,PMC12122682,10.1038/s41522-025-00714-w,Integrated multi-omics reveals different host crosstalk of atopic dermatitis-enriched Bifidobacterium longum Strains.,1.0.0,,1.0.0
+PRJEB46659,35932762,35932762.0,PMC9418802,10.1016/j.xcrm.2022.100713,Heritable vaginal bacteria influence immune tolerance and relate to early-life markers of allergic sensitization in infancy.,1.0.0,,1.0.0
+PRJEB46659,38782975,,,,,1.0.0,,1.0.0
+PRJEB46659,40241748,40241748.0,PMC12003000,10.1016/j.isci.2025.112211,Maternal vaginal and fecal microbiota in later pregnancy contribute to child fecal microbiota development in the ECHO cohort.,1.0.0,,1.0.0
+PRJEB46659,41265504,,,,,1.0.0,,1.0.0
+PRJEB46943,35181661,,,,,1.0.0,,1.0.0
+PRJEB46943,37037943,37037943.0,PMC10159846,10.1038/s41564-023-01345-7,Expanding known viral diversity in the healthy infant gut.,1.0.0,,1.0.0
+PRJEB46943,40108202,40108202.0,PMC11923282,10.1038/s41522-025-00674-1,Prophages in the infant gut are pervasively induced and may modulate the functionality of their hosts.,1.0.0,,1.0.0
+PRJEB46943,40396485,,,,,1.0.0,,1.0.0
+PRJEB46943,40615392,40615392.0,PMC12227732,10.1038/s41467-025-61478-7,Negativeome characterization and decontamination in early-life virome studies.,1.0.0,,1.0.0
+PRJEB46943,41387423,,,,,1.0.0,,1.0.0
+PRJEB46943,42315844,42315844.0,PMC13434738,10.1038/s41467-026-74609-5,A meta-analysis of infant gut viromes reveals global patterns in bacteriophage community assembly and functional capacity over the first three years of life.,1.0.0,,1.0.0
+PRJEB46943,PPR925520,,,,,1.0.0,,1.0.0
+PRJEB49383,36163498,36163498.0,PMC9519454,10.1038/s41564-022-01213-w,Strain-specific impacts of probiotics are a significant driver of gut microbiome development in very preterm infants.,1.0.0,,1.0.0
+PRJEB49383,39183307,39183307.0,PMC12015168,10.1038/s41390-024-03520-w,Impact of probiotics on gut microbiome of extremely preterm or extremely low birthweight infants.,1.0.0,,1.0.0
+PRJEB52295,38117587,38117587.0,PMC10761186,10.1080/19490976.2023.2290661,"Precocious infant fecal microbiome promotes enterocyte barrier dysfuction, altered neuroendocrine signaling and associates with increased childhood obesity risk.",1.0.0,,1.0.0
+PRJEB52774,36274732,36274732.0,PMC9583133,10.3389/fmicb.2022.953475,<i>Bacteroides</i> abundance drives birth mode dependent infant gut microbiota developmental trajectories.,1.0.0,,1.0.0
+PRJEB52774,37731926,37731926.0,PMC10508911,10.3389/fmicb.2023.1254535,An extended catalog of integrated prophages in the infant and adult fecal microbiome shows high prevalence of lysogeny.,1.0.0,,1.0.0
+PRJEB52774,38058765,,,,,1.0.0,,1.0.0
+PRJEB52774,39591974,39591974.0,,10.1016/j.chom.2024.10.017,A metagenome-assembled genome inventory for children reveals early-life gut bacteriome and virome dynamics.,1.0.0,,1.0.0
+PRJEB54707,35990340,35990340.0,PMC9386273,10.3389/fnut.2022.935711,Host-microbial co-metabolites modulated by human milk oligosaccharides relate to reduced risk of respiratory tract infections.,1.0.0,,1.0.0
+PRJEB54991,36211486,36211486.0,PMC9539000,10.3389/fnut.2022.961526,Effects of addition of 2-fucosyllactose to infant formula on growth and specific pathways of utilization by <i>Bifidobacterium</i> in healthy term infants.,1.0.0,,1.0.0
+PRJEB55714,37397142,37397142.0,PMC10313230,10.3389/fped.2023.1169651,Metagenomics analysis of the neonatal intestinal resistome.,1.0.0,,1.0.0
+PRJEB55714,41853385,41853385.0,PMC12993559,10.3389/frmbi.2023.1147082,The association between the composition of the early-life intestinal microbiome and eczema in the first year of life.,1.0.0,,1.0.0
+PRJEB62690,37513505,37513505.0,PMC10383262,10.3390/nu15143087,Infant Formula Supplemented with Five Human Milk Oligosaccharides Shifts the Fecal Microbiome of Formula-Fed Infants Closer to That of Breastfed Infants.,1.0.0,,1.0.0
+PRJEB62848,38010080,38010080.0,PMC10730193,10.1080/19490976.2023.2283913,"Reversible aberrancies in gut microbiome of moderate and late preterm infants: results from a randomized, controlled trial.",1.0.0,,1.0.0
+PRJEB63570,PPR1045481,,,10.1101/2025.07.02.25330551,High ward-level and within-sample diversity of <i>Klebsiella pneumoniae</i> on a Malawian neonatal unit revealed by single colony whole genome sequencing and post-enrichment metagenomics,1.0.0,,1.0.0
+PRJEB63570,PPR1068737,,,10.1101/2025.08.13.25333346,"Extended-Spectrum Beta-Lactamase <i>Klebsiella pneumoniae</i> on a Malawian neonatal unit is amplified by neonates and transmitted by maternal hands, cots and ward surfaces",1.0.0,,1.0.0
+PRJEB6972,25491920,25491920.0,PMC4261165,10.1038/srep07417,The establishment of the infant intestinal microbiome is not affected by rotavirus vaccination.,1.0.0,,1.0.0
+PRJEB70237,38838470,38838470.0,PMC11215963,10.1016/j.ebiom.2024.105182,Human milk oligosaccharide composition is affected by season and parity and associates with infant gut microbiota in a birth mode dependent manner in a Finnish birth cohort.,1.0.0,,1.0.0
+PRJEB70237,39092808,39092808.0,PMC11299627,10.1080/19490976.2024.2383746,A cohort study in family triads: impact of gut microbiota composition and early life exposures on intestinal resistome during the first two years of life.,1.0.0,,1.0.0
+PRJEB70237,40315414,,,,,1.0.0,,1.0.0
+PRJEB70237,41786702,,,,,1.0.0,,1.0.0
+PRJEB70237,PPR872502,,,,,1.0.0,,1.0.0
+PRJEB79382,39932403,39932403.0,PMC11878046,10.1128/spectrum.02278-24,"Evaluating stool microbiome integrity after domestic freezer storage using whole-metagenome sequencing, genome assembly, and antimicrobial resistance gene analysis.",1.0.0,,1.0.0
+PRJEB79382,PPR905221,,,10.1101/2024.09.02.610874,Domestic freezer storage: a solution for preserving stool microbiota integrity for at-home collection,1.0.0,,1.0.0
+PRJEB80456,42214386,42214386.0,PMC13343926,10.1128/mbio.00711-26,Autologous fecal microbiota transplantation restores the infant gut microbiome and metabolome after antibiotics: a case report.,1.0.0,,1.0.0
+PRJNA1060349,40175737,40175737.0,PMC12302008,10.1038/s41591-025-03610-0,Gut microbiome evolution from infancy to 8 years of age.,1.0.0,,1.0.0
+PRJNA1166969,39470277,,,,,1.0.0,,1.0.0
+PRJNA300541,27172044,,,,,1.0.0,,1.0.0
+PRJNA300541,35484115,,,,,1.0.0,,1.0.0
+PRJNA300541,37118093,,,,,1.0.0,,1.0.0
+PRJNA300541,38049420,,,,,1.0.0,,1.0.0
+PRJNA300541,42312244,,,,,1.0.0,,1.0.0
+PRJNA417283,29988506,29988506.0,PMC6026636,10.3389/fmicb.2018.01361,"Comparison of Infant Gut and Skin Microbiota, Resistome and Virulome Between Neonatal Intensive Care Unit (NICU) Environments.",1.0.0,,1.0.0
+PRJNA417283,38058267,,,,,1.0.0,,1.0.0
+PRJNA417283,41405404,41405404.0,PMC12716031,10.1080/19490976.2025.2604874,Colibactin genes are highly prevalent in the developing infant gut microbiome.,1.0.0,,1.0.0
+PRJNA504891,31607556,,,,,1.0.0,,1.0.0
+PRJNA504891,32093762,,,,,1.0.0,,1.0.0
+PRJNA504891,32427907,,,,,1.0.0,,1.0.0
+PRJNA504891,35484115,,,,,1.0.0,,1.0.0
+PRJNA504891,36376928,,,,,1.0.0,,1.0.0
+PRJNA504891,36464700,,,,,1.0.0,,1.0.0
+PRJNA504891,36778050,,,,,1.0.0,,1.0.0
+PRJNA504891,37596617,,,,,1.0.0,,1.0.0
+PRJNA504891,38047279,,,,,1.0.0,,1.0.0
+PRJNA504891,40131312,,,,,1.0.0,,1.0.0
+PRJNA504891,40659786,,,,,1.0.0,,1.0.0
+PRJNA504891,41118772,,,,,1.0.0,,1.0.0
+PRJNA504891,41986657,41986657.0,PMC13083862,10.1038/s44259-026-00194-8,Distinct infant resistome trajectories shaped by country income and geography revealed through global metagenomics reanalysis.,1.0.0,,1.0.0
+PRJNA504891,42039832,,,,,1.0.0,,1.0.0
+PRJNA529124,31607556,,,,,1.0.0,,1.0.0
+PRJNA529124,36778050,,,,,1.0.0,,1.0.0
+PRJNA529124,37596617,,,,,1.0.0,,1.0.0
+PRJNA529124,40659786,,,,,1.0.0,,1.0.0
+PRJNA529124,42039832,,,,,1.0.0,,1.0.0
+PRJNA693793,35320047,35320047.0,PMC9060457,10.1073/pnas.2114619119,The virota and its transkingdom interactions in the healthy infant gut.,1.0.0,,1.0.0
+PRJNA693793,42315844,42315844.0,PMC13434738,10.1038/s41467-026-74609-5,A meta-analysis of infant gut viromes reveals global patterns in bacteriophage community assembly and functional capacity over the first three years of life.,1.0.0,,1.0.0
+PRJNA706606,36416733,,,,,1.0.0,,1.0.0
+PRJNA726052,35422497,,,,,1.0.0,,1.0.0
+PRJNA778397,39858934,39858934.0,PMC11767595,10.3390/microorganisms13010166,Fecal Microbiome and Metabolomic Profiles of Mixed-Fed Infants Are More Similar to Formula-Fed than Breastfed Infants.,1.0.0,,1.0.0
+PRJNA810575,36419187,36419187.0,PMC9682673,10.1186/s40168-022-01398-6,Bifidobacterium animalis subsp. lactis Probio-M8 undergoes host adaptive evolution by glcU mutation and translocates to the infant's gut via oral-/entero-mammary routes through lactation.,1.0.0,,1.0.0
+PRJNA819247,36060782,36060782.0,PMC9428759,10.3389/fmicb.2022.900702,Effect of a reduced fat and sugar maternal dietary intervention during lactation on the infant gut microbiome.,1.0.0,,1.0.0
+PRJNA834762,36194603,,,,,1.0.0,,1.0.0
+PRJNA834762,36251729,,,,,1.0.0,,1.0.0
+PRJNA834762,38427700,,,,,1.0.0,,1.0.0
+PRJNA837236,36194603,,,,,1.0.0,,1.0.0
+PRJNA837236,36251729,,,,,1.0.0,,1.0.0
+PRJNA895372,38303501,38303501.0,PMC10841033,10.1080/19490976.2023.2298697,Microbiome function and neurodevelopment in Black infants: vitamin B&lt;sub&gt;12&lt;/sub&gt; emerges as a key factor.,1.0.0,,1.0.0
+PRJNA903921,40469735,40469735.0,PMC12133761,10.3389/fmicb.2025.1539750,Gut mycobiome maturation and its determinants during early childhood: a comparison of ITS2 amplicon and shotgun metagenomic sequencing approaches.,1.0.0,,1.0.0
+PRJEB59728,36909730,,,,,1.0.0,,1.0.0
+PRJNA1230889,42020426,42020426.0,PMC13103366,10.1038/s41467-026-71764-7,Human milk oligosaccharide mediates mutualism between Escherichia coli and Bifidobacterium bifidum.,1.0.0,,1.0.0
+PRJNA1230889,PPR993617,,,10.1101/2025.03.24.645027,Mutualistic interactions between Escherichia coli and Bifidobacterium bifidum enable degradation of human milk oligosaccharides in healthy infants,1.0.0,,1.0.0
+PRJNA1258733,42127418,42127418.0,PMC13317942,10.1093/ismejo/wrag124,"Impact of maternal, infant, and household factors on early-life gut microbiome development in a rural setting.",1.0.0,,1.0.0
+PRJNA1280936,41405404,41405404.0,PMC12716031,10.1080/19490976.2025.2604874,Colibactin genes are highly prevalent in the developing infant gut microbiome.,1.0.0,,1.0.0
+PRJNA1355224,42037384,,,,,1.0.0,,1.0.0
+PRJNA1403004,PPR1220557,,,10.64898/2026.03.09.710596,Infant gut microbiomes contribute to metabolic states that impact brain function,1.0.0,,1.0.0
+PRJNA1425751,41994268,41994268.0,PMC13079629,10.3389/fmicb.2026.1761245,The enhancing therapeutic effect of neonatal jaundice by &lt;i&gt;bifidobacterium&lt;/i&gt; through regulating inflammation and gut microbiota in combination with phototherapy-a randomized controlled trial.,1.0.0,,1.0.0
+PRJNA1445880,42010622,42010622.0,PMC13127034,10.1186/s13073-026-01646-6,Strain-level microbial signatures and inferred functional alterations in infants with food protein-induced allergic proctocolitis.,1.0.0,,1.0.0
+PRJNA1445932,42669658,42669658.0,PMC13527057,10.1038/s41467-026-75674-6,Effect of a complementary feeding intervention based on iron- and zinc-biofortified pearl millet on the gut microbiota in 12-18-month-old children: a randomized trial.,1.0.0,,1.0.0
+PRJNA1468137,42587158,42587158.0,,10.1038/s41586-026-10922-9,Maternal influences on infant gut microbiome and health.,1.0.0,,1.0.0
+PRJNA1502892,40490486,40490486.0,PMC12316594,10.1038/s41372-025-02330-0,"Associations between antibiotic exposure intensity, intestinal microbiome perturbations, and outcomes in premature neonates with bacteremia.",1.0.0,,1.0.0
+PRJNA294605,27258951,27258951.0,PMC5148203,10.1038/ismej.2016.83,Evidence for persistent and shared bacterial strains against a background of largely unique gut colonization in hospitalized premature infants.,1.1.0,,1.1.0
